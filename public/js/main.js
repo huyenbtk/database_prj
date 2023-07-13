@@ -10,8 +10,8 @@
         }, 1);
     };
     spinner();
-    
-    
+
+
     // Initiate the wowjs
     new WOW().init();
 
@@ -24,36 +24,36 @@
             $('.navbar').removeClass('sticky-top shadow-sm');
         }
     });
-    
-    
+
+
     // Dropdown on mouse hover
     const $dropdown = $(".dropdown");
     const $dropdownToggle = $(".dropdown-toggle");
     const $dropdownMenu = $(".dropdown-menu");
     const showClass = "show";
-    
-    $(window).on("load resize", function() {
+
+    $(window).on("load resize", function () {
         if (this.matchMedia("(min-width: 992px)").matches) {
             $dropdown.hover(
-            function() {
-                const $this = $(this);
-                $this.addClass(showClass);
-                $this.find($dropdownToggle).attr("aria-expanded", "true");
-                $this.find($dropdownMenu).addClass(showClass);
-            },
-            function() {
-                const $this = $(this);
-                $this.removeClass(showClass);
-                $this.find($dropdownToggle).attr("aria-expanded", "false");
-                $this.find($dropdownMenu).removeClass(showClass);
-            }
+                function () {
+                    const $this = $(this);
+                    $this.addClass(showClass);
+                    $this.find($dropdownToggle).attr("aria-expanded", "true");
+                    $this.find($dropdownMenu).addClass(showClass);
+                },
+                function () {
+                    const $this = $(this);
+                    $this.removeClass(showClass);
+                    $this.find($dropdownToggle).attr("aria-expanded", "false");
+                    $this.find($dropdownMenu).removeClass(showClass);
+                }
             );
         } else {
             $dropdown.off("mouseenter mouseleave");
         }
     });
-    
-    
+
+
     // Back to top button
     $(window).scroll(function () {
         if ($(this).scrollTop() > 300) {
@@ -63,8 +63,50 @@
         }
     });
     $('.back-to-top').click(function () {
-        $('html, body').animate({scrollTop: 0}, 1500, 'easeInOutExpo');
+        $('html, body').animate({ scrollTop: 0 }, 1500, 'easeInOutExpo');
         return false;
+    });
+    // Sign in button
+    document.getElementById('signin-button').addEventListener('click', function () {
+        axios.post('/api/signin', {
+            // Thêm dữ liệu cần gửi trong yêu cầu (nếu cần)
+            username: 'myusername',
+            password: 'mypassword'
+        })
+            .then(function (response) {
+                // Xử lý phản hồi thành công
+                console.log(response.data);
+            })
+            .catch(function (error) {
+                // Xử lý lỗi
+                console.error(error);
+            });
+    });
+    // Sign up botton
+    document.getElementById('signup-form').addEventListener('submit', function (event) {
+        event.preventDefault(); // Ngăn chặn hành vi mặc định của biểu mẫu
+
+        // Lấy dữ liệu từ biểu mẫu
+        var username = document.getElementById('user-name').value;
+        var email = document.getElementById('email').value;
+        var password = document.getElementById('password').value;
+        
+
+
+        // Tạo yêu cầu Axios
+        axios.post('/api/signup', {
+            username: username,
+            password: password,
+            email: email
+        })
+            .then(function (response) {
+                // Xử lý phản hồi thành công
+                console.log(response.data);
+            })
+            .catch(function (error) {
+                // Xử lý lỗi
+                console.error(error);
+            });
     });
 
 
