@@ -9,15 +9,16 @@ router.get('/', async (req, res) => {
 });
 
 router.get('/search', async (req,res)=>{
-    const {productname, price} = req.body;  
+    const {productname, price} = req.body;
     const productlist = await Product.findAll({
-        where: {
-            [Op.or]:[
-                {name:{[Op.like]:'%'+productname+'%'}},
-                {price:{[Op.like]:'%'+price+'%'}}
-            ]
-        }
-    });
+        where: Sequelize.and(
+                {[Op.or]:[
+                    {name:{[Op.like]:'%'+productname+'%'}},
+                    {price:{[Op.like]:'%'+price+'%'}}
+                ]},
+                {productname: !null}
+            )
+    })
     res.json(productlist);
 })
 

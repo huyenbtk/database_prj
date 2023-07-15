@@ -1,5 +1,4 @@
 'use strict';
-const {models} = require('../models');
 const {
   Model
 } = require('sequelize');
@@ -11,10 +10,15 @@ module.exports = (sequelize, DataTypes) => {
      * The `models/index` file will call this method automatically.
      */
     static associate(models) {
+      Cart.belongsTo(models.user,{
+        onDelete: "cascade",
+        foreignKey: "userID",
+        targetKey: "id",
+      })
     }
   }
   Cart.init({
-    product: DataTypes.STRING,
+    productID: DataTypes.STRING,
     quantity: DataTypes.INTEGER
   }, {
     sequelize,
