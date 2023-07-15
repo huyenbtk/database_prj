@@ -14,12 +14,16 @@ router.get('/', async (req, res) => {
 });
 
 
-router.get("/signin", function (req, res) {gi
+router.get("/signin", function (req, res) {
     res.sendFile(path.join(publicDir,'/signin.html'));
 });
 
+router.get("/signup", function (req, res) {
+    res.sendFile(path.join(publicDir,'/signup.html'));
+});
 
-router.post('/signin', async (req, res) => {
+
+router.post('/signup', async (req, res) => {
     const {username,email,password,name,address,phone,permission} = req.body;
     const regUser = await user.findOne({where: {email: email}})
     if (regUser) res.json({error: "Email already registered"})
@@ -41,7 +45,7 @@ router.post('/signin', async (req, res) => {
     }   
 })
 
-router.post('/login', async (req, res) => {
+router.post('/signin', async (req, res) => {
     const {username, password} = req.body;
     const logUser = await user.findOne({where: {username: username}})
     if (!logUser) res.json({error: "User doesn't exist"});
@@ -52,9 +56,12 @@ router.post('/login', async (req, res) => {
 })
 
 
-
-router.post('/admin', async (req, res)=> {
-    
+router.get('/userID=:id', async (req, res)=> {
+    const id = req.params.id;
+    const getuser = await user.findAll({where: {id: id}});
+    res.json(getuser);
 })
+
+
 
 module.exports = router
