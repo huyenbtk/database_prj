@@ -112,7 +112,6 @@
                 errorMessage.style.display = 'block';
             })
     });
-});
 // Sign up botton
 document.getElementById('signup-form').addEventListener('submit', function (event) {
     event.preventDefault(); // Ngăn chặn hành vi mặc định của biểu mẫu
@@ -203,5 +202,5 @@ $(".testimonial-carousel").owlCarousel({
         }
     }
 });
-(jQuery);
+})(jQuery);
 
