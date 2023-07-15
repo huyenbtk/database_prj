@@ -1,0 +1,229 @@
+﻿ProductID,Name,Price,Info,Image,Category,Sold
+AS00,"BÀO NGƯ NHẬT BẢN SASHIMI
+",738000," Được chế biến từ nguyên liệu tươi ngon và tinh hoa của nghệ thuật ẩm thực Nhật Bản, mỗi miếng sashimi bào ngư sẽ tan chảy trên đầu lưỡi với hương vị đậm đà, ngọt ngào và mềm mại.","shashimisushi0
+","Shashimisushi
+",103
+AS01,"BẠCH TUÔC NHỎ
+",680000,"Với chất lượng tươi ngon và vị ngọt tự nhiên, món ăn này sẽ làm say đắm vị giác của bạn và mang đến một cảm giác xa hoa và sang trọng.",shashimisushi1,Shashimisushi,120
+AS02,"BÁCH TUỘC TRỘN GIẤM
+",268000,"Sự kết hợp tuyệt vời giữa vị chua, ngọt và mùi thơm của giấm tạo nên một trải nghiệm ẩm thực đặc biệt. Thưởng thức món này sẽ mang đến cho bạn cảm giác sảng khoái và hài lòng.",shashimisushi2,Shashimisushi,23
+AS03,"BẠCH TUỘC ƯỚP WASABI
+",890000,"Với bạch tuộc ướp wasabi, bạn sẽ được trải nghiệm một hương vị cay nồng, đậm đà và sảng khoái. Khi kết hợp với vị đặc trưng của wasabi, món ăn này sẽ làm cho vị giác của bạn thêm phần hưng phấn và độc đáo.",shashimisushi3,Shashimisushi,23
+AS04,"CÁ HỒI SỐNG
+",990000,"Với hương vị tươi mát, thịt mềm mịn và màu sắc hấp dẫn, món cá này sẽ khiến bạn thưởng thức những trải nghiệm ẩm thực đặc biệt và đẳng cấp.",shashimisushi4,Shashimisushi,58
+AS05,"CÁ NGỪ, CÁ HỒI, NGAO BIỂN SỐNG VÀ CƠM SUSHI TỔNG HỢP
+",238000,"Đắm chìm trong sự đa dạng và phong phú của cá ngừ, cá hồi, ngao biển sống và cơm sushi tổng hợp tại nhà hàng cao cấp.",shashimisushi5,Shashimisushi,56
+AS06,"10 LOẠI CÁ SỐNG TỔNG HỢP
+",238000,"Từ cá ngừ, cá hồi, cá trích đến các loại cá khác, mỗi miếng cá sẽ mang đến cho bạn hương vị tươi mát, ngon lành và độc đáo, kích thích vị giác và làm say đắm trái tim của bạn.",shashimisushi6,Shashimisushi,23
+AS07,"12 LOẠI CÁ SỐNG TỔNG HỢP
+",238000,"Với chất lượng tươi ngon và màu sắc tươi sáng, mỗi miếng cá sẽ mang đến cho bạn một trải nghiệm ẩm thực đẳng cấp và độc đáo.",shashimisushi7,Shashimisushi,48
+AS08,"6 LOẠI CÁ SỐNG TỔNG HỢP
+",188000,"Từ cá trích, cá hồi đến các loại cá khác, mỗi miếng cá tươi ngon sẽ mang đến hương vị tinh tế, đa dạng và thú vị.",shashimisushi8,Shashimisushi,22
+AS09,"8 LOẠI CÁ SỐNG TỔNG HỢP
+",118000,"Từ cá trích, cá hồi đến các loại cá khác, mỗi miếng cá sẽ mang đến hương vị tươi mát, ngon lành và đặc biệt, kích thích vị giác và làm say đắm trái tim của bạn.",shashimisushi9,Shashimisushi,15
+AS10,"CÁ TRÍCH, CÁ HỒI, BẠCH TUỘC SỐNG VÀ CƠM SUSHI
+",420000,"Mỗi miếng sushi được chế biến tinh tế và kết hợp các nguyên liệu tươi ngon, mang đến hương vị tinh tế và độc đáo.",shashimisushi10,Shashimisushi,23
+AS11,"CÁ TRÍCH, CÁ HỒI, TÔM NHẬT, BẠCH TUỘC, TRỨNG CS HỒI SỐNG VÀ CƠM SUSHI TỔNG HỢP
+",420000,"Thưởng thức sự kết hợp độc đáo và hương vị phong phú của cá trích, cá hồi, tôm Nhật, bạch tuộc, trứng cá hồi sống và cơm sushi tổng hợp.",shashimisushi11,Shashimisushi,23
+CC00,"CHÁO CUA
+",80000,"Bạn sẽ được hòa mình trong hương vị đặc trưng của cua, cùng với sự ấm áp và ngọt ngào của cháo. Món ăn này thường được trang trí với các thành phần tươi ngon khác như hành, rau mùi, tiêu, tạo nên một trải nghiệm ẩm thực tuyệt vời.","comchao0
+",Noodlerice,65
+CC01,"CHÁO CÁ HỒI
+",60000,"Sự kết hợp hoàn hảo giữa cá hồi tươi ngon và cháo mềm mịn. Cá hồi thơm ngon được chế biến thành từng miếng nhỏ, kết hợp với hương vị đặc trưng của cháo, tạo nên một món ăn hấp dẫn và ngon miệng.","comchao1
+",Noodlerice,66
+CC02,"CHÁO HÀO 
+",48000,"Hào tươi ngon được chế biến thành những miếng nhỏ, kết hợp với hương vị độc đáo của cháo, tạo nên một món ăn thanh nhẹ và đậm đà. ","comchao2
+",Noodlerice,63
+CC03,"CHÁO NGAO
+",45000,"Mang đến hương vị đặc biệt của ngao cùng sự ấm áp và ngọt ngào của cháo, là một lựa chọn tuyệt vời cho những người yêu thích hương vị biển.","comchao3
+",Noodlerice,96
+CC04,CÁ HỒI VÀ TRỨNG CÁ HỒI ĐẶT LÊN BÁT CƠM SUSHI PHỤC VỤ KÈM SÚP MISO,318000,"Cá hồi tươi ngon và trứng cá hồi thơm ngon tạo nên một sự kết hợp hoàn hảo trên cơm sushi, mang đến hương vị tuyệt vời của cá hồi và vị ngọt của trứng cá hồi. Bên cạnh đó, súp miso thơm ngon làm tăng thêm hương vị và trải nghiệm ẩm thực của món ăn này.","comchao4
+",Noodlerice,45
+CC05,"CÁ NGỪ SỐNG ĐẶT LÊN BÁT CƠM SUSHI PHỤC VỤ KÈM SÚP MISO
+",218000,"Cá ngừ sống tươi ngon tạo nên sự tươi mát và đậm đà trên cơm sushi, kết hợp với vị thơm ngon và bổ dưỡng của súp miso.","comchao5
+",Noodlerice,55
+CC06,"CÁ THU NƯỚNG MUỐI HOẶC SỐT TERI
+",228000,"Cá thu nướng muối mang đến hương vị đậm đà và ngọt ngào, trong khi cá thu nướng với sốt teriyaki tạo nên hương vị thơm ngon và ngọt béo.","comchao6
+",Noodlerice,63
+CC07,"CƠM CARI VỚI TÔM TEMPURA
+",126000," Cơm được trang trí với các miếng tôm tươi sống chế biến thành tempura giòn rụm, kèm theo một số rau và gia vị thơm ngon. ","comchao7
+",Noodlerice,89
+CC08,"CƠM CÁ HỒI NƯỚNG MUỐI
+",150000,"Cơm được kết hợp với miếng cá hồi tươi ngon, được nướng vừa đủ để giữ được độ mềm mịn và đậm đà của cá. Vị muối nhẹ nhàng và hương thơm tự nhiên từ cá hồi tạo nên một món ăn đơn giản nhưng vô cùng hấp dẫn.","comchao8
+",Noodlerice,56
+CC09,"CƠM HÀU TẨM BỘT RÁN
+",208000,"Cơm được chế biến với hàu tươi ngon, được tẩm bột rán giòn rụm. Hương vị đặc trưng của hàu hòa quyện với lớp vỏ bột giòn tan, tạo nên một trải nghiệm ẩm thực thú vị và đáng nhớ.","comchao9
+",Noodlerice,22
+CC10,"CƠM HỘP LOẠI A
+",288000,"Cơm hộp gồm cơm trắng mềm mịn và một số món ăn đi kèm như thịt gà nướng, cá hồi nướng, rau xà lách, trứng, và nhiều loại rau sống khác. ","comchao10
+",Noodlerice,22
+CC11,"CƠM HỘP LOẠI B
+",288000,"Cơm hộp bao gồm cơm trắng mềm mịn và một số món ăn đi kèm như thịt heo xào, cá hồi nướng, rau xà lách, trứng, và một số loại rau sống khác.","comchao11
+",Noodlerice,99
+DR01,"COCKTAIL TÍM HUYỀN ẢO
+",78000,"Với sắc tím mê hoặc và hương vị độc đáo, cocktail này sẽ mang đến cho bạn một trải nghiệm thú vị và lôi cuốn, như những cơn mơ tím ẩn chứa những điều kỳ diệu.",ruou1,Drink,45
+DR02,"SODA CHANH KIWI
+",48000,"Hòa quyện giữa hương vị tươi mát của chanh và hương thơm của kiwi, nước soda chanh kiwi sẽ làm dịu đi cái nóng ngày hè và mang lại cảm giác sảng khoái và tràn đầy năng lượng.",ruou2,Drink,85
+DR03,"BLUEBERRY COCKTAIL
+",58000,"Với màu xanh lấp lánh và hương vị độc đáo, blue cocktail sẽ là điểm nhấn đặc biệt tại nhà hàng chúng tôi. Thưởng thức ly cocktail này là trải nghiệm của sự thú vị và phong cách.",ruou3,Drink,89
+DR04,"TRÀ HOA ĐẬU BIẾC  DỊU NHẸ 
+",50000,"Trà hoa đậu biếc dịu nhẹ là một món đồ uống thượng hạng tại nhà hàng cao cấp. Với màu sắc và hương vị tinh tế của hoa đậu biếc, trà này sẽ mang đến cho bạn một cảm giác thư thái và thú vị.",ruou4,Drink,45
+DR05,"MATCHA LATTE
+",48000,"Với hương vị đặc trưng của trà matcha, kết hợp với sữa và đường, đây là một thức uống thượng hạng đem lại sự bình yên và sự ngọt ngào.",ruou5,Drink,52
+DR06,"RƯỢU MƠ CHƯNG CẤT
+",96000,"Rượu mơ chưng cất là một loại rượu đặc biệt được chưng cất từ quả mơ thượng hạng. Với hương vị tinh tế và mê hoặc, món này sẽ mang đến cho bạn một trải nghiệm ẩm thực cao cấp và độc đáo.",ruou6,Drink,75
+DR07,"OSAKE THƯỢNG HẠNG
+",118000,"Với hương vị tinh tế và sự thanh lịch, osake này là sự lựa chọn hoàn hảo cho những ai muốn trải nghiệm hương vị truyền thống của Nhật Bản.",ruou7,Drink,112
+DR08,"SINH TỐ CHANH LEO TƯƠI MÁT
+",58000," Với hương vị tự nhiên và mát lạnh của chanh leo, sinh tố này sẽ mang lại sự sảng khoái và cảm giác tươi mới cho bạn.",ruou8,Drink,36
+DR09,"HIBICUS DƯA HẤU CHANH ĐÀO 
+",48000,"Hòa quyện giữa hương thơm của hoa bụp giấm, vị ngọt ngào của dưa hấu và hương vị tươi mát của chanh đào, đây là một ly hibiscus dưa hấu chanh đào độc đáo và hấp dẫn.",ruou9,Drink,75
+DR10,"COCKTAIL DÂU NGỌT NGÀO
+
+",78000,"Cocktail dâu ngọt ngào sẽ làm say đắm trái tim bạn với hương vị tươi mát và ngọt ngào của dâu. Với màu sắc tươi sáng và cảm giác mát lạnh trên đầu lưỡi, đây là một món đồ uống tuyệt vời để thưởng thức.",ruou10,Drink,32
+MK00,"TRỨNG HẤP HẢI SẢN
+",80000,"Trứng được hấp chín và kết hợp với các loại hải sản như tôm, mực, cá... tạo nên một món ăn thơm ngon và độc đáo.","monankhac0
+",Tempura,45
+MK01,"TRỨNG CUỘN LƯƠN
+",18000,"Trứng cuộn lươn là một món ăn độc đáo và ngon miệng. Lớp trứng được cuộn quanh nhân lươn và được chiên giòn, tạo nên một hương vị thơm ngon và hấp dẫn.","monankhac1
+",Tempura,65
+MK02,"TÔM TEMPURA ÁP CHẢO VÀ TRỨNG
+",128000,"Tôm tempura được áp chảo với trứng, tạo nên một hương vị đặc trưng và ngon miệng. Món ăn này thường được kèm với nước sốt để tăng thêm hương vị.","monankhac2
+",Tempura,36
+MK03,"THỊT BÒ XÀO NẤM
+",128000,"Thịt bò được xào chín mềm, kết hợp với các loại nấm tươi ngon, tạo nên một hương vị độc đáo và thú vị.","monankhac3
+",Tempura,76
+MK04,"THỊT BÒ ÁP CHẢO SỐT TỎI
+",158000,"Thịt bò được áp chảo giòn và kết hợp với sốt tỏi thơm ngon, tạo nên một hương vị đặc trưng và hấp dẫn.","monankhac4
+",Tempura,95
+MK05,"THỊ BA CHỈ XÀO BẮP CẢI ỚT
+",108000,"Thịt ba chỉ được xào chín mềm, kết hợp với bắp cải và ớt tạo nên một hương vị đặc trưng và ngon miệng.","monankhac5
+",Tempura,45
+MK06,"SÚP KONBU NẤU ĐẬU PHỤ NHẬT RÁN
+",96000,"Súp được nấu từ nước dùng konbu và kèm theo đậu phụ Nhật Bản đã được ráng giòn, tạo nên một hương vị độc đáo và thơm ngon.","monankhac6
+",Tempura,59
+MK07,"NGÔ MỸ XÀO THỊT HUN KHÓI
+",56000,"Ngô Mỹ được xào chín và kết hợp với thịt hun khói, tạo nên một hương vị đặc trưng và ngon miệng.","monankhac7
+",Tempura,56
+MK08,"NẤM XÀO TỔNG HỢP
+",86000,"Các loại nấm tươi ngon được xào chín mềm, kết hợp với các loại rau và gia vị, tạo nên một món ăn giàu chất dinh dưỡng.","monankhac8
+",Tempura,75
+MK09,"MỲ UDON HẢI SẢN
+",128000," Mỳ udon mềm mịn được kết hợp với các loại hải sản như tôm, mực, cá... tạo nên một món ăn ngon và đầy đặc sắc.","monankhac9
+",Tempura,52
+MK10,"CÁ HỒI ÁP CHẢO VỚI TRỨNG CỦ CẢI
+",128000,"Miếng cá hồi tươi ngon được áp chảo giòn bên ngoài và mềm mịn bên trong, kết hợp với lớp trứng và củ cải tạo nên một hương vị đặc biệt và thú vị.","monchien0
+",Tempura,96
+MK11,"CÁ KISU TEMPURA
+",168000,"Cá kisu tempura là một món ăn truyền thống Nhật Bản. Cá kisu tươi ngon được chế biến thành tempura giòn rụm, kết hợp với các loại rau tươi và nước sốt mắm ngon. ","monchien1
+",Tempura,45
+MK12,"CÁ THI TẨM BỘT CÀ MỲ RÁN
+",168000,"Miếng cá thi được tẩm bột cà mì và rán giòn, tạo nên một hương vị đặc trưng và thú vị.","monchien2
+",Tempura,52
+MK13,"CÁNH GÀ TẨM BỌT CÀ MÌ RÁN
+",138000," Cánh gà được tẩm bột cà mì và rán giòn, tạo nên một hương vị đặc trưng và thú vị. Món ăn này thường được thưởng thức kèm với nước sốt và rau sống.","monchien3
+",Tempura,22
+MK14,"CƠM CHIÊN KIỂU NHẬT KÈM BÁCH QUẢ NƯỚNG
+",118000," Cơm được chiên giòn và hòa quyện với các loại rau, thịt và hải sản tươi ngon, kèm theo miếng bách quả nướng thơm ngon. ","monchien4
+",Tempura,88
+MK15,"KHOAI LANG TẨM BỘT RÁN
+",85000,"Khoai lang được tẩm bột và rán giòn, tạo nên một hương vị đặc trưng và thú vị.","monchien5
+",Tempura,63
+MK16,"KHOAI TÂY CHIÊN
+",85000,"Khoai tây chiên là một món ăn phổ biến và ngon miệng. Khoai tây được cắt thành miếng nhỏ, chiên giòn và gia vị theo khẩu vị cá nhân. ","monchien6
+",Tempura,45
+MK17,"KHOAI TÂY NGHIỀN RAU TẨM BỘT CÀ MỲ RÁN
+",138000,"Khoai tây được nghiền thành nhuyễn và tẩm bột cà mì, sau đó rán giòn và gia vị theo khẩu vị. ","monchien7
+",Tempura,52
+MK18,"MỰC TẨM BỘT CÀ MÌ
+",190000,"Mực được tẩm bột cà mì và rán giòn, tạo nên một hương vị đặc trưng và thú vị. ","monchien9
+",Tempura,96
+MK19,"PHOMAI TẨM BỘT CÀ MỲ RÁN
+",108000,"Phomai được tẩm bột cà mì và rán giòn, tạo nên một hương vị đặc trưng và thú vị. Món ăn này thường được thưởng thức kèm với nước sốt và rau sống.","monchien10
+",Tempura,12
+ML01,"CHẢ CÁ CHAY HẤP
+",98000,"Chả cá được làm từ các thành phần chay, hấp trong nước và gia vị, tạo nên một hương vị đặc biệt.","monlau1
+",Hotpot,45
+ML02,"CHẢ CÁ ĐỎ
+",98000,"Món ăn truyền thống được chế biến từ thịt cá đỏ tươi ngon, được chiên giòn và có hương vị đậm đà.","monlau2
+",Hotpot,63
+ML03,"CON VẸM BIỂN
+",180000,"Vẹm biển được chế biến theo yêu cầu của quý khách, tạo nên một trải nghiệm ẩm thực đặc biệt.","monlau3
+",Hotpot,63
+ML04,"CÁ CHÌNH
+",300000,"Thịt cá chình có vị ngọt và thơm, được chế biến theo công thức lâu đời của nhà hàng chúng tôi, hứa hẹn sẽ làm bạn bất ngờ bởi hương vị đặc biệt của nó.","monlau4
+",Hotpot,63
+ML05,"CÁ HỒI TƯƠI
+",208000,"Thịt cá hồi tươi ngon, mềm mịn và có hương vị đặc trưng. Chúng tôi chế biến cá hồi tươi thành nhiều món như sashimi, nướng, hấp hoặc cuốn sushi.","monlau5
+",Hotpot,33
+ML08,"HÀU NHẬT
+",188000,"Chúng tôi phục vụ hàu Nhật theo nhiều cách chế biến khác nhau như hấp, nướng hoặc chiên. Hàu có vị ngọt tự nhiên và một hương vị đặc trưng.","monlau6
+",Hotpot,56
+ML09,"KHOAI MÔN 
+",58000,Khoai môn có vị ngọt tự nhiên và một chút cơm dẻo.,"monlau7
+",Hotpot,25
+ML10,"LẨU BÒ MỸ NHÚNG 
+",780000,"Thịt bò Mỹ tươi ngon được nhúng trong nước lẩu nóng hổi, kết hợp với các loại rau củ tươi ngon. Đây là một món ăn thích hợp để chia sẻ với gia đình và bạn bè.","monlau8
+",Hotpot,23
+ML11,"LẨU BÒ WAGYU
+",990000,"Thịt bò Wagyu đặc biệt và thơm ngon được nhúng trong nồi lẩu nóng hổi, tạo nên một hương vị đậm đà và tuyệt vời. Đây là một trải nghiệm ẩm thực đáng nhớ.","monlau9
+",Hotpot,63
+ML12,"LẨU CHAY
+",468000," Chúng tôi chế biến lẩu chay từ các loại rau củ tươi ngon, nấm và đậu hủ, kết hợp với nước lẩu đậm đà và thơm ngon. Món này là lựa chọn hoàn hảo để thưởng thức hương vị chay trọn vẹn.","monlau10
+",Hotpot,62
+ML13,"LẨU CUA GẠCH
+",468000,"Cua gạch tươi ngon được chế biến trong nồi lẩu nóng hổi, kết hợp với các loại rau củ và gia vị tạo nên một hương vị đậm đà và ngon miệng.","monlau11
+",Hotpot,36
+ML14,"LẨU GIẤY CÁ HỒI TƯƠI
+",480000," Cá hồi tươi ngon được gói trong giấy bạc và nướng trên bếp than, tạo nên một món ăn thơm ngon và đặc biệt.","monlau12
+",Hotpot,45
+MN01,"THỊT LỢN NHẬT CUỘN KIMCHI XIÊN NƯỚNG
+",76000,"Một món ăn độc đáo và thú vị, kết hợp giữa thịt lợn Nhật và kimchi cuộn thành xiên, được nướng giòn và thơm ngon.","monnuong01
+",Grilled,112
+MN02,"HÀU TƯƠI NƯỚNG THỊU HUN KHÓI, HÀNH TÂY, PHOMAT
+",46000,"Một món hấp dẫn với hàu tươi ngon được nướng thịu và hòa quyện với hành tây và phomat, tạo nên một hương vị độc đáo.",monnuong02,Grilled,96
+MN03,"CƠM CUỐN TÔM TEMPURA NƯỚNG
+",108000,"Một món cơm cuốn ngon miệng với tôm tempura nướng, tạo nên một hương vị giòn ngon và đậm đà.",monnuong03,Grilled,86
+MN04,"CÁNH GÀ NƯỚNG GIÒN VỚI SỐT TERI
+",78000,Sữa caramel macchiato,monnuong04,Grilled,105
+MN05,"CÁ THU ĐAO VÀ TỔI TÂY NƯỚNG MUỐN HOẶC SỐT TERI
+",58000,Sữa matcha macchiato,monnuong05,Grilled,63
+MN06,"XÚC XÍCH LỢN NHẬT
+",46000,Sinh tố dưa hấu,monnuong06,Grilled,10
+MN07,"XIÊN NƯỚNG TỔNG HỢP
+",42000,Nước chanh sả mật ong,monnuong07,Grilled,96
+MN08,"TRỨNG CÁ TUYẾT NƯỚNG 
+",69000," Trứng cá tuyết tươi ngon được nướng vừa đủ, tạo nên một món ăn độc đáo và thơm ngon.","monnuong08
+",Grilled,21
+MN09,"THỊT HUN KHÓ CUỘN TÔM NƯỚNG 
+",59000,"Thịt hun khói cuộn cùng tôm nướng, tạo nên một món cuốn hấp dẫn và đậm đà.",monnuong09,Grilled,45
+MN10,"THỊ HUN KHÓI CUỘN MĂNG TÂY NƯỚNG MUỐI
+",57000,"Thịt hun khói cuộn với măng tây, được nướng giòn và ướp muối, mang đến một hương vị độc đáo và thú vị.",monnuong10,Grilled,96
+MN11,"THỊT HUN KHÓI CUỘN KHOAI TÂY NƯỚNG MUỐI
+",64000,"Thịt hun khói cuộn với khoai tây, được nướng giòn và ướp muối, tạo nên một món ăn ngon miệng và đậm đà.",monnuong11,Grilled,27
+MN12,"THỊT GÀ XIÊN NƯỚNG MUỐI HOẶC SỐT TERI
+",57000,"Thịt gà được xiên và nướng giòn với vị muối hoặc sốt teri thơm ngon, mang đến một hương vị tuyệt vời và đậm đà.",monnuong12,Grilled,29
+MN13,"THỊT GÀ TỎI TÂY XIÊN NƯỚNG MUỐI HOẶC SỐT TERI
+",46000,"Thịt gà được xiên và nướng với tỏi tây, tạo nên một hương vị đặc biệt và thú vị với sự kết hợp của muối hoặc sốt teri.",monnuong13,Grilled,108
+MN14,"THỊT BÒ ÚC NƯỚNG VỚI SỐT TERI
+",299000,"Vừa Bò viên kiểu Ý, vừa thịt bò thượng hạng. Cắn một miếng thôi là cảm nhận được vị mềm ngọt!",monnuong14,Grilled,12
+MN15,"THỊT BA CHỈ NƯỚNG SỐT MISO
+",145000,Hải sản phải cay thì mới ngon. Chính là bữa tiệc kiểu Singapore đậm vị!!!,monnuong15,Grilled,41
+MN16,"TỎI NƯỚNG MUỐI
+",250000,"Tỏi được nướng giòn với vị muối, tạo nên một món ăn thơm ngon và đậm đà.",monnuong16,Grilled,83
+MN17,"SƯỜNG BÒ MỸ NƯỚNG SỐT TIÊU ĐEN
+",169000,"Sườn bò Mỹ được nướng chín mềm, kèm theo sốt tiêu đen thơm ngon, mang đến một hương vị tuyệt vời và đặc biệt.",monnuong17,Grilled,96
+MN18,"SỤN GÀ NƯỚNG MUỐI
+",230000,"Sụn gà được nướng giòn với vị muối, tạo nên một món ăn ngon miệng và đậm đà.",monnuong18,Grilled,15
+MN19,"SÒ ĐIỆP NƯỚNG MUỐI HOẶC SỐT TERI
+",129000," Sò điệp được nướng giòn với vị muối hoặc sốt teri thơm ngon, mang đến một hương vị độc đáo và thú vị.",monnuong19,Grilled,56
+MN20,"NẤM HƯƠNG TƯƠI NHỒI THỊT NƯỚNG 
+",155000,"Nấm hương tươi ngon được nhồi với thịt và nướng giòn, tạo nên một món ăn hấp dẫn và đặc biệt.",monnuong20,Grilled,85
+MN21,"MỰC ỐNG NƯỚNG MUỐI HOẶC SỐT TERI
+",129000,"Mực ống được nướng giòn với vị muối hoặc sốt teri, mang đến một hương vị tuyệt vời và thú vị.",monnuong21,Grilled,23
+MN22,"MỀ GÀ XIÊN NƯỚNG MUỐI HOẶC SỐT TERI
+",99000,"Mề gà được xiên và nướng với vị muối hoặc sốt teri thơm ngon, tạo nên một món ăn ngon miệng và đậm đà.",monnuong22,Grilled,96
+MN23,"LƯƠN NHẬT XIÊN NƯỚNG SỐT TERI
+",169000," Lươn nhật tươi ngon được xiên và nướng với sốt teri thơm ngon, mang đến một hương vị đặc biệt và thú vị.",monnuong23,Grilled,78
+MN28,"DA GÀ XIÊN NƯỚNG MUỐI
+",98000,"Da gà được xiên và nướng giòn với vị muối, tạo nên một món ăn thơm ngon và đặc biệt.",monnuong28,Grilled,56
