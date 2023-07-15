@@ -142,7 +142,7 @@
         z-index: 999;
         background: transparent !important;
     }
-    
+
     .sticky-top.navbar-dark {
         position: fixed;
         background: var(--dark) !important;
@@ -162,16 +162,17 @@
     animation: imgRotate 50s linear infinite;
 }
 
-@keyframes imgRotate { 
-    100% { 
-        transform: rotate(360deg); 
-    } 
+@keyframes imgRotate {
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
-.breadcrumb-item + .breadcrumb-item::before {
+.breadcrumb-item+.breadcrumb-item::before {
     color: rgba(255, 255, 255, .5);
 }
 
+/*** Search ***/
 
 
 /*** Section Title ***/
@@ -211,63 +212,91 @@
 .card-body {
     -webkit-box-flex: 1;
     -webkit-flex: 1 1 auto;
-        -ms-flex: 1 1 auto;
-            flex: 1 1 auto;
-    padding: 1.5rem 1.5rem; }
-  
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.5rem 1.5rem;
+}
+
 .form-group {
-  margin-bottom: 1rem;
- }
-  .form-group .input-group-text {
-    color: #adb5bd; }
+    margin-bottom: 1rem;
+}
+
+.form-group .input-group-text {
+    color: #adb5bd;
+}
 
 .form-group-alt.input-group {
-  -webkit-box-shadow: unset;
-          box-shadow: unset;
-  -webkit-border-radius: 1.5rem;
-          border-radius: 1.5rem; }
-  .form-group-alt.input-group .input-group-text {
-    color: #adb5bd; }
-  .form-group-alt.input-group > :not(:first-child):not(.dropdown-menu) {
     -webkit-box-shadow: unset;
-            box-shadow: unset; }
-    .form-group-alt.input-group > :not(:first-child):not(.dropdown-menu).input-group-text {
-      border: 0;
-      padding-left: 0; }
-  .form-group-alt.input-group > :not(:last-child):not(.dropdown-menu) {
+    box-shadow: unset;
+    -webkit-border-radius: 1.5rem;
+    border-radius: 1.5rem;
+}
+
+.form-group-alt.input-group .input-group-text {
+    color: #adb5bd;
+}
+
+.form-group-alt.input-group> :not(:first-child):not(.dropdown-menu) {
     -webkit-box-shadow: unset;
-            box-shadow: unset;
-    padding-right: 0; }
-    .form-group-alt.input-group > :not(:last-child):not(.dropdown-menu).input-group-text {
-      border: 0; }
-  .form-group-alt.input-group:focus-within {
+    box-shadow: unset;
+}
+
+.form-group-alt.input-group> :not(:first-child):not(.dropdown-menu).input-group-text {
+    border: 0;
+    padding-left: 0;
+}
+
+.form-group-alt.input-group> :not(:last-child):not(.dropdown-menu) {
     -webkit-box-shadow: unset;
-            box-shadow: unset; }
+    box-shadow: unset;
+    padding-right: 0;
+}
+
+.form-group-alt.input-group> :not(:last-child):not(.dropdown-menu).input-group-text {
+    border: 0;
+}
+
+.form-group-alt.input-group:focus-within {
+    -webkit-box-shadow: unset;
+    box-shadow: unset;
+}
 
 .form-group-alt .form-control {
-  border: 0;
-  -webkit-box-shadow: unset;
-          box-shadow: unset; }
-  .form-group-alt .form-control.is-valid {
+    border: 0;
     -webkit-box-shadow: unset;
-            box-shadow: unset; }
-    .form-group-alt .form-control.is-valid:focus {
-      -webkit-box-shadow: unset;
-              box-shadow: unset; }
-  .form-group-alt .form-control.is-invalid {
+    box-shadow: unset;
+}
+
+.form-group-alt .form-control.is-valid {
     -webkit-box-shadow: unset;
-            box-shadow: unset; }
-    .form-group-alt .form-control.is-invalid:focus {
-      -webkit-box-shadow: unset;
-              box-shadow: unset; }
-  .form-group-alt .form-control:focus {
+    box-shadow: unset;
+}
+
+.form-group-alt .form-control.is-valid:focus {
     -webkit-box-shadow: unset;
-            box-shadow: unset; }
+    box-shadow: unset;
+}
+
+.form-group-alt .form-control.is-invalid {
+    -webkit-box-shadow: unset;
+    box-shadow: unset;
+}
+
+.form-group-alt .form-control.is-invalid:focus {
+    -webkit-box-shadow: unset;
+    box-shadow: unset;
+}
+
+.form-group-alt .form-control:focus {
+    -webkit-box-shadow: unset;
+    box-shadow: unset;
+}
 
 .form-label {
-    margin-bottom: 0.5rem; }
-    
-  
+    margin-bottom: 0.5rem;
+}
+
+
 .col-form-label {
     padding-top: -webkit-calc(0.5rem + 1px);
     padding-top: calc(0.5rem + 1px);
@@ -275,188 +304,245 @@
     padding-bottom: calc(0.5rem + 1px);
     margin-bottom: 0;
     font-size: inherit;
-    line-height: 1.75; }
-  
+    line-height: 1.75;
+}
+
 .col-form-label-lg {
     padding-top: -webkit-calc(0.5rem + 1px);
     padding-top: calc(0.5rem + 1px);
     padding-bottom: -webkit-calc(0.5rem + 1px);
     padding-bottom: calc(0.5rem + 1px);
-    font-size: 1.25rem; }
-  
+    font-size: 1.25rem;
+}
+
 .col-form-label-sm {
     padding-top: -webkit-calc(0.25rem + 1px);
     padding-top: calc(0.25rem + 1px);
     padding-bottom: -webkit-calc(0.25rem + 1px);
     padding-bottom: calc(0.25rem + 1px);
-    font-size: 0.875rem; }
+    font-size: 0.875rem;
+}
+
 .form-text {
-        margin-top: 0.25rem;
-        font-size: 0.833rem;
-        color: #959895; }
-      
+    margin-top: 0.25rem;
+    font-size: 0.833rem;
+    color: #959895;
+}
+
 .form-control {
-        display: block;
-        width: 100%;
-        padding: 0.5rem 1rem;
-        font-size: 1rem;
-        font-weight: 400;
-        line-height: 1.75;
-        color: #959895;
-        background-color: #fff;
-        -webkit-background-clip: padding-box;
-                background-clip: padding-box;
-        border: 1px solid #E3E1E1;
-        -webkit-appearance: none;
-           -moz-appearance: none;
-                appearance: none;
-        -webkit-border-radius: 1.25rem;
-                border-radius: 1.25rem;
-        -webkit-box-shadow: 0 0 0 0;
-                box-shadow: 0 0 0 0;
-        -webkit-transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
-        transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
-        -o-transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-        transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-        transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out; }
+    display: block;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.75;
+    color: #959895;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #E3E1E1;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-border-radius: 1.25rem;
+    border-radius: 1.25rem;
+    -webkit-box-shadow: 0 0 0 0;
+    box-shadow: 0 0 0 0;
+    -webkit-transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    -o-transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+}
+
 @media (prefers-reduced-motion: reduce) {
-.form-control {
-            -webkit-transition: none;
-            -o-transition: none;
-            transition: none; } }
+    .form-control {
+        -webkit-transition: none;
+        -o-transition: none;
+        transition: none;
+    }
+}
+
 .form-control[type="file"] {
-          overflow: hidden; }
+    overflow: hidden;
+}
+
 .form-control[type="file"]:not(:disabled):not([readonly]) {
-            cursor: pointer; }
+    cursor: pointer;
+}
+
 .form-control:focus {
-          color: #959895;
-          background-color: #fff;
-          border-color: #f5b589;
-          outline: 0;
-          -webkit-box-shadow: 0 0 0 0, 0 0 0.25rem 0rem rgba(234, 106, 18, 0.15);
-                  box-shadow: 0 0 0 0, 0 0 0.25rem 0rem rgba(234, 106, 18, 0.15); }
+    color: #959895;
+    background-color: #fff;
+    border-color: #f5b589;
+    outline: 0;
+    -webkit-box-shadow: 0 0 0 0, 0 0 0.25rem 0rem rgba(234, 106, 18, 0.15);
+    box-shadow: 0 0 0 0, 0 0 0.25rem 0rem rgba(234, 106, 18, 0.15);
+}
+
 .form-control::-webkit-date-and-time-value {
-          height: 1.75em; }
-        .form-control::-webkit-input-placeholder {
-          color: #959895;
-          opacity: 1; }
-        .form-control::-moz-placeholder {
-          color: #959895;
-          opacity: 1; }
-        .form-control::-ms-input-placeholder {
-          color: #959895;
-          opacity: 1; }
-        .form-control::placeholder {
-          color: #959895;
-          opacity: 1; }
-        .form-control:disabled, .form-control[readonly] {
-          background-color: #e9ecef;
-          opacity: 1; }
-        .form-control::file-selector-button {
-          padding: 0.5rem 1rem;
-          margin: -0.5rem -1rem;
-          -webkit-margin-end: 1rem;
-             -moz-margin-end: 1rem;
-                  margin-inline-end: 1rem;
-          color: #959895;
-          background-color: #fff;
-          pointer-events: none;
-          border-color: inherit;
-          border-style: solid;
-          border-width: 0;
-          border-inline-end-width: 1px;
-          -webkit-border-radius: 0;
-                  border-radius: 0;
-          -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
-          transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
-          -o-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-          transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-          transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out; }
-          @media (prefers-reduced-motion: reduce) {
-            .form-control::file-selector-button {
-              -webkit-transition: none;
-              -o-transition: none;
-              transition: none; } }
-        .form-control:hover:not(:disabled):not([readonly])::file-selector-button {
-          background-color: #f2f2f2; }
-        .form-control::-webkit-file-upload-button {
-          padding: 0.5rem 1rem;
-          margin: -0.5rem -1rem;
-          -webkit-margin-end: 1rem;
-                  margin-inline-end: 1rem;
-          color: #959895;
-          background-color: #fff;
-          pointer-events: none;
-          border-color: inherit;
-          border-style: solid;
-          border-width: 0;
-          border-inline-end-width: 1px;
-          -webkit-border-radius: 0;
-                  border-radius: 0;
-          -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
-          transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
-          -o-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-          transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-          transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out; }
-          @media (prefers-reduced-motion: reduce) {
-            .form-control::-webkit-file-upload-button {
-              -webkit-transition: none;
-              -o-transition: none;
-              transition: none; } }
-        .form-control:hover:not(:disabled):not([readonly])::-webkit-file-upload-button {
-          background-color: #f2f2f2; }
-      
-      .form-control-plaintext {
-        display: block;
-        width: 100%;
-        padding: 0.5rem 0;
-        margin-bottom: 0;
-        line-height: 1.75;
-        color: #959895;
-        background-color: transparent;
-        border: solid transparent;
-        border-width: 1px 0; }
-        .form-control-plaintext.form-control-sm, .form-control-plaintext.form-control-lg {
-          padding-right: 0;
-          padding-left: 0; }
-      
-      .form-control-sm {
-        min-height: -webkit-calc(1.75em + 0.5rem + 2px);
-        min-height: calc(1.75em + 0.5rem + 2px);
-        padding: 0.25rem 1rem;
-        font-size: 0.875rem;
-        -webkit-border-radius: 1.25rem;
-                border-radius: 1.25rem; }
-        .form-control-sm::file-selector-button {
-          padding: 0.25rem 1rem;
-          margin: -0.25rem -1rem;
-          -webkit-margin-end: 1rem;
-             -moz-margin-end: 1rem;
-                  margin-inline-end: 1rem; }
-        .form-control-sm::-webkit-file-upload-button {
-          padding: 0.25rem 1rem;
-          margin: -0.25rem -1rem;
-          -webkit-margin-end: 1rem;
-                  margin-inline-end: 1rem; }
-      
-      .form-control-lg {
-        min-height: -webkit-calc(1.75em + 1rem + 2px);
-        min-height: calc(1.75em + 1rem + 2px);
-        padding: 0.5rem 1.5rem;
-        font-size: 1.25rem;
-        -webkit-border-radius: 1.25rem;
-                border-radius: 1.25rem; }
-        .form-control-lg::file-selector-button {
-          padding: 0.5rem 1.5rem;
-          margin: -0.5rem -1.5rem;
-          -webkit-margin-end: 1.5rem;
-             -moz-margin-end: 1.5rem;
-                  margin-inline-end: 1.5rem; }
-        .form-control-lg::-webkit-file-upload-button {
-          padding: 0.5rem 1.5rem;
-          margin: -0.5rem -1.5rem;
-          -webkit-margin-end: 1.5rem;
-                  margin-inline-end: 1.5rem; }
+    height: 1.75em;
+}
+
+.form-control::-webkit-input-placeholder {
+    color: #959895;
+    opacity: 1;
+}
+
+.form-control::-moz-placeholder {
+    color: #959895;
+    opacity: 1;
+}
+
+.form-control::-ms-input-placeholder {
+    color: #959895;
+    opacity: 1;
+}
+
+.form-control::placeholder {
+    color: #959895;
+    opacity: 1;
+}
+
+.form-control:disabled,
+.form-control[readonly] {
+    background-color: #e9ecef;
+    opacity: 1;
+}
+
+.form-control::file-selector-button {
+    padding: 0.5rem 1rem;
+    margin: -0.5rem -1rem;
+    -webkit-margin-end: 1rem;
+    -moz-margin-end: 1rem;
+    margin-inline-end: 1rem;
+    color: #959895;
+    background-color: #fff;
+    pointer-events: none;
+    border-color: inherit;
+    border-style: solid;
+    border-width: 0;
+    border-inline-end-width: 1px;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    -o-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .form-control::file-selector-button {
+        -webkit-transition: none;
+        -o-transition: none;
+        transition: none;
+    }
+}
+
+.form-control:hover:not(:disabled):not([readonly])::file-selector-button {
+    background-color: #f2f2f2;
+}
+
+.form-control::-webkit-file-upload-button {
+    padding: 0.5rem 1rem;
+    margin: -0.5rem -1rem;
+    -webkit-margin-end: 1rem;
+    margin-inline-end: 1rem;
+    color: #959895;
+    background-color: #fff;
+    pointer-events: none;
+    border-color: inherit;
+    border-style: solid;
+    border-width: 0;
+    border-inline-end-width: 1px;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    -o-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .form-control::-webkit-file-upload-button {
+        -webkit-transition: none;
+        -o-transition: none;
+        transition: none;
+    }
+}
+
+.form-control:hover:not(:disabled):not([readonly])::-webkit-file-upload-button {
+    background-color: #f2f2f2;
+}
+
+.form-control-plaintext {
+    display: block;
+    width: 100%;
+    padding: 0.5rem 0;
+    margin-bottom: 0;
+    line-height: 1.75;
+    color: #959895;
+    background-color: transparent;
+    border: solid transparent;
+    border-width: 1px 0;
+}
+
+.form-control-plaintext.form-control-sm,
+.form-control-plaintext.form-control-lg {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.form-control-sm {
+    min-height: -webkit-calc(1.75em + 0.5rem + 2px);
+    min-height: calc(1.75em + 0.5rem + 2px);
+    padding: 0.25rem 1rem;
+    font-size: 0.875rem;
+    -webkit-border-radius: 1.25rem;
+    border-radius: 1.25rem;
+}
+
+.form-control-sm::file-selector-button {
+    padding: 0.25rem 1rem;
+    margin: -0.25rem -1rem;
+    -webkit-margin-end: 1rem;
+    -moz-margin-end: 1rem;
+    margin-inline-end: 1rem;
+}
+
+.form-control-sm::-webkit-file-upload-button {
+    padding: 0.25rem 1rem;
+    margin: -0.25rem -1rem;
+    -webkit-margin-end: 1rem;
+    margin-inline-end: 1rem;
+}
+
+.form-control-lg {
+    min-height: -webkit-calc(1.75em + 1rem + 2px);
+    min-height: calc(1.75em + 1rem + 2px);
+    padding: 0.5rem 1.5rem;
+    font-size: 1.25rem;
+    -webkit-border-radius: 1.25rem;
+    border-radius: 1.25rem;
+}
+
+.form-control-lg::file-selector-button {
+    padding: 0.5rem 1.5rem;
+    margin: -0.5rem -1.5rem;
+    -webkit-margin-end: 1.5rem;
+    -moz-margin-end: 1.5rem;
+    margin-inline-end: 1.5rem;
+}
+
+.form-control-lg::-webkit-file-upload-button {
+    padding: 0.5rem 1.5rem;
+    margin: -0.5rem -1.5rem;
+    -webkit-margin-end: 1.5rem;
+    margin-inline-end: 1.5rem;
+}
+
 /*** Service ***/
 .service-item {
     box-shadow: 0 0 45px rgba(0, 0, 0, .08);
