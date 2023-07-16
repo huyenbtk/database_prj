@@ -82,7 +82,7 @@
         axios.post('/users/signin', data)
             .then(function (response) {
                 console.log(response.data);
-                window.location.href = ""; 
+                window.location.href = "";
             })
             .catch(function (error) {
                 // Xử lý lỗi từ máy chủ hoặc yêu cầu
@@ -141,18 +141,20 @@
         }
 
         // Gửi productName đến server và xử lý phản hồi
-        axios.post('./menu', { productName })
-            .then(response => {
-                console.log(response.data);
-                // Xử lý dữ liệu trả về từ server
+        async function sendDataToServer(productName) {
+            try {
+                const response = await axios.post('./menu', { productName });
+                const jsonData = response.data;
+                // Do something with the JSON data
+                console.log(jsonData);
                 window.location.href = "./menu/searchProductName=" + productName;
                 // Chuyển đổi dữ liệu JSON thành một mảng đối tượng
-                const menuData = JSON.parse(response.data);
-
-            })
-            .catch(error => {
+                // const menuData = JSON.parse(response.data);
+            }
+            catch (error) {
                 console.error(error);
-            });
+            };
+        };
     });
 
 
@@ -164,6 +166,6 @@
     });
 
 
-    
+
 })(jQuery);
 

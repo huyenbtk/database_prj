@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Admin</title>
+  <link rel="stylesheet" type="text/css" href="/public/css/admin.css">
+</head>
+<body>
+  <div class="header">
+    <a href="#" class="menu" onclick="logout()">Logout</a>
+  </div>
+  
+  <div class="container">
+    
+    <div class="menu">
+      <a href="#" onclick="showMembers()">Xem thành viên</a>
+    </div>
+    
+    <div class="menu">
+      <a href="#" onclick="showRevenue()">Xem doanh thu</a>
+    </div>
+    
+    <div class="content">
+      <div id="members" style="display: none;">
+        <!-- Nội dung danh sách thành viên -->
+      </div>
+      
+      <div id="revenue" style="display: none;">
+        <!-- Nội dung doanh thu -->
+      </div>
+    </div>
+  </div>
+  
+  <script src="/public/js/admin.js"></script>
+</body>
+</html>

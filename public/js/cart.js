@@ -16,8 +16,8 @@ closeShopping.addEventListener('click', ()=>{
 let products = [
     {
         id: 1,
-        name: 'PRODUCT NAME 1',
-        image: '1.PNG',
+        name: 'JAPANESE ABALONE SASHIMI',
+        image: 'team-1.jpg',
         price: 120000
     },
     {
@@ -51,13 +51,16 @@ let products = [
         price: 120000
     },
 ];
+
 let listCards  = [];
+
+
 function initApp(){
     products.forEach((value, key) =>{
         let newDiv = document.createElement('div');
         newDiv.classList.add('item');
         newDiv.innerHTML = `
-            <img src="image/${value.image}">
+            <img src="../img/${value.image}">
             <div class="title">${value.name}</div>
             <div class="price">${value.price.toLocaleString()}</div>
             <button onclick="addToCard(${key})">Add To Card</button>`;
