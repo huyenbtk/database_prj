@@ -2,16 +2,11 @@ const express = require('express');
 const router = express.Router();
 const {user} = require('../models');
 const path = require('path');
+const {sign} = require('jsonwebtoken');
 
 const publicDir = path.join(__dirname,'..', 'public');
 router.use(express.static(publicDir));
 
-
-
-router.get('/', async (req, res) => {
-    const userlist = await user.findAll();
-    res.json(userlist);
-});
 
 
 router.get("/signin", function (req, res) {
@@ -26,10 +21,10 @@ router.get("/signup", function (req, res) {
 router.post('/signup', async (req, res) => {
     const {username,email,password,name,address,phone,permission} = req.body;
     const regUser = await user.findOne({where: {email: email}})
-    if (regUser) res.json({error: "Email already registered"})
+    if (regUser) res.status(400).json({error: "Email already registered"})
     else {
         let regnameUser = await user.findOne({where: {username: username}})
-        if (regnameUser) res.json({error: "Username already taken"})
+        if (regnameUser) res.status(400).json({error: "Username already taken"})
         else{
             await user.create({
                 username: username,
@@ -46,12 +41,15 @@ router.post('/signup', async (req, res) => {
 })
 
 router.post('/signin', async (req, res) => {
-    const {username, password} = req.body;
-    const logUser = await user.findOne({where: {username: username}})
-    if (!logUser) res.json({error: "User doesn't exist"});
+    const {email,password} = req.body;
+    const logUser = await user.findOne({where: {email: email}})
+    if (!logUser) res.status(400).json({error: "Email has not been registered."});
     else{
-        if (password===logUser.password) res.json ("SUCCESS")
-        else res.json({error: "Incorrect password"});
+        if (password===logUser.password) {
+            const accessToken = sign({username: logUser.username,userID: logUser.id},"secret") //create accessToken
+            res.json (accessToken)
+        }
+        else res.status(400).json({error: "Incorrect password"});
     }    
 })
 
