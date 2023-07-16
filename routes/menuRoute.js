@@ -3,21 +3,22 @@ const router = express.Router();
 const {Product} = require('../models');
 const { Op } = require("sequelize");
 
+
+//Display menu
+
 router.get('/', async (req, res) => {
     const productlist = await Product.findAll();
     res.json(productlist);
 });
 
-router.get('/search', async (req,res)=>{
-    const {productname, price} = req.body;
+
+//Search by product name or price
+
+router.get('/searchProductName=:productname', async (req,res)=>{
+    const productname = req.params.productname;
     const productlist = await Product.findAll({
-        where: Sequelize.and(
-                {[Op.or]:[
-                    {name:{[Op.like]:'%'+productname+'%'}},
-                    {price:{[Op.like]:'%'+price+'%'}}
-                ]},
-                {productname: !null}
-            )
+        where:
+                {name:{[Op.like]:'%'+productname+'%'}}, 
     })
     res.json(productlist);
 })
