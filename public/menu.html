@@ -52,27 +52,15 @@
         <!-- Navbar & Hero Start -->
         <div class="container-xxl position-relative p-0">
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
-                <form class="d-flex">
+                <form class="d-flex" id="searchForm">
                     <div class="input-group">
-                        <input class="form-control" type="search" placeholder="Search..." aria-label="Search">
+                        <input class="form-control" type="text" id="searchInput" placeholder="Search..."
+                            aria-label="Search">
                         <button class="btn btn-outline-light text-primary" type="submit">
                             <i class="fa-solid fa-magnifying-glass"></i>
                         </button>
-                        <!-- Filter Button -->
-                        <form id="filterForm" class="filter-form">
-                            <select id="sortBySelect" class="form-select">
-                                <option value="">Sort by</option>
-                                <option value="bestselling">Best Selling</option>
-                                <option value="priceLowToHigh">Price: Low to High</option>
-                                <option value="priceHighToLow">Price: High to Low</option>
-                            </select>
-                            <input id="minPriceInput" class="form-control" type="number" placeholder="Min Price">
-                            <input id="maxPriceInput" class="form-control" type="number" placeholder="Max Price">
-                            <button onclick="applyFilters(event)" class="btn btn-primary">Filter</button>
-                        </form>
                 </form>
         </div>
-        </form>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="fa fa-bars"></span>
         </button>
@@ -81,7 +69,7 @@
                 <a href="index.html" class="nav-item nav-link active">Home</a>
                 <!-- <a href="service.html" class="nav-item nav-link">Service</a> -->
                 <!-- <a href="menu.html" class="nav-item nav-link">Menu</a> -->
-                <a href="booking.html" class="nav-item nav-link">Booking</a>
+                <a href="signin.html" class="nav-item nav-link">Booking</a>
                 <!-- <a href="team.html" class="nav-item nav-link">Our Team</a> -->
             </div>
             <a href="http://localhost:8080/users/signin" class="btn btn-primary py-2 px-4">Sign in</a>
@@ -175,207 +163,807 @@
                         <div class="row g-4">
                             <div class="col-lg-6">
                                 <div class="d-flex align-items-center">
-                                    <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt=""
+                                    <img class="flex-shrink-0 img-fluid rounded" src="../image/Shashimisushi/shashimisushi0.jpg" alt=""
                                         style="width: 80px;">
                                     <div class="w-100 d-flex flex-column text-start ps-4">
                                         <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                            <span>Chicken Burger</span>
-                                            <span class="text-primary">$115</span>
+                                            <span>JAPANESE ABALONE SASHIMI</span>
+                                            <span class="text-primary">738.000đ</span>
                                         </h5>
-                                        <h5 class="d-flex justify-content-between">
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justodiam</small>
-                                            <button class="btn btn-primary mt-3">
-                                                <i class="fas fa-shopping-cart"></i>
-                                            </button>
-                                        </h5>
+                                            <small class="fst-italic">Made from fresh ingredients and the quintessence of Japanese cuisine.</small>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="d-flex align-items-center">
-                                    <img class="flex-shrink-0 img-fluid rounded" src="img/menu-2.jpg" alt=""
+                                    <img class="flex-shrink-0 img-fluid rounded" src="../image/Shashimisushi/shashimisushi1.jpg" alt=""
                                         style="width: 80px;">
                                     <div class="w-100 d-flex flex-column text-start ps-4">
                                         <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                            <span>Ten mon an</span>
-                                            <span class="text-primary">$115</span>
+                                            <span>SSMALL OCTOPUS</span>
+                                            <span class="text-primary">680.000đ</span>
                                         </h5>
-                                        <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo
-                                            diam</small>
+                                            <small class="fst-italic">With fresh quality and natural sweetness.</small>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="d-flex align-items-center">
-                                    <img class="flex-shrink-0 img-fluid rounded" src="img/menu-3.jpg" alt=""
+                                    <img class="flex-shrink-0 img-fluid rounded" src="../image/Shashimisushi/shashimisushi2.jpg" alt=""
                                         style="width: 80px;">
                                     <div class="w-100 d-flex flex-column text-start ps-4">
                                         <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                            <span>Chicken Burger</span>
-                                            <span class="text-primary">$115</span>
+                                            <span>MIXED VINEGAR OCTOPUS</span>
+                                            <span class="text-primary">268.000đ</span>
                                         </h5>
-                                        <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo
-                                            diam</small>
+                                            <small class="fst-italic">The great combination of sour, sweet and the aroma of vinegar creates a special culinary experience.</small>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="d-flex align-items-center">
-                                    <img class="flex-shrink-0 img-fluid rounded" src="img/menu-4.jpg" alt=""
+                                    <img class="flex-shrink-0 img-fluid rounded" src="../image/Shashimisushi/shashimisushi3.jpg" alt=""
                                         style="width: 80px;">
                                     <div class="w-100 d-flex flex-column text-start ps-4">
                                         <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                            <span>Chicken Burger</span>
-                                            <span class="text-primary">$115</span>
+                                            <span>WASABI MARINATED OCTOPUS</span>
+                                            <span class="text-primary">890.000đ</span>
                                         </h5>
-                                        <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo
-                                            diam</small>
+                                            <small class="fst-italic">With Wasabi marinated octopus, you will experience a spicy, rich and refreshing flavor.</small>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="d-flex align-items-center">
-                                    <img class="flex-shrink-0 img-fluid rounded" src="img/menu-5.jpg" alt=""
+                                    <img class="flex-shrink-0 img-fluid rounded" src="../image/Shashimisushi/shashimisushi4.jpg" alt=""
                                         style="width: 80px;">
                                     <div class="w-100 d-flex flex-column text-start ps-4">
                                         <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                            <span>Chicken Burger</span>
-                                            <span class="text-primary">$115</span>
+                                            <span>RAW SALMON</span>
+                                            <span class="text-primary">990.000đ</span>
                                         </h5>
-                                        <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo
-                                            diam</small>
+                                            <small class="fst-italic">With fresh flavor, soft meat and attractive colors, this fish will make you enjoy special and classy culinary experiences.</small>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="d-flex align-items-center">
-                                    <img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt=""
+                                    <img class="flex-shrink-0 img-fluid rounded" src="../image/Shashimisushi/shashimisushi5.jpg" alt=""
                                         style="width: 80px;">
                                     <div class="w-100 d-flex flex-column text-start ps-4">
                                         <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                            <span>Chicken Burger</span>
-                                            <span class="text-primary">$115</span>
+                                            <span>TUNA, SALMON, RAW SEA CLAMS AND ASSORTED SUSHI RICE</span>
+                                            <span class="text-primary">238.000đ</span>
                                         </h5>
-                                        <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo
-                                            diam</small>
+                                            <small class="fst-italic">Immersed in the diversity and abundance of tuna, salmon, raw beach clams and ASSORTED sushi rice at high -class restaurants.</small>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="d-flex align-items-center">
-                                    <img class="flex-shrink-0 img-fluid rounded" src="img/menu-7.jpg" alt=""
+                                    <img class="flex-shrink-0 img-fluid rounded" src="../image/Shashimisushi/shashimisushi6.jpg" alt=""
                                         style="width: 80px;">
                                     <div class="w-100 d-flex flex-column text-start ps-4">
                                         <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                            <span>Chicken Burger</span>
-                                            <span class="text-primary">$115</span>
+                                            <span>10 TYPES OF RAW FISH</span>
+                                            <span class="text-primary">238.000đ</span>
                                         </h5>
-                                        <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo
-                                            diam</small>
+                                            <small class="fst-italic">From tuna, salmon, herring to other types of fish, each piece of fish will bring you a fresh, delicious and unique flavor, stimulating the taste and captivating your heart.</small>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="d-flex align-items-center">
-                                    <img class="flex-shrink-0 img-fluid rounded" src="img/menu-8.jpg" alt=""
+                                    <img class="flex-shrink-0 img-fluid rounded" src="../image/Shashimisushi/shashimisushi7.jpg" alt=""
                                         style="width: 80px;">
                                     <div class="w-100 d-flex flex-column text-start ps-4">
                                         <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                            <span>Chicken Burger</span>
-                                            <span class="text-primary">$115</span>
+                                            <span>12 ASSORTED FISH</span>
+                                            <span class="text-primary">238.000đ</span>
                                         </h5>
-                                        <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo
-                                            diam</small>
+                                            <small class="fst-italic">With fresh quality and bright colors, each piece of fish will bring you a high -class and unique culinary experience.</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="../image/Shashimisushi/shashimisushi8.jpg" alt=""
+                                        style="width: 80px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>6 TYPES OF RAW FISH</span>
+                                            <span class="text-primary">188.000đ</span>
+                                        </h5>
+                                            <small class="fst-italic">From herring, salmon to other types of fish, each piece of fresh fish will bring sophisticated, diverse and interesting flavor.</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="../image/Shashimisushi/shashimisushi9.jpg" alt=""
+                                        style="width: 80px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>8 TYPES OF RAW FISH</span>
+                                            <span class="text-primary">118.000đ</span>
+                                        </h5>
+                                            <small class="fst-italic">From herring, salmon to other types of fish, each piece of fish will bring a fresh, delicious and special flavor, stimulate the taste and captivate your heart.</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="../image/Shashimisushi/shashimisushi10.jpg" alt=""
+                                        style="width: 80px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>HERRING, SALMON, RAW OCTOPUS AND SUSHI RICE</span>
+                                            <span class="text-primary">420.000đ</span>
+                                        </h5>
+                                            <small class="fst-italic">Each piece of sushi is delicately processed and combines fresh ingredients, bringing sophisticated and unique flavor.</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="../image/Shashimisushi/shashimisushi11.jpg" alt=""
+                                        style="width: 80px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>HERRING, SALMON, JAPANESE SHRIMP, OCTOPUS, RAW SALMON EGGS AND ASSORTED SUSHI RICE</span>
+                                            <span class="text-primary">420.000đ</span>
+                                        </h5>
+                                            <small class="fst-italic">Enjoy the unique combination and rich taste of herring, salmon, Japanese shrimp, octopus, raw salmon eggs and ASSORTED sushi rice.</small>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div id="tab-2" class="tab-pane fade show p-0">
-                    </div>
-                    <div id="tab-3" class="tab-pane fade show p-0">
-                    </div>
-                    <div id="tab-4" class="tab-pane fade show p-0">
-                    </div>
-                    <div id="tab-5" class="tab-pane fade show p-0">
-                    </div>
-                    <div id="tab-6" class="tab-pane fade show p-0">
-                    </div>
-
-                    <!-- Menu End -->
-
-
-                    <!-- Footer Start -->
-                    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
-                        <div class="container py-5">
-                            <div class="row g-5">
-                                <div class="col-lg-3 col-md-6">
-                                    <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">
-                                        Company</h4>
-                                    <a class="btn btn-link" href="">About Us</a>
-                                    <a class="btn btn-link" href="">Contact Us</a>
-                                    <a class="btn btn-link" href="">Reservation</a>
-                                    <a class="btn btn-link" href="">Privacy Policy</a>
-                                    <a class="btn btn-link" href="">Terms & Condition</a>
-                                </div>
-                                <div class="col-lg-3 col-md-6">
-                                    <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">
-                                        Contact</h4>
-                                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>1 Dai Co Viet, Hai Ba
-                                        Trung, HN </p>
-                                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+84967002666</p>
-                                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>oishiisushi@gmail.com</p>
-                                    <div class="d-flex pt-2">
-                                        <a class="btn btn-outline-light btn-social" href=""><i
-                                                class="fab fa-twitter"></i></a>
-                                        <a class="btn btn-outline-light btn-social" href=""><i
-                                                class="fab fa-facebook-f"></i></a>
-                                        <a class="btn btn-outline-light btn-social" href=""><i
-                                                class="fab fa-youtube"></i></a>
-                                        <a class="btn btn-outline-light btn-social" href=""><i
-                                                class="fab fa-linkedin-in"></i></a>
+                        <div class="row g-4">
+                            <div class="col-lg-6">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="../image/Tempura/monankhac0.jpg" alt=""
+                                        style="width: 80px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>SEAFOOD STEAMED EGGS</span>
+                                            <span class="text-primary">80.000đ</span>
+                                        </h5>
+                                            <small class="fst-italic">Eggs are cooked and combined with seafood such as shrimp, squid, fish ... creating a delicious and unique dish.</small>
                                     </div>
                                 </div>
-                                <div class="col-lg-3 col-md-6">
-                                    <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">
-                                        Opening</h4>
-                                    <h5 class="text-light fw-normal">Monday - Saturday</h5>
-                                    <p>09AM - 09PM</p>
-                                    <h5 class="text-light fw-normal">Sunday</h5>
-                                    <p>10AM - 08PM</p>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="../image/Tempura/monankhac1.jpg" alt=""
+                                        style="width: 80px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>EEL ROLLS</span>
+                                            <span class="text-primary">18.000đ</span>
+                                        </h5>
+                                            <small class="fst-italic">Eel roll eggs are a unique and delicious dish.The egg layer is rolled around the eel and is fried, creating a delicious and attractive flavor.</small>
+                                    </div>
                                 </div>
-                                <div class="col-lg-3 col-md-6">
-                                    <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">
-                                        Newsletter</h4>
-                                    <p></p>
-                                    <a href="http://localhost:8080/users/signin" class="btn btn-primary py-2 px-4">Sign
-                                        up</a>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="../image/Tempura/monankhac2.jpg" alt=""
+                                        style="width: 80px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>PAN -FRIED TEMPURA SHRIMP AND EGGS</span>
+                                            <span class="text-primary">128.000đ</span>
+                                        </h5>
+                                            <small class="fst-italic">Tempura shrimp is fried with eggs, creating a unique and delicious flavor.This dish is often accompanied by a sauce to add flavor.</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="../image/Tempura/monankhac3.jpg" alt=""
+                                        style="width: 80px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>STIR -FRIED BEEF MUSHROOM</span>
+                                            <span class="text-primary">128.000đ</span>
+                                        </h5>
+                                            <small class="fst-italic">The beef is fried with soft cooked, combined with delicious fresh mushrooms, creating a unique and interesting flavor.</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="../image/Tempura/monankhac4.jpg" alt=""
+                                        style="width: 80px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>PAN -FRIED BEEF WITH GARLIC SAUCE</span>
+                                            <span class="text-primary">158.000đ</span>
+                                        </h5>
+                                            <small class="fst-italic">The beef is fried and crispy and combined with delicious garlic sauce, creating a unique and attractive flavor.</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="../image/Tempura/monankhac5.jpg" alt=""
+                                        style="width: 80px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>STIR -FRIED BACON WITH CHILI CABBAGE</span>
+                                            <span class="text-primary">108.000đ</span>
+                                        </h5>
+                                            <small class="fst-italic">The bacon is only stir -fried with soft cooked, combined with cabbage and chili to create a unique and delicious flavor.</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="../image/Tempura/monankhac6.jpg" alt=""
+                                        style="width: 80px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>KONBU SOUP COOKED JAPANESE TOFU</span>
+                                            <span class="text-primary">96.000đ</span>
+                                        </h5>
+                                            <small class="fst-italic">The soup is cooked from Konbu broth and accompanied by Japanese tofu has been crispy, creating a unique and delicious flavor.</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="../image/Tempura/monankhac7.jpg" alt=""
+                                        style="width: 80px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>STIR -FRIED CORN, SMOKED MEAT</span>
+                                            <span class="text-primary">56.000đ</span>
+                                        </h5>
+                                            <small class="fst-italic">The American corn is cooked and combined with smoked meat, creating a unique and delicious flavor.</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="../image/Tempura/monankhac8.jpg" alt=""
+                                        style="width: 80px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>ASSORTED STIR -FRIED MUSHROOMS</span>
+                                            <span class="text-primary">86.000đ</span>
+                                        </h5>
+                                            <small class="fst-italic">The delicious fresh mushrooms are stir -fried, combined with vegetables and spices, creating a nutritious dish.</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="../image/Tempura/monankhac9.jpg" alt=""
+                                        style="width: 80px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>SEAFOOD UDON NOODLES</span>
+                                            <span class="text-primary">128.000đ</span>
+                                        </h5>
+                                            <small class="fst-italic">Soft Udon noodles are combined with seafood such as shrimp, squid, fish ... creating a delicious and unique dish.</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="../image/Tempura/monchien0.jpg" alt=""
+                                        style="width: 80px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>PAN -FRIED SALMON WITH RADISH EGGS</span>
+                                            <span class="text-primary">128.000đ</span>
+                                        </h5>
+                                            <small class="fst-italic">Fresh pieces of fresh salmon are fried and crispy on the outside and soft inside, combined with the eggs and reel to make a special and interesting flavor.</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="../image/Tempura/monchien1.jpg" alt=""
+                                        style="width: 80px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>KISU TEMPURA FISH</span>
+                                            <span class="text-primary">168.000đ</span>
+                                        </h5>
+                                            <small class="fst-italic">Kisu Tempura fish is a traditional Japanese dish.Fresh Kisu fish is processed into a crispy tempura, combined with fresh vegetables and delicious fish sauce.</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="../image/Tempura/monchien2.jpg" alt=""
+                                        style="width: 80px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>FLOURING MACKEREL FRIED NOODLES</span>
+                                            <span class="text-primary">168.000đ</span>
+                                        </h5>
+                                            <small class="fst-italic">The pieces of fish are breaded with noodles and fried, creating a characteristic and interesting flavor.</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="../image/Tempura/monchien3.jpg" alt=""
+                                        style="width: 80px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>CHICKEN WINGS SOAKED IN FRIED NOODLES</span>
+                                            <span class="text-primary">138.000đ</span>
+                                        </h5>
+                                            <small class="fst-italic">Chicken wings are floured with noodles and fried, creating a unique and interesting flavor.This dish is often enjoyed with sauce and raw vegetables.</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="../image/Tempura/monchien4.jpg" alt=""
+                                        style="width: 80px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>JAPANESE FRIED RICE WITH BAKED FRUIT</span>
+                                            <span class="text-primary">118.000đ</span>
+                                        </h5>
+                                            <small class="fst-italic">The rice is fried and blended with fresh vegetables, meat and seafood, accompanied by a delicious grilled pieces.</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="../image/Tempura/monchien5.jpg" alt=""
+                                        style="width: 80px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>SWEET POTATO BREADED FRIED</span>
+                                            <span class="text-primary">85.000đ</span>
+                                        </h5>
+                                            <small class="fst-italic">Sweet potatoes are flour and crispy, creating a characteristic and interesting flavor.</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="../image/Tempura/monchien6.jpg" alt=""
+                                        style="width: 80px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>FRENCH FRIES</span>
+                                            <span class="text-primary">85.000đ</span>
+                                        </h5>
+                                            <small class="fst-italic">French fries are a popular and delicious dish.Potatoes are cut into small pieces, fried and spices according to personal taste.</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="../image/Tempura/monchien7.jpg" alt=""
+                                        style="width: 80px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>POTATO MASHED WITH FRIED NOODLES</span>
+                                            <span class="text-primary">138.000đ</span>
+                                        </h5>
+                                            <small class="fst-italic">Potatoes are mashed into pureed and browned with noodles, then fried crispy and spices according to the taste.</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="../image/Tempura/monchien9.jpg" alt=""
+                                        style="width: 80px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>SQUID BREADED WITH NOODLES</span>
+                                            <span class="text-primary">190.000đ</span>
+                                        </h5>
+                                            <small class="fst-italic">Squid is browned with crispy and fried, creating a characteristic and interesting flavor.</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="../image/Tempura/monchien10.jpg" alt=""
+                                        style="width: 80px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>FLOURING CHEESE OF FRIED NOODLES</span>
+                                            <span class="text-primary">108.000đ</span>
+                                        </h5>
+                                            <small class="fst-italic">The cheese is flour and crispy, creating a characteristic and interesting flavor. This dish is often enjoyed with sauce and raw vegetables.</small>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!-- Footer End -->
-
-
-                    <!-- Back to Top -->
-                    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i
-                            class="bi bi-arrow-up"></i></a>
+                    <div id="tab-3" class="tab-pane fade show p-0">
+                        <div class="row g-4">
+                            <div class="col-lg-6">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="../image/Noodlerice/comchao0.jpg" alt=""
+                                        style="width: 80px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>CRAB PORRIDGE</span>
+                                            <span class="text-primary">80.000đ</span>
+                                        </h5>
+                                            <small class="fst-italic">You will be immersed in the typical taste of crab, along with the warmth and sweetness of porridge.</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="../image/Noodlerice/comchao1.jpg" alt=""
+                                        style="width: 80px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>SALMON PORRIDGE</span>
+                                            <span class="text-primary">60.000đ</span>
+                                        </h5>
+                                            <small class="fst-italic">The perfect combination of fresh salmon and soft porridge. Delicious salmon is processed into small pieces, combined with the typical flavor of porridge.</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="../image/Noodlerice/comchao2.jpg" alt=""
+                                        style="width: 80px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>PORRIDGE PORRIDGE</span>
+                                            <span class="text-primary">48.000đ</span>
+                                        </h5>
+                                            <small class="fst-italic">Fresh trenches are processed into small pieces, combined with the unique flavor of porridge, creating a light and rich bar dish.</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="../image/Noodlerice/comchao3.jpg" alt=""
+                                        style="width: 80px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>CLAM PORRIDGE</span>
+                                            <span class="text-primary">45.000đ</span>
+                                        </h5>
+                                            <small class="fst-italic">Bringing the special flavor of clam and the warmth and sweetness of porridge, is a great choice for those who love the flavor of the sea.</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="../image/Noodlerice/comchao4.jpg" alt=""
+                                        style="width: 80px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>SALMON AND SALMON EGGS SUSHI RICE SERVING WITH MISO SOUP</span>
+                                            <span class="text-primary">318.000đ</span>
+                                        </h5>
+                                            <small class="fst-italic">Fresh fresh salmon and delicious salmon eggs create a perfect combination on sushi rice.</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="../image/Noodlerice/comchao5.jpg" alt=""
+                                        style="width: 80px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>RAW TUNA SUSHI RICE SERVED WITH MISO SOUP</span>
+                                            <span class="text-primary">218.000đ</span>
+                                        </h5>
+                                            <small class="fst-italic">Freshly fresh tuna creates a fresh and richness on sushi rice, combined with the delicious and nutritious taste of miso soup.</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="../image/Noodlerice/comchao6.jpg" alt=""
+                                        style="width: 80px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>GRILLED MACKEREL OR TERI SAUCE</span>
+                                            <span class="text-primary">228.000đ</span>
+                                        </h5>
+                                            <small class="fst-italic">Salted mackerel brings a rich and sweet flavor, while grilled mackerel with Teriyaki sauce creates a delicious and sweet flavor.</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="../image/Noodlerice/comchao7.jpg" alt=""
+                                        style="width: 80px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>CARI RICE WITH TEMPURA SHRIMP</span>
+                                            <span class="text-primary">126.000đ</span>
+                                        </h5>
+                                            <small class="fst-italic">Rice is decorated with pieces of raw shrimp processed into a crispy tempura, accompanied by some delicious vegetables and spices.</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="../image/Noodlerice/comchao8.jpg" alt=""
+                                        style="width: 80px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>RICE GRILLED SALMON SALT</span>
+                                            <span class="text-primary">150.000đ</span>
+                                        </h5>
+                                            <small class="fst-italic">Rice is combined with fresh pieces of salmon, grilled enough to keep the smooth and richness of the fish.</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="../image/Noodlerice/comchao9.jpg" alt=""
+                                        style="width: 80px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>DOUGH RICE FRIED OYSTERS</span>
+                                            <span class="text-primary">208.000đ</span>
+                                        </h5>
+                                            <small class="fst-italic">The rice is processed with fresh oysters, breaded with crispy fried.The typical taste of oysters blends with a crispy powder crust.</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="../image/Noodlerice/comchao10.jpg" alt=""
+                                        style="width: 80px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>RICE BOX TYPE A</span>
+                                            <span class="text-primary">288.000đ</span>
+                                        </h5>
+                                            <small class="fst-italic">Rice boxes include soft white rice and some accompanying dishes such as grilled chicken, grilled salmon, lettuce, eggs, and many other raw vegetables.</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="../image/Noodlerice/comchao11.jpg" alt=""
+                                        style="width: 80px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>RICE BOX TYPE B</span>
+                                            <span class="text-primary">288.000đ</span>
+                                        </h5>
+                                            <small class="fst-italic">Rice box includes soft white rice and some accompanying dishes such as stir -fried pork, grilled salmon, lettuce, eggs, and some other raw vegetables.</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tab-4" class="tab-pane fade show p-0">
+                        <div class="row g-4">
+                            <div class="col-lg-6">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="../image/Noodlerice/comchao0.jpg" alt=""
+                                        style="width: 80px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>CRAB PORRIDGE</span>
+                                            <span class="text-primary">80.000đ</span>
+                                        </h5>
+                                            <small class="fst-italic">You will be immersed in the typical taste of crab, along with the warmth and sweetness of porridge.</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tab-5" class="tab-pane fade show p-0">
+                    </div>
+                    <div id="tab-6" class="tab-pane fade show p-0">
+                        <div class="row g-4">
+                            <div class="col-lg-6">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="../image/Drink/ruou1.jpg" alt=""
+                                        style="width: 80px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>MAGIC PURPLE COCKTAIL</span>
+                                            <span class="text-primary">78.000đ</span>
+                                        </h5>
+                                            <small class="fst-italic">With a fascinating purple color and a unique flavor, this cocktail will bring you an interesting and attractive experience, like purple apricots that hide miracles.</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="../image/Drink/ruou2.jpg" alt=""
+                                        style="width: 80px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>LEMON SODA KIWI</span>
+                                            <span class="text-primary">48.000đ</span>
+                                        </h5>
+                                            <small class="fst-italic">Mixed between the fresh taste of lemon and the aroma of kiwi, Kiwi lemon soda water will soothe the summer heat and bring a refreshing and energetic feeling.</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="../image/Drink/ruou3.jpg" alt=""
+                                        style="width: 80px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>BLUEBERRY COCKTAIL</span>
+                                            <span class="text-primary">58.000đ</span>
+                                        </h5>
+                                            <small class="fst-italic">With sparkling blue and unique flavor, Blue Cocktail will be a special highlight at our restaurant.Enjoying this cocktail is the experience of interesting and style.</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="../image/Drink/ruou4.jpg" alt=""
+                                        style="width: 80px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>GENTLE FLOWER TEA</span>
+                                            <span class="text-primary">50.000đ</span>
+                                        </h5>
+                                            <small class="fst-italic">Gentle bean tea is a premium drink at a high -class restaurant.With the delicate color and flavor of the bean flower.</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="../image/Drink/ruou5.jpg" alt=""
+                                        style="width: 80px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>MATCHA LATTE</span>
+                                            <span class="text-primary">48.000đ</span>
+                                        </h5>
+                                            <small class="fst-italic">With the typical flavor of matcha tea, combined with milk and sugar, this is a premium drink that brings peace and sweetness.</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="../image/Drink/ruou6.jpg" alt=""
+                                        style="width: 80px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>DISTILLED APRICOT WINE</span>
+                                            <span class="text-primary">96.000đ</span>
+                                        </h5>
+                                            <small class="fst-italic">Distilled apricot wine is a special wine distilled from premium apricots.With delicate and fascinating flavor.</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="../image/Drink/ruou7.jpg" alt=""
+                                        style="width: 80px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>PREMIUM OSAKE</span>
+                                            <span class="text-primary">118.000đ</span>
+                                        </h5>
+                                            <small class="fst-italic">With sophisticated taste and elegance, this Osake is the perfect choice for those who want to experience the traditional Japanese flavor.</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="../image/Drink/ruou8.jpg" alt=""
+                                        style="width: 80px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>FRESH PASSION FRUIT SMOOTHIE</span>
+                                            <span class="text-primary">58.000đ</span>
+                                        </h5>
+                                            <small class="fst-italic">With the natural and cool flavor of passion fruit, this smoothie will bring refreshing and fresh feeling to you.</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="../image/Drink/ruou9.jpg" alt=""
+                                        style="width: 80px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>HIBISCUS WATERMELON LEMON PEACH</span>
+                                            <span class="text-primary">48.000đ</span>
+                                        </h5>
+                                            <small class="fst-italic">Mixed between the aroma of vinegar, the sweet taste of watermelon and the fresh taste of peach lemon, this is a unique and attractive lemon melon hibiscus.</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="../image/Drink/ruou10.jpg" alt=""
+                                        style="width: 80px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>SWEET STRAWBERRY COCKTAIL</span>
+                                            <span class="text-primary">78.000đ</span>
+                                        </h5>
+                                            <small class="fst-italic">Sweet strawberry cocktail will captivate your heart with the fresh and sweet taste of strawberries.With bright colors and cool feeling on the tip of the tongue.</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+            </div>
 
-                <!-- JavaScript Libraries -->
-                <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-                <script src="lib/wow/wow.min.js"></script>
-                <script src="lib/easing/easing.min.js"></script>
-                <script src="lib/waypoints/waypoints.min.js"></script>
-                <script src="lib/counterup/counterup.min.js"></script>
-                <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-                <script src="lib/tempusdominus/js/moment.min.js"></script>
-                <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
-                <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+            <!-- Menu End -->
 
-                <!-- Template Javascript -->
-                <script src="js/main.js"></script>
+
+
+
+
+            <!-- Back to Top -->
+            <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+        </div>
+    </div>
+     <!-- Footer Start -->
+     <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Company</h4>
+                    <a class="btn btn-link" href="">About Us</a>
+                    <a class="btn btn-link" href="">Contact Us</a>
+                    <a class="btn btn-link" href="">Reservation</a>
+                    <a class="btn btn-link" href="">Privacy Policy</a>
+                    <a class="btn btn-link" href="">Terms & Condition</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Contact</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>1 Dai Co Viet, Hai Ba Trung, HN </p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+84967002666</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>oishiisushi@gmail.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Opening</h4>
+                    <h5 class="text-light fw-normal">Monday - Saturday</h5>
+                    <p>09AM - 09PM</p>
+                    <h5 class="text-light fw-normal">Sunday</h5>
+                    <p>10AM - 08PM</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Newsletter</h4>
+                    <p></p>
+                    <a href="http://localhost:8080/users/signup" class="btn btn-primary py-2 px-4">Sign up</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
 </body>
 
 </html>
