@@ -2,6 +2,16 @@ const express = require('express');
 const router = express.Router();
 const {Product} = require('../models');
 const { Op } = require("sequelize");
+const path = require('path');
+
+const publicDir = path.join(__dirname,'..', 'public');
+router.use(express.static(publicDir));
+
+
+
+router.get("/", function (req, res) {
+    res.sendFile(path.join(publicDir,'/menu.html'));
+});
 
 
 //Display menu
@@ -18,7 +28,7 @@ router.get('/searchProductName=:productname', async (req,res)=>{
     const productname = req.params.productname;
     const productlist = await Product.findAll({
         where:
-                {name:{[Op.like]:'%'+productname+'%'}}, 
+                {Name:{[Op.like]:'%'+productname+'%'}}, 
     })
     res.json(productlist);
 })
