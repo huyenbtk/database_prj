@@ -3,32 +3,159 @@
 <head>
   <title>Admin</title>
   <link rel="stylesheet" type="text/css" href="/public/css/admin.css">
+  <!-- Icon Font Stylesheet -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://site-assets.fontawesome.com/releases/v6.4.0/css/all.css" rel="stylesheet">
+  <link href="https://site-assets.fontawesome.com/releases/v6.4.0/css/sharp-solid.css" rel="stylesheet">
+  <link href="https://site-assets.fontawesome.com/releases/v6.4.0/css/sharp-regular.css" rel="stylesheet">
+  <link href="https://site-assets.fontawesome.com/releases/v6.4.0/css/sharp-light.css" rel="stylesheet">
 </head>
 <body>
-  <div class="header">
-    <a href="#" class="menu" onclick="logout()">Logout</a>
-  </div>
-  
-  <div class="container">
-    
-    <div class="menu">
-      <a href="#" onclick="showMembers()">Xem thành viên</a>
+   
+    <!-- for header part -->
+    <header>
+ 
+        <div class="logosec">
+            <div class="logo">Oishii Sushi</div>
+            <div
+                class="fa fa-bars fa-2x icn menuicn"
+                id="menuicn"
+                alt="menu-icon">
+            </div>
+        </div>
+ 
+        <!-- <div class="searchbar">
+            <input type="text"
+                   placeholder="Search">
+            <div class="searchbtn">
+              <img src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20221210180758/Untitled-design-(28).png"
+                    class="icn srchicn"
+                    alt="search-icon">
+              </div>
+        </div> -->
+ 
+    </header>
+ 
+    <div class="main-container">
+        <div class="navcontainer">
+            <nav class="nav">
+                <div class="nav-upper-options">
+                    <div class="option1 nav-option">
+                        <h3><i class="fa-regular fa-users fa-2x"></i> Users</h3>
+                    </div>
+ 
+                    <div class="nav-option option2">
+                        <h3><i class="fa-regular fa-chart-line fa-2x"></i> Revenue</h3>
+                    </div>
+ 
+                    <div class="nav-option logout">
+                        <a href="signin.html" class="">
+                        <h3><i class="fa-solid fa-left-from-line fa-2x"></i>Logout</h3>
+                        </a>
+                    </div>
+ 
+                </div>
+            </nav>
+        </div>
+        <div class="main">
+ 
+            <!-- <div class="searchbar2">
+                <input type="text"
+                       name=""
+                       id=""
+                       placeholder="Search">
+                <div class="searchbtn">
+                  <img src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20221210180758/Untitled-design-(28).png"
+                        class="icn srchicn"
+                        alt="search-button">
+                  </div>
+            </div> -->
+ 
+            <div class="report-container">
+                <!-- <div class="report-header">
+                    <h1 class="recent-Articles">Recent Articles</h1>
+                    <button class="view">View All</button>
+                </div>
+ 
+                <div class="report-body">
+                    <div class="report-topic-heading">
+                        <h3 class="t-op">Article</h3>
+                        <h3 class="t-op">Views</h3>
+                        <h3 class="t-op">Comments</h3>
+                        <h3 class="t-op">Status</h3>
+                    </div>
+ 
+                    <div class="items">
+                        <div class="item1">
+                            <h3 class="t-op-nextlvl">Article 73</h3>
+                            <h3 class="t-op-nextlvl">2.9k</h3>
+                            <h3 class="t-op-nextlvl">210</h3>
+                            <h3 class="t-op-nextlvl label-tag">Published</h3>
+                        </div>
+ 
+                        <div class="item1">
+                            <h3 class="t-op-nextlvl">Article 72</h3>
+                            <h3 class="t-op-nextlvl">1.5k</h3>
+                            <h3 class="t-op-nextlvl">360</h3>
+                            <h3 class="t-op-nextlvl label-tag">Published</h3>
+                        </div>
+ 
+                        <div class="item1">
+                            <h3 class="t-op-nextlvl">Article 71</h3>
+                            <h3 class="t-op-nextlvl">1.1k</h3>
+                            <h3 class="t-op-nextlvl">150</h3>
+                            <h3 class="t-op-nextlvl label-tag">Published</h3>
+                        </div>
+ 
+                        <div class="item1">
+                            <h3 class="t-op-nextlvl">Article 70</h3>
+                            <h3 class="t-op-nextlvl">1.2k</h3>
+                            <h3 class="t-op-nextlvl">420</h3>
+                            <h3 class="t-op-nextlvl label-tag">Published</h3>
+                        </div>
+ 
+                        <div class="item1">
+                            <h3 class="t-op-nextlvl">Article 69</h3>
+                            <h3 class="t-op-nextlvl">2.6k</h3>
+                            <h3 class="t-op-nextlvl">190</h3>
+                            <h3 class="t-op-nextlvl label-tag">Published</h3>
+                        </div>
+ 
+                        <div class="item1">
+                            <h3 class="t-op-nextlvl">Article 68</h3>
+                            <h3 class="t-op-nextlvl">1.9k</h3>
+                            <h3 class="t-op-nextlvl">390</h3>
+                            <h3 class="t-op-nextlvl label-tag">Published</h3>
+                        </div>
+ 
+                        <div class="item1">
+                            <h3 class="t-op-nextlvl">Article 67</h3>
+                            <h3 class="t-op-nextlvl">1.2k</h3>
+                            <h3 class="t-op-nextlvl">580</h3>
+                            <h3 class="t-op-nextlvl label-tag">Published</h3>
+                        </div>
+ 
+                        <div class="item1">
+                            <h3 class="t-op-nextlvl">Article 66</h3>
+                            <h3 class="t-op-nextlvl">3.6k</h3>
+                            <h3 class="t-op-nextlvl">160</h3>
+                            <h3 class="t-op-nextlvl label-tag">Published</h3>
+                        </div>
+ 
+                        <div class="item1">
+                            <h3 class="t-op-nextlvl">Article 65</h3>
+                            <h3 class="t-op-nextlvl">1.3k</h3>
+                            <h3 class="t-op-nextlvl">220</h3>
+                            <h3 class="t-op-nextlvl label-tag">Published</h3>
+                        </div>
+ 
+                    </div>
+                </div> -->
+            </div>
+        </div>
     </div>
-    
-    <div class="menu">
-      <a href="#" onclick="showRevenue()">Xem doanh thu</a>
-    </div>
-    
-    <div class="content">
-      <div id="members" style="display: none;">
-        <!-- Nội dung danh sách thành viên -->
-      </div>
-      
-      <div id="revenue" style="display: none;">
-        <!-- Nội dung doanh thu -->
-      </div>
-    </div>
-  </div>
   
   <script src="/public/js/admin.js"></script>
 </body>
