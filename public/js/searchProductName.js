@@ -9,11 +9,11 @@ document.getElementById("searchForm").addEventListener("submit", function (event
     if (!productName.trim()) {
         return;
     }
-
+    else{
     // Gửi productName đến server và xử lý phản hồi
     async function sendDataToServer(productName) {
         try {
-            const response = await axios.post('/menu', { productName });
+            const response = await axios.post('/menu/searchProductName=', { productName });
             const jsonData = response.data;
             // Do something with the JSON data
             console.log(jsonData);
@@ -28,4 +28,5 @@ document.getElementById("searchForm").addEventListener("submit", function (event
                 errorMessage.style.display = 'block';
         };
     };
+    }
 });

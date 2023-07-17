@@ -24,7 +24,7 @@ router.get('/', async (req, res) => {
 
 //Search by product name or price
 
-router.get('/searchProductName=:productname', async (req,res)=>{
+router.post('/searchProductName=:productname', async (req,res)=>{
     const productname = req.params.productname;
     const productlist = await Product.findAll({
         where:
