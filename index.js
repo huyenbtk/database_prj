@@ -13,9 +13,11 @@ app.use("/booking",require('./routes/bookingRoute'));
 app.use("/cart", require('./routes/cartRoute'));
 app.use("/admin", require('./routes/adminRoute'));
 
-app.get("/", function (req, res) {
+
+app.get("/home", function (req, res) {
     res.sendFile(__dirname+'/public/index.html');
 });
+
 
 
 

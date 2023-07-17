@@ -9,9 +9,7 @@ menuicn.addEventListener("click", () => {
 
 // Lắng nghe sự kiện click trên tùy chọn "Users"
 const usersOption = document.querySelector('.option1');
-usersOption.addEventListener('click', getUsersData);
-
-function getUsersData() {
+usersOption.addEventListener('click', function() {
     // Gọi yêu cầu Axios để lấy dữ liệu từ nguồn dữ liệu
     axios.get('/admin/userlist')
         .then(function (response) {
@@ -19,13 +17,18 @@ function getUsersData() {
             const users = response.data;
             displayUsers(users);
             console.log(users); // Hoặc thực hiện các thao tác khác với dữ liệu users
+            
+
+
+
         })
         .catch(function (error) {
             // Xử lý lỗi khi yêu cầu gặp sự cố
             console.log(error);
         });
-}
-function displayUsers(users) {
+})
+
+async function displayUsers(users) {
     const userListContainer = document.getElementById('userList');
     const userList = document.createElement('ul');
     userListContainer.appendChild(userList);
@@ -35,3 +38,5 @@ function displayUsers(users) {
         userList.appendChild(userItem);
     });
 }
+
+

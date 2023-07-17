@@ -3,11 +3,13 @@ const router = express.Router();
 const {Product}= require('../models');
 const {user} = require('../models');
 const path = require('path');
-const publicDir = path.join(__dirname,'..', 'public');
+
+const publicDir = path.join(__dirname,'..','public');
 router.use(express.static(publicDir));
 
-router.get("/userlist", function (req, res) {
-    res.sendFile(path.join(publicDir,'/admin.html'));
+
+router.get("/adminpage", function (req, res) {
+    res.sendFile(path.join(publicDir,'admin.html'));
 });
 
 //See users list

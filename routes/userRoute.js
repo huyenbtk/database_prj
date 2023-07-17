@@ -7,8 +7,6 @@ const {sign} = require('jsonwebtoken');
 const publicDir = path.join(__dirname,'..', 'public');
 router.use(express.static(publicDir));
 
-
-
 router.get("/signin", function (req, res) {
     res.sendFile(path.join(publicDir,'/signin.html'));
 });
