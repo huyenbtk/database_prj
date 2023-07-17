@@ -9,8 +9,9 @@ app.use(express.static("./public"));
 
 app.use("/users", require('./routes/userRoute'));
 app.use("/menu", require('./routes/menuRoute'));
-app.use("/admin",require('./routes/adminRoute'));
+app.use("/booking",require('./routes/bookingRoute'));
 app.use("/cart", require('./routes/cartRoute'));
+app.use("/admin", require('./routes/adminRoute'));
 
 app.get("/", function (req, res) {
     res.sendFile(__dirname+'/public/index.html');
