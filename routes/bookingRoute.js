@@ -11,7 +11,7 @@ router.use(express.static(publicDir));
 
 
 
-router.get("/", function (req, res) {
+router.get("/bookingpage", function (req, res) {
     res.sendFile(path.join(publicDir,'/booking.html'));
 });
 

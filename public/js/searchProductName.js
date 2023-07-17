@@ -9,76 +9,67 @@ document.getElementById("searchForm").addEventListener("submit", function (event
     }
     else {
         // Gửi productName đến server và xử lý phản hồi
-        async function sendDataToServer() {
-            try {
-                console.log(productName)
-                const response = await axios.post('/menu/api/searchProductName=', { productName: productName });
-                const jsonData = response.data;
-                // Do something with the JSON data
-                console.log(jsonData);
+        // async function sendDataToServer() {
+        //     try {
+        console.log(productName)
+        axios.post('/menu/api/searchProductName=', productName)
+            .then(function (response) {
+            // Do something with the JSON data
+            console.log(response.data);
+            var productdata = response.data;
+            window.location.href = "http://localhost:8080/menu/searchProductName";
+            appendData(productdata);
+            function appendData(data) {
+                var mainContainer = document.getElementById("myData");
+                for (var i = 0; i < data.length; i++) {
+                    var divCol = document.createElement("div");
+                    divCol.className = "col-lg-6";
 
-                window.location.href = "http://localhost:8080/menu/searchProductName=" + productName;
-                fetch(jsonData)
-                    .then(function (response) {
-                        return response.json();
-                    })
-                    .then(function (data) {
-                        appendData(data);
-                    })
-                    .catch(function (err) {
-                        console.log('error: ' + err);
-                    });
-                function appendData(data) {
-                    var mainContainer = document.getElementById("myData");
-                    for (var i = 0; i < data.length; i++) {
-                        var divCol = document.createElement("div");
-                        divCol.className = "col-lg-6";
+                    var divMain = document.createElement("div");
+                    divMain.className = "d-flex align-items-center";
 
-                        var divMain = document.createElement("div");
-                        divMain.className = "d-flex align-items-center";
+                    var img = document.createElement("img");
+                    img.className = "flex-shrink-0 img-fluid rounded";
+                    img.src = "../image/" + data[i].Category + "/" + data[i].Image + ".jpg";
+                    img.alt = "";
+                    img.style.width = "80px";
 
-                        var img = document.createElement("img");
-                        img.className = "flex-shrink-0 img-fluid rounded";
-                        img.src = "../image/" + data[i].Category + "/" + data[i].Image + ".jpg";
-                        img.alt = "";
-                        img.style.width = "80px";
+                    var divText = document.createElement("div");
+                    divText.className = "w-100 d-flex flex-column text-start ps-4";
 
-                        var divText = document.createElement("div");
-                        divText.className = "w-100 d-flex flex-column text-start ps-4";
+                    var h5Title = document.createElement("h5");
+                    h5Title.className = "d-flex justify-content-between border-bottom pb-2";
+                    var spanTitle = document.createElement("span");
+                    spanTitle.innerText = data[i].Name;
+                    var spanPrice = document.createElement("span");
+                    spanPrice.className = "text-primary";
+                    spanPrice.innerText = data[i].Price + "đ";
 
-                        var h5Title = document.createElement("h5");
-                        h5Title.className = "d-flex justify-content-between border-bottom pb-2";
-                        var spanTitle = document.createElement("span");
-                        spanTitle.innerText = data[i].Name;
-                        var spanPrice = document.createElement("span");
-                        spanPrice.className = "text-primary";
-                        spanPrice.innerText = data[i].Price + "đ";
+                    var h5Info = document.createElement("h5");
+                    var smallInfo = document.createElement("small");
+                    smallInfo.className = "fst-italic";
+                    smallInfo.innerText = data[i].Info;
 
-                        var h5Info = document.createElement("h5");
-                        var smallInfo = document.createElement("small");
-                        smallInfo.className = "fst-italic";
-                        smallInfo.innerText = data[i].Info;
+                    h5Title.appendChild(spanTitle);
+                    h5Title.appendChild(spanPrice);
+                    h5Info.appendChild(smallInfo);
+                    divText.appendChild(h5Title);
+                    // divText.appendChild(h5Info);
+                    divMain.appendChild(img);
+                    divMain.appendChild(divText);
+                    divCol.appendChild(divMain);
 
-                        h5Title.appendChild(spanTitle);
-                        h5Title.appendChild(spanPrice);
-                        h5Info.appendChild(smallInfo);
-                        divText.appendChild(h5Title);
-                        // divText.appendChild(h5Info);
-                        divMain.appendChild(img);
-                        divMain.appendChild(divText);
-                        divCol.appendChild(divMain);
-
-                        mainContainer.appendChild(divCol);
-                    }
+                    mainContainer.appendChild(divCol);
                 }
             }
-            catch (error) {
+            })
+            .catch(function (error) {
+                // Xử lý lỗi từ máy chủ hoặc yêu cầu
                 console.error(error);
-                var errorMessage = document.getElementById('error-message-search');
-                errorMessage.textContent = 'Have no data';
-                errorMessage.style.display = 'block';
-            };
-        };
-        sendDataToServer();
-    }
+            var errorMessage = document.getElementById('error-message-search');
+            errorMessage.textContent = 'Have no data';
+            errorMessage.style.display = 'block';
+        });
+    };
+    // sendDataToServer();
 });
