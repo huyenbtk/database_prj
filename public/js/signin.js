@@ -5,9 +5,6 @@ document.getElementById('signin-form').addEventListener('submit', function (even
     var email = document.getElementById('email').value;
     var password = document.getElementById('password').value;
 
-    signIn(email, password);
-});
-function signIn(email, password) {
     var data = {
         email: email,
         password: password
@@ -36,4 +33,4 @@ function signIn(email, password) {
             errorMessage.textContent = 'Login unsuccessful. Please check your email and password.';
             errorMessage.style.display = 'block';
         })
-};
+    });
