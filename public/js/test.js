@@ -30,7 +30,7 @@ function appendData(data) {
 
         var img = document.createElement("img");
         img.className = "flex-shrink-0 img-fluid rounded";
-        img.src = "../image/" + data[i].Category + "/" + data[i].Image + ".jpg";
+        img.src = "/image/" + data[i].Category + "/" + data[i].Image + ".jpg";
         img.alt = "";
         img.style.width = "80px";
 
