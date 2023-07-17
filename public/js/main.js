@@ -67,105 +67,140 @@
         return false;
     });
 
-    // Sign in //
+    // Sign in
+    // document.getElementById('signin-button').addEventListener('click', function () {
+    //     axios.post('/api/signin', {
+    //         // Thêm dữ liệu cần gửi trong yêu cầu (nếu cần)
+    //         username: 'myusername',
+    //         password: 'mypassword'
+    //     })
+    //         .then(function (response) {
+    //             // Xử lý phản hồi thành công
+    //             console.log(response.data);
+    //         })
+    //         .catch(function (error) {
+    //             // Xử lý lỗi
+    //             console.error(error);
+    //         });
+    // });
     document.getElementById('signin-button').addEventListener('submit', function (event) {
-        event.preventDefault();
+        event.preventDefault(); // Ngăn chặn hành vi gửi biểu mẫu mặc định
 
+        // Lấy giá trị từ các trường input
         var email = document.getElementById('email').value;
         var password = document.getElementById('password').value;
 
+        // Tạo đối tượng dữ liệu để gửi đi
         var data = {
             email: email,
             password: password
         };
 
-        axios.post('http://localhost:8080/users/signin', data)
+        axios.post('/login', data)
             .then(function (response) {
+                // Xử lý phản hồi thành công từ máy chủ
                 console.log(response.data);
-                window.location.href = "";
+                // Thực hiện các hành động tiếp theo, ví dụ: chuyển hướng người dùng đến trang chính, hiển thị thông báo, vv.
+                window.location.href = '/home'; // Thay '/home' bằng đường dẫn của trang chủ
             })
             .catch(function (error) {
                 // Xử lý lỗi từ máy chủ hoặc yêu cầu
                 console.error(error);
+                // Hiển thị thông báo lỗi cho người dùng hoặc thực hiện các hành động khác
                 var errorMessage = document.getElementById('error-message-signin');
-                errorMessage.textContent = 'Login unsuccessful. Please check your email and password.';
+                errorMessage.textContent = 'Đăng nhập không thành công. Vui lòng kiểm tra email và mật khẩu của bạn.';
                 errorMessage.style.display = 'block';
             })
     });
+// Sign up botton
+document.getElementById('signup-form').addEventListener('submit', function (event) {
+    event.preventDefault(); // Ngăn chặn hành vi mặc định của biểu mẫu
 
-    // Sign up //
-    document.getElementById('signup-form').addEventListener('submit', function (event) {
-        event.preventDefault();
+    // Lấy dữ liệu từ biểu mẫu
+    var userName = document.getElementById('user-name').value;
+    var email = document.getElementById('email').value;
+    var fullName = document.getElementById('full-name').value;
+    var phone = document.getElementById('phone').value;
+    var password = document.getElementById('password').value;
+    var confirmPassword = document.getElementById('password_cf').value;
 
-        var userName = document.getElementById('user-name').value;
-        var email = document.getElementById('email').value;
-        var fullName = document.getElementById('full-name').value;
-        var phone = document.getElementById('phone').value;
-        var password = document.getElementById('password').value;
-        var confirmPassword = document.getElementById('password_cf').value;
+    // Kiểm tra sự khớp giữa mật khẩu và mật khẩu xác nhận
+    if (password !== confirmPassword) {
+        // Hiển thị thông báo lỗi
+        var errorMessage = document.getElementById('error-message-cfpw');
+        errorMessage.textContent = 'Mật khẩu không khớp. Vui lòng kiểm tra lại.';
+        errorMessage.style.display = 'block';
+        return; // Kết thúc xử lý khi có lỗi
+    }
 
-        if (password !== confirmPassword) {
-            var errorMessage = document.getElementById('error-message-cfpw');
-            errorMessage.textContent = 'Mật khẩu không khớp. Vui lòng kiểm tra lại.';
-            errorMessage.style.display = 'block';
-            return;
+    // Tạo đối tượng dữ liệu để gửi đi
+    var data = {
+        userName: userName,
+        email: email,
+        fullName: fullName,
+        phone: phone,
+        password: password
+    };
+
+    // Gửi yêu cầu POST đến máy chủ bằng Axios
+    axios.post('/signup', data)
+        .then(function (response) {
+            // Xử lý phản hồi thành công từ máy chủ
+            console.log(response.data);
+            // Thực hiện các hành động tiếp theo, ví dụ: chuyển hướng người dùng đến trang chủ, hiển thị thông báo, vv.
+        })
+        .catch(function (error) {
+            // Xử lý lỗi từ máy chủ hoặc yêu cầu
+            console.error(error);
+            // Hiển thị thông báo lỗi cho người dùng hoặc thực hiện các hành động khác
+        });
+});
+
+// Facts counter
+$('[data-toggle="counter-up"]').counterUp({
+    delay: 10,
+    time: 2000
+});
+
+
+// Modal Video
+$(document).ready(function () {
+    var $videoSrc;
+    $('.btn-play').click(function () {
+        $videoSrc = $(this).data("src");
+    });
+    console.log($videoSrc);
+
+    $('#videoModal').on('shown.bs.modal', function (e) {
+        $("#video").attr('src', $videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0");
+    })
+
+    $('#videoModal').on('hide.bs.modal', function (e) {
+        $("#video").attr('src', $videoSrc);
+    })
+});
+
+
+// Testimonials carousel
+$(".testimonial-carousel").owlCarousel({
+    autoplay: true,
+    smartSpeed: 1000,
+    center: true,
+    margin: 24,
+    dots: true,
+    loop: true,
+    nav: false,
+    responsive: {
+        0: {
+            items: 1
+        },
+        768: {
+            items: 2
+        },
+        992: {
+            items: 3
         }
-
-        var data = {
-            userName: userName,
-            email: email,
-            fullName: fullName,
-            phone: phone,
-            password: password
-        };
-
-        axios.post('http://localhost:8080/users/signup', data)
-            .then(function (response) {
-                console.log(response.data);
-            })
-            .catch(function (error) {
-                console.error(error);
-            });
-    });
-
-    // SearchProductName //
-    document.getElementById("searchForm").addEventListener("submit", function (event) {
-        event.preventDefault(); // Ngăn chặn hành vi mặc định của form
-
-        // Đọc dữ liệu từ người dùng nhập vào
-        var productName = document.getElementById("searchInput").value;
-
-        // Kiểm tra nếu giá trị tìm kiếm trống, không làm gì cả
-        if (!productName.trim()) {
-            return;
-        }
-
-        // Gửi productName đến server và xử lý phản hồi
-        async function sendDataToServer(productName) {
-            try {
-                const response = await axios.post('http://localhost:8080/menu', { productName });
-                const jsonData = response.data;
-                // Do something with the JSON data
-                console.log(jsonData);
-                window.location.href = "http://localhost:8080/menu/searchProductName=" + productName;
-                // Chuyển đổi dữ liệu JSON thành một mảng đối tượng
-                // const menuData = JSON.parse(response.data);
-            }
-            catch (error) {
-                console.error(error);
-            };
-        };
-    });
-
-
-
-    // Facts counter
-    $('[data-toggle="counter-up"]').counterUp({
-        delay: 10,
-        time: 2000
-    });
-
-
-
+    }
+});
 })(jQuery);
 

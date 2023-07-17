@@ -1,6 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const {Cart} = require('../models');
+const sequelize = require('sequelize');
 const {Authenticated, Authorized} = require('../middlewares/auth.js');
 
 
@@ -20,7 +21,25 @@ router.delete("/userID=:id", async (req, res) => {
 })
 
 
-//Order (Caculate )
+//Order (Caculate total)
+router.get("/cartOrderedUserID=:id", async(req, res)=> {
+    try{
+        const userId= req.params.id;
+        const {totalperItem} = await Cart.findAll({
+            attributes:[
+                sequelize.literal('Price*quantity','totalperItem')
+            ]
+        })
+
+        const sum = totalperItem.map(totalperItem => totalperItem.sum).reduce((acc,amount)=>acc + amount)
+        // const {totalCart} = await Cart.findAll({
+        //     attributes: [
+        //         [sequelize.fn('sum', sequelize.col('amount'),'totalCart')]
+        //     ]
+        // })
+        req.json(sum)
+    } catch (err) {console.error(err)}
+})
 
 
 //Delete from cart
