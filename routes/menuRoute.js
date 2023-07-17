@@ -9,7 +9,7 @@ router.use(express.static(publicDir));
 
 
 
-router.get("/", function (req, res) {
+router.get("/menupage", function (req, res) {
     res.sendFile(path.join(publicDir,'/menu.html'));
 });
 
@@ -24,7 +24,11 @@ router.get('/', async (req, res) => {
 
 //Search by product name or price
 
-router.post('/searchProductName=:productname', async (req,res)=>{
+router.get("/searchProductName", async (req,res)=>{
+    res.sendFile(path.join(publicDir,'/searchProductName.html'));
+})
+
+router.post('/api/searchProductName=:productname', async (req,res)=>{
     const productname = req.params.productname;
     const productlist = await Product.findAll({
         where:
