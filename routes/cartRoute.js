@@ -1,6 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const {Cart} = require('../models');
+const {Product}= require('../models');
 const sequelize = require('sequelize');
 const {Authenticated, Authorized} = require('../middlewares/auth.js');
 
@@ -24,11 +25,18 @@ router.delete("/userID=:id", async (req, res) => {
 //Order (Caculate total)
 router.get("/cartOrderedUserID=:id", async(req, res)=> {
     try{
-        const userId= req.params.id;
+        const userId= req.params.id;    
         const {totalperItem} = await Cart.findAll({
+            include:[{
+                model: Product,
+                required: true
+            }],
             attributes:[
-                sequelize.literal('Price*quantity','totalperItem')
+                sequelize.literal('Product.Price*quantity','totalperItem'),
             ]
+        },
+        {
+            where: {userId}    
         })
 
         const sum = totalperItem.map(totalperItem => totalperItem.sum).reduce((acc,amount)=>acc + amount)
