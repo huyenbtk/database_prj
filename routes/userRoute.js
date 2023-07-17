@@ -40,11 +40,12 @@ router.post('/signup', async (req, res) => {
 
 router.post('/signin', async (req, res) => {
     const {email,password} = req.body;
-    const id= await user.findOne({email: email})
+    const id= await user.findOne({where: {email: email}})
     const logUser = await user.findOne({where: {email: email}})
     if (!logUser) res.status(400).json({error: "Email has not been registered."});
     else{
         if (password===logUser.password) {
+            console.log(id)
             const accessToken = sign({username: logUser.username,userID: logUser.id},"secret") //create accessToken
             res.json ({accessToken,id})
         }
