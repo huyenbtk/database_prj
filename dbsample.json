@@ -1,812 +1,812 @@
 [
-  {
-    "ProductID": "AS00",
-    "Name": "BÀO NGƯ NHẬT BẢN SASHIMI",
-    "Price": 738000,
-    "Info": "Được chế biến từ nguyên liệu tươi ngon và tinh hoa của nghệ thuật ẩm thực Nhật Bản, mỗi miếng sashimi bào ngư sẽ tan chảy trên đầu lưỡi với hương vị đậm đà, ngọt ngào và mềm mại.",
-    "Image": "shashimisushi0",
-    "Category": "Shashimisushi",
-    "Sold": 103
-  },
-  {
-    "ProductID": "AS01",
-    "Name": "BẠCH TUÔC NHỎ",
-    "Price": 680000,
-    "Info": "Với chất lượng tươi ngon và vị ngọt tự nhiên, món ăn này sẽ làm say đắm vị giác của bạn và mang đến một cảm giác xa hoa và sang trọng.",
-    "Image": "shashimisushi1",
-    "Category": "Shashimisushi",
-    "Sold": 120
-  },
-  {
-    "ProductID": "AS02",
-    "Name": "BÁCH TUỘC TRỘN GIẤM",
-    "Price": 268000,
-    "Info": "Sự kết hợp tuyệt vời giữa vị chua, ngọt và mùi thơm của giấm tạo nên một trải nghiệm ẩm thực đặc biệt. Thưởng thức món này sẽ mang đến cho bạn cảm giác sảng khoái và hài lòng.",
-    "Image": "shashimisushi2",
-    "Category": "Shashimisushi",
-    "Sold": 23
-  },
-  {
-    "ProductID": "AS03",
-    "Name": "BẠCH TUỘC ƯỚP WASABI",
-    "Price": 890000,
-    "Info": "Với bạch tuộc ướp wasabi, bạn sẽ được trải nghiệm một hương vị cay nồng, đậm đà và sảng khoái. Khi kết hợp với vị đặc trưng của wasabi, món ăn này sẽ làm cho vị giác của bạn thêm phần hưng phấn và độc đáo.",
-    "Image": "shashimisushi3",
-    "Category": "Shashimisushi",
-    "Sold": 23
-  },
-  {
-    "ProductID": "AS04",
-    "Name": "CÁ HỒI SỐNG",
-    "Price": 990000,
-    "Info": "Với hương vị tươi mát, thịt mềm mịn và màu sắc hấp dẫn, món cá này sẽ khiến bạn thưởng thức những trải nghiệm ẩm thực đặc biệt và đẳng cấp.",
-    "Image": "shashimisushi4",
-    "Category": "Shashimisushi",
-    "Sold": 58
-  },
-  {
-    "ProductID": "AS05",
-    "Name": "CÁ NGỪ, CÁ HỒI, NGAO BIỂN SỐNG VÀ CƠM SUSHI TỔNG HỢP",
-    "Price": 238000,
-    "Info": "Đắm chìm trong sự đa dạng và phong phú của cá ngừ, cá hồi, ngao biển sống và cơm sushi tổng hợp tại nhà hàng cao cấp.",
-    "Image": "shashimisushi5",
-    "Category": "Shashimisushi",
-    "Sold": 56
-  },
-  {
-    "ProductID": "AS06",
-    "Name": "10 LOẠI CÁ SỐNG TỔNG HỢP",
-    "Price": 238000,
-    "Info": "Từ cá ngừ, cá hồi, cá trích đến các loại cá khác, mỗi miếng cá sẽ mang đến cho bạn hương vị tươi mát, ngon lành và độc đáo, kích thích vị giác và làm say đắm trái tim của bạn.",
-    "Image": "shashimisushi6",
-    "Category": "Shashimisushi",
-    "Sold": 23
-  },
-  {
-    "ProductID": "AS07",
-    "Name": "12 LOẠI CÁ SỐNG TỔNG HỢP",
-    "Price": 238000,
-    "Info": "Với chất lượng tươi ngon và màu sắc tươi sáng, mỗi miếng cá sẽ mang đến cho bạn một trải nghiệm ẩm thực đẳng cấp và độc đáo.",
-    "Image": "shashimisushi7",
-    "Category": "Shashimisushi",
-    "Sold": 48
-  },
-  {
-    "ProductID": "AS08",
-    "Name": "6 LOẠI CÁ SỐNG TỔNG HỢP",
-    "Price": 188000,
-    "Info": "Từ cá trích, cá hồi đến các loại cá khác, mỗi miếng cá tươi ngon sẽ mang đến hương vị tinh tế, đa dạng và thú vị.",
-    "Image": "shashimisushi8",
-    "Category": "Shashimisushi",
-    "Sold": 22
-  },
-  {
-    "ProductID": "AS09",
-    "Name": "8 LOẠI CÁ SỐNG TỔNG HỢP",
-    "Price": 118000,
-    "Info": "Từ cá trích, cá hồi đến các loại cá khác, mỗi miếng cá sẽ mang đến hương vị tươi mát, ngon lành và đặc biệt, kích thích vị giác và làm say đắm trái tim của bạn.",
-    "Image": "shashimisushi9",
-    "Category": "Shashimisushi",
-    "Sold": 15
-  },
-  {
-    "ProductID": "AS10",
-    "Name": "CÁ TRÍCH, CÁ HỒI, BẠCH TUỘC SỐNG VÀ CƠM SUSHI",
-    "Price": 420000,
-    "Info": "Mỗi miếng sushi được chế biến tinh tế và kết hợp các nguyên liệu tươi ngon, mang đến hương vị tinh tế và độc đáo.",
-    "Image": "shashimisushi10",
-    "Category": "Shashimisushi",
-    "Sold": 23
-  },
-  {
-    "ProductID": "AS11",
-    "Name": "CÁ TRÍCH, CÁ HỒI, TÔM NHẬT, BẠCH TUỘC, TRỨNG CS HỒI SỐNG VÀ CƠM SUSHI TỔNG HỢP",
-    "Price": 420000,
-    "Info": "Thưởng thức sự kết hợp độc đáo và hương vị phong phú của cá trích, cá hồi, tôm Nhật, bạch tuộc, trứng cá hồi sống và cơm sushi tổng hợp.",
-    "Image": "shashimisushi11",
-    "Category": "Shashimisushi",
-    "Sold": 23
-  },
-  {
-    "ProductID": "CC00",
-    "Name": "CHÁO CUA",
-    "Price": 80000,
-    "Info": "Bạn sẽ được hòa mình trong hương vị đặc trưng của cua, cùng với sự ấm áp và ngọt ngào của cháo. Món ăn này thường được trang trí với các thành phần tươi ngon khác như hành, rau mùi, tiêu, tạo nên một trải nghiệm ẩm thực tuyệt vời.",
-    "Image": "comchao0",
-    "Category": "Noodlerice",
-    "Sold": 65
-  },
-  {
-    "ProductID": "CC01",
-    "Name": "CHÁO CÁ HỒI",
-    "Price": 60000,
-    "Info": "Sự kết hợp hoàn hảo giữa cá hồi tươi ngon và cháo mềm mịn. Cá hồi thơm ngon được chế biến thành từng miếng nhỏ, kết hợp với hương vị đặc trưng của cháo, tạo nên một món ăn hấp dẫn và ngon miệng.",
-    "Image": "comchao1",
-    "Category": "Noodlerice",
-    "Sold": 66
-  },
-  {
-    "ProductID": "CC02",
-    "Name": "CHÁO HÀO",
-    "Price": 48000,
-    "Info": "Hào tươi ngon được chế biến thành những miếng nhỏ, kết hợp với hương vị độc đáo của cháo, tạo nên một món ăn thanh nhẹ và đậm đà.",
-    "Image": "comchao2",
-    "Category": "Noodlerice",
-    "Sold": 63
-  },
-  {
-    "ProductID": "CC03",
-    "Name": "CHÁO NGAO",
-    "Price": 45000,
-    "Info": "Mang đến hương vị đặc biệt của ngao cùng sự ấm áp và ngọt ngào của cháo, là một lựa chọn tuyệt vời cho những người yêu thích hương vị biển.",
-    "Image": "comchao3",
-    "Category": "Noodlerice",
-    "Sold": 96
-  },
-  {
-    "ProductID": "CC04",
-    "Name": "CÁ HỒI VÀ TRỨNG CÁ HỒI ĐẶT LÊN BÁT CƠM SUSHI PHỤC VỤ KÈM SÚP MISO",
-    "Price": 318000,
-    "Info": "Cá hồi tươi ngon và trứng cá hồi thơm ngon tạo nên một sự kết hợp hoàn hảo trên cơm sushi, mang đến hương vị tuyệt vời của cá hồi và vị ngọt của trứng cá hồi. Bên cạnh đó, súp miso thơm ngon làm tăng thêm hương vị và trải nghiệm ẩm thực của món ăn này.",
-    "Image": "comchao4",
-    "Category": "Noodlerice",
-    "Sold": 45
-  },
-  {
-    "ProductID": "CC05",
-    "Name": "CÁ NGỪ SỐNG ĐẶT LÊN BÁT CƠM SUSHI PHỤC VỤ KÈM SÚP MISO",
-    "Price": 218000,
-    "Info": "Cá ngừ sống tươi ngon tạo nên sự tươi mát và đậm đà trên cơm sushi, kết hợp với vị thơm ngon và bổ dưỡng của súp miso.",
-    "Image": "comchao5",
-    "Category": "Noodlerice",
-    "Sold": 55
-  },
-  {
-    "ProductID": "CC06",
-    "Name": "CÁ THU NƯỚNG MUỐI HOẶC SỐT TERI",
-    "Price": 228000,
-    "Info": "Cá thu nướng muối mang đến hương vị đậm đà và ngọt ngào, trong khi cá thu nướng với sốt teriyaki tạo nên hương vị thơm ngon và ngọt béo.",
-    "Image": "comchao6",
-    "Category": "Noodlerice",
-    "Sold": 63
-  },
-  {
-    "ProductID": "CC07",
-    "Name": "CƠM CARI VỚI TÔM TEMPURA",
-    "Price": 126000,
-    "Info": "Cơm được trang trí với các miếng tôm tươi sống chế biến thành tempura giòn rụm, kèm theo một số rau và gia vị thơm ngon.",
-    "Image": "comchao7",
-    "Category": "Noodlerice",
-    "Sold": 89
-  },
-  {
-    "ProductID": "CC08",
-    "Name": "CƠM CÁ HỒI NƯỚNG MUỐI",
-    "Price": 150000,
-    "Info": "Cơm được kết hợp với miếng cá hồi tươi ngon, được nướng vừa đủ để giữ được độ mềm mịn và đậm đà của cá. Vị muối nhẹ nhàng và hương thơm tự nhiên từ cá hồi tạo nên một món ăn đơn giản nhưng vô cùng hấp dẫn.",
-    "Image": "comchao8",
-    "Category": "Noodlerice",
-    "Sold": 56
-  },
-  {
-    "ProductID": "CC09",
-    "Name": "CƠM HÀU TẨM BỘT RÁN",
-    "Price": 208000,
-    "Info": "Cơm được chế biến với hàu tươi ngon, được tẩm bột rán giòn rụm. Hương vị đặc trưng của hàu hòa quyện với lớp vỏ bột giòn tan, tạo nên một trải nghiệm ẩm thực thú vị và đáng nhớ.",
-    "Image": "comchao9",
-    "Category": "Noodlerice",
-    "Sold": 22
-  },
-  {
-    "ProductID": "CC10",
-    "Name": "CƠM HỘP LOẠI A",
-    "Price": 288000,
-    "Info": "Cơm hộp gồm cơm trắng mềm mịn và một số món ăn đi kèm như thịt gà nướng, cá hồi nướng, rau xà lách, trứng, và nhiều loại rau sống khác.",
-    "Image": "comchao10",
-    "Category": "Noodlerice",
-    "Sold": 22
-  },
-  {
-    "ProductID": "CC11",
-    "Name": "CƠM HỘP LOẠI B",
-    "Price": 288000,
-    "Info": "Cơm hộp bao gồm cơm trắng mềm mịn và một số món ăn đi kèm như thịt heo xào, cá hồi nướng, rau xà lách, trứng, và một số loại rau sống khác.",
-    "Image": "comchao11",
-    "Category": "Noodlerice",
-    "Sold": 99
-  },
-  {
-    "ProductID": "DR01",
-    "Name": "COCKTAIL TÍM HUYỀN ẢO",
-    "Price": 78000,
-    "Info": "Với sắc tím mê hoặc và hương vị độc đáo, cocktail này sẽ mang đến cho bạn một trải nghiệm thú vị và lôi cuốn, như những cơn mơ tím ẩn chứa những điều kỳ diệu.",
-    "Image": "ruou1",
-    "Category": "Drink",
-    "Sold": 45
-  },
-  {
-    "ProductID": "DR02",
-    "Name": "SODA CHANH KIWI",
-    "Price": 48000,
-    "Info": "Hòa quyện giữa hương vị tươi mát của chanh và hương thơm của kiwi, nước soda chanh kiwi sẽ làm dịu đi cái nóng ngày hè và mang lại cảm giác sảng khoái và tràn đầy năng lượng.",
-    "Image": "ruou2",
-    "Category": "Drink",
-    "Sold": 85
-  },
-  {
-    "ProductID": "DR03",
-    "Name": "BLUEBERRY COCKTAIL",
-    "Price": 58000,
-    "Info": "Với màu xanh lấp lánh và hương vị độc đáo, blue cocktail sẽ là điểm nhấn đặc biệt tại nhà hàng chúng tôi. Thưởng thức ly cocktail này là trải nghiệm của sự thú vị và phong cách.",
-    "Image": "ruou3",
-    "Category": "Drink",
-    "Sold": 89
-  },
-  {
-    "ProductID": "DR04",
-    "Name": "TRÀ HOA ĐẬU BIẾC  DỊU NHẸ",
-    "Price": 50000,
-    "Info": "Trà hoa đậu biếc dịu nhẹ là một món đồ uống thượng hạng tại nhà hàng cao cấp. Với màu sắc và hương vị tinh tế của hoa đậu biếc, trà này sẽ mang đến cho bạn một cảm giác thư thái và thú vị.",
-    "Image": "ruou4",
-    "Category": "Drink",
-    "Sold": 45
-  },
-  {
-    "ProductID": "DR05",
-    "Name": "MATCHA LATTE",
-    "Price": 48000,
-    "Info": "Với hương vị đặc trưng của trà matcha, kết hợp với sữa và đường, đây là một thức uống thượng hạng đem lại sự bình yên và sự ngọt ngào.",
-    "Image": "ruou5",
-    "Category": "Drink",
-    "Sold": 52
-  },
-  {
-    "ProductID": "DR06",
-    "Name": "RƯỢU MƠ CHƯNG CẤT",
-    "Price": 96000,
-    "Info": "Rượu mơ chưng cất là một loại rượu đặc biệt được chưng cất từ quả mơ thượng hạng. Với hương vị tinh tế và mê hoặc, món này sẽ mang đến cho bạn một trải nghiệm ẩm thực cao cấp và độc đáo.",
-    "Image": "ruou6",
-    "Category": "Drink",
-    "Sold": 75
-  },
-  {
-    "ProductID": "DR07",
-    "Name": "OSAKE THƯỢNG HẠNG",
-    "Price": 118000,
-    "Info": "Với hương vị tinh tế và sự thanh lịch, osake này là sự lựa chọn hoàn hảo cho những ai muốn trải nghiệm hương vị truyền thống của Nhật Bản.",
-    "Image": "ruou7",
-    "Category": "Drink",
-    "Sold": 112
-  },
-  {
-    "ProductID": "DR08",
-    "Name": "SINH TỐ CHANH LEO TƯƠI MÁT",
-    "Price": 58000,
-    "Info": "Với hương vị tự nhiên và mát lạnh của chanh leo, sinh tố này sẽ mang lại sự sảng khoái và cảm giác tươi mới cho bạn.",
-    "Image": "ruou8",
-    "Category": "Drink",
-    "Sold": 36
-  },
-  {
-    "ProductID": "DR09",
-    "Name": "HIBICUS DƯA HẤU CHANH ĐÀO",
-    "Price": 48000,
-    "Info": "Hòa quyện giữa hương thơm của hoa bụp giấm, vị ngọt ngào của dưa hấu và hương vị tươi mát của chanh đào, đây là một ly hibiscus dưa hấu chanh đào độc đáo và hấp dẫn.",
-    "Image": "ruou9",
-    "Category": "Drink",
-    "Sold": 75
-  },
-  {
-    "ProductID": "DR10",
-    "Name": "COCKTAIL DÂU NGỌT NGÀO",
-    "Price": 78000,
-    "Info": "Cocktail dâu ngọt ngào sẽ làm say đắm trái tim bạn với hương vị tươi mát và ngọt ngào của dâu. Với màu sắc tươi sáng và cảm giác mát lạnh trên đầu lưỡi, đây là một món đồ uống tuyệt vời để thưởng thức.",
-    "Image": "ruou10",
-    "Category": "Drink",
-    "Sold": 32
-  },
-  {
-    "ProductID": "MK00",
-    "Name": "TRỨNG HẤP HẢI SẢN",
-    "Price": 80000,
-    "Info": "Trứng được hấp chín và kết hợp với các loại hải sản như tôm, mực, cá... tạo nên một món ăn thơm ngon và độc đáo.",
-    "Image": "monankhac0",
-    "Category": "Tempura",
-    "Sold": 45
-  },
-  {
-    "ProductID": "MK01",
-    "Name": "TRỨNG CUỘN LƯƠN",
-    "Price": 18000,
-    "Info": "Trứng cuộn lươn là một món ăn độc đáo và ngon miệng. Lớp trứng được cuộn quanh nhân lươn và được chiên giòn, tạo nên một hương vị thơm ngon và hấp dẫn.",
-    "Image": "monankhac1",
-    "Category": "Tempura",
-    "Sold": 65
-  },
-  {
-    "ProductID": "MK02",
-    "Name": "TÔM TEMPURA ÁP CHẢO VÀ TRỨNG",
-    "Price": 128000,
-    "Info": "Tôm tempura được áp chảo với trứng, tạo nên một hương vị đặc trưng và ngon miệng. Món ăn này thường được kèm với nước sốt để tăng thêm hương vị.",
-    "Image": "monankhac2",
-    "Category": "Tempura",
-    "Sold": 36
-  },
-  {
-    "ProductID": "MK03",
-    "Name": "THỊT BÒ XÀO NẤM",
-    "Price": 128000,
-    "Info": "Thịt bò được xào chín mềm, kết hợp với các loại nấm tươi ngon, tạo nên một hương vị độc đáo và thú vị.",
-    "Image": "monankhac3",
-    "Category": "Tempura",
-    "Sold": 76
-  },
-  {
-    "ProductID": "MK04",
-    "Name": "THỊT BÒ ÁP CHẢO SỐT TỎI",
-    "Price": 158000,
-    "Info": "Thịt bò được áp chảo giòn và kết hợp với sốt tỏi thơm ngon, tạo nên một hương vị đặc trưng và hấp dẫn.",
-    "Image": "monankhac4",
-    "Category": "Tempura",
-    "Sold": 95
-  },
-  {
-    "ProductID": "MK05",
-    "Name": "THỊ BA CHỈ XÀO BẮP CẢI ỚT",
-    "Price": 108000,
-    "Info": "Thịt ba chỉ được xào chín mềm, kết hợp với bắp cải và ớt tạo nên một hương vị đặc trưng và ngon miệng.",
-    "Image": "monankhac5",
-    "Category": "Tempura",
-    "Sold": 45
-  },
-  {
-    "ProductID": "MK06",
-    "Name": "SÚP KONBU NẤU ĐẬU PHỤ NHẬT RÁN",
-    "Price": 96000,
-    "Info": "Súp được nấu từ nước dùng konbu và kèm theo đậu phụ Nhật Bản đã được ráng giòn, tạo nên một hương vị độc đáo và thơm ngon.",
-    "Image": "monankhac6",
-    "Category": "Tempura",
-    "Sold": 59
-  },
-  {
-    "ProductID": "MK07",
-    "Name": "NGÔ MỸ XÀO THỊT HUN KHÓI",
-    "Price": 56000,
-    "Info": "Ngô Mỹ được xào chín và kết hợp với thịt hun khói, tạo nên một hương vị đặc trưng và ngon miệng.",
-    "Image": "monankhac7",
-    "Category": "Tempura",
-    "Sold": 56
-  },
-  {
-    "ProductID": "MK08",
-    "Name": "NẤM XÀO TỔNG HỢP",
-    "Price": 86000,
-    "Info": "Các loại nấm tươi ngon được xào chín mềm, kết hợp với các loại rau và gia vị, tạo nên một món ăn giàu chất dinh dưỡng.",
-    "Image": "monankhac8",
-    "Category": "Tempura",
-    "Sold": 75
-  },
-  {
-    "ProductID": "MK09",
-    "Name": "MỲ UDON HẢI SẢN",
-    "Price": 128000,
-    "Info": "Mỳ udon mềm mịn được kết hợp với các loại hải sản như tôm, mực, cá... tạo nên một món ăn ngon và đầy đặc sắc.",
-    "Image": "monankhac9",
-    "Category": "Tempura",
-    "Sold": 52
-  },
-  {
-    "ProductID": "MK10",
-    "Name": "CÁ HỒI ÁP CHẢO VỚI TRỨNG CỦ CẢI",
-    "Price": 128000,
-    "Info": "Miếng cá hồi tươi ngon được áp chảo giòn bên ngoài và mềm mịn bên trong, kết hợp với lớp trứng và củ cải tạo nên một hương vị đặc biệt và thú vị.",
-    "Image": "monchien0",
-    "Category": "Tempura",
-    "Sold": 96
-  },
-  {
-    "ProductID": "MK11",
-    "Name": "CÁ KISU TEMPURA",
-    "Price": 168000,
-    "Info": "Cá kisu tempura là một món ăn truyền thống Nhật Bản. Cá kisu tươi ngon được chế biến thành tempura giòn rụm, kết hợp với các loại rau tươi và nước sốt mắm ngon.",
-    "Image": "monchien1",
-    "Category": "Tempura",
-    "Sold": 45
-  },
-  {
-    "ProductID": "MK12",
-    "Name": "CÁ THI TẨM BỘT CÀ MỲ RÁN",
-    "Price": 168000,
-    "Info": "Miếng cá thi được tẩm bột cà mì và rán giòn, tạo nên một hương vị đặc trưng và thú vị.",
-    "Image": "monchien2",
-    "Category": "Tempura",
-    "Sold": 52
-  },
-  {
-    "ProductID": "MK13",
-    "Name": "CÁNH GÀ TẨM BỌT CÀ MÌ RÁN",
-    "Price": 138000,
-    "Info": "Cánh gà được tẩm bột cà mì và rán giòn, tạo nên một hương vị đặc trưng và thú vị. Món ăn này thường được thưởng thức kèm với nước sốt và rau sống.",
-    "Image": "monchien3",
-    "Category": "Tempura",
-    "Sold": 22
-  },
-  {
-    "ProductID": "MK14",
-    "Name": "CƠM CHIÊN KIỂU NHẬT KÈM BÁCH QUẢ NƯỚNG",
-    "Price": 118000,
-    "Info": "Cơm được chiên giòn và hòa quyện với các loại rau, thịt và hải sản tươi ngon, kèm theo miếng bách quả nướng thơm ngon.",
-    "Image": "monchien4",
-    "Category": "Tempura",
-    "Sold": 88
-  },
-  {
-    "ProductID": "MK15",
-    "Name": "KHOAI LANG TẨM BỘT RÁN",
-    "Price": 85000,
-    "Info": "Khoai lang được tẩm bột và rán giòn, tạo nên một hương vị đặc trưng và thú vị.",
-    "Image": "monchien5",
-    "Category": "Tempura",
-    "Sold": 63
-  },
-  {
-    "ProductID": "MK16",
-    "Name": "KHOAI TÂY CHIÊN",
-    "Price": 85000,
-    "Info": "Khoai tây chiên là một món ăn phổ biến và ngon miệng. Khoai tây được cắt thành miếng nhỏ, chiên giòn và gia vị theo khẩu vị cá nhân.",
-    "Image": "monchien6",
-    "Category": "Tempura",
-    "Sold": 45
-  },
-  {
-    "ProductID": "MK17",
-    "Name": "KHOAI TÂY NGHIỀN RAU TẨM BỘT CÀ MỲ RÁN",
-    "Price": 138000,
-    "Info": "Khoai tây được nghiền thành nhuyễn và tẩm bột cà mì, sau đó rán giòn và gia vị theo khẩu vị.",
-    "Image": "monchien7",
-    "Category": "Tempura",
-    "Sold": 52
-  },
-  {
-    "ProductID": "MK18",
-    "Name": "MỰC TẨM BỘT CÀ MÌ",
-    "Price": 190000,
-    "Info": "Mực được tẩm bột cà mì và rán giòn, tạo nên một hương vị đặc trưng và thú vị.",
-    "Image": "monchien9",
-    "Category": "Tempura",
-    "Sold": 96
-  },
-  {
-    "ProductID": "MK19",
-    "Name": "PHOMAI TẨM BỘT CÀ MỲ RÁN",
-    "Price": 108000,
-    "Info": "Phomai được tẩm bột cà mì và rán giòn, tạo nên một hương vị đặc trưng và thú vị. Món ăn này thường được thưởng thức kèm với nước sốt và rau sống.",
-    "Image": "monchien10",
-    "Category": "Tempura",
-    "Sold": 12
-  },
-  {
-    "ProductID": "ML01",
-    "Name": "CHẢ CÁ CHAY HẤP",
-    "Price": 98000,
-    "Info": "Chả cá được làm từ các thành phần chay, hấp trong nước và gia vị, tạo nên một hương vị đặc biệt.",
-    "Image": "monlau1",
-    "Category": "Hotpot",
-    "Sold": 45
-  },
-  {
-    "ProductID": "ML02",
-    "Name": "CHẢ CÁ ĐỎ",
-    "Price": 98000,
-    "Info": "Món ăn truyền thống được chế biến từ thịt cá đỏ tươi ngon, được chiên giòn và có hương vị đậm đà.",
-    "Image": "monlau2",
-    "Category": "Hotpot",
-    "Sold": 63
-  },
-  {
-    "ProductID": "ML03",
-    "Name": "CON VẸM BIỂN",
-    "Price": 180000,
-    "Info": "Vẹm biển được chế biến theo yêu cầu của quý khách, tạo nên một trải nghiệm ẩm thực đặc biệt.",
-    "Image": "monlau3",
-    "Category": "Hotpot",
-    "Sold": 63
-  },
-  {
-    "ProductID": "ML04",
-    "Name": "CÁ CHÌNH",
-    "Price": 300000,
-    "Info": "Thịt cá chình có vị ngọt và thơm, được chế biến theo công thức lâu đời của nhà hàng chúng tôi, hứa hẹn sẽ làm bạn bất ngờ bởi hương vị đặc biệt của nó.",
-    "Image": "monlau4",
-    "Category": "Hotpot",
-    "Sold": 63
-  },
-  {
-    "ProductID": "ML05",
-    "Name": "CÁ HỒI TƯƠI",
-    "Price": 208000,
-    "Info": "Thịt cá hồi tươi ngon, mềm mịn và có hương vị đặc trưng. Chúng tôi chế biến cá hồi tươi thành nhiều món như sashimi, nướng, hấp hoặc cuốn sushi.",
-    "Image": "monlau5",
-    "Category": "Hotpot",
-    "Sold": 33
-  },
-  {
-    "ProductID": "ML08",
-    "Name": "HÀU NHẬT",
-    "Price": 188000,
-    "Info": "Chúng tôi phục vụ hàu Nhật theo nhiều cách chế biến khác nhau như hấp, nướng hoặc chiên. Hàu có vị ngọt tự nhiên và một hương vị đặc trưng.",
-    "Image": "monlau6",
-    "Category": "Hotpot",
-    "Sold": 56
-  },
-  {
-    "ProductID": "ML09",
-    "Name": "KHOAI MÔN",
-    "Price": 58000,
-    "Info": "Khoai môn có vị ngọt tự nhiên và một chút cơm dẻo.",
-    "Image": "monlau7",
-    "Category": "Hotpot",
-    "Sold": 25
-  },
-  {
-    "ProductID": "ML10",
-    "Name": "LẨU BÒ MỸ NHÚNG",
-    "Price": 780000,
-    "Info": "Thịt bò Mỹ tươi ngon được nhúng trong nước lẩu nóng hổi, kết hợp với các loại rau củ tươi ngon. Đây là một món ăn thích hợp để chia sẻ với gia đình và bạn bè.",
-    "Image": "monlau8",
-    "Category": "Hotpot",
-    "Sold": 23
-  },
-  {
-    "ProductID": "ML11",
-    "Name": "LẨU BÒ WAGYU",
-    "Price": 990000,
-    "Info": "Thịt bò Wagyu đặc biệt và thơm ngon được nhúng trong nồi lẩu nóng hổi, tạo nên một hương vị đậm đà và tuyệt vời. Đây là một trải nghiệm ẩm thực đáng nhớ.",
-    "Image": "monlau9",
-    "Category": "Hotpot",
-    "Sold": 63
-  },
-  {
-    "ProductID": "ML12",
-    "Name": "LẨU CHAY",
-    "Price": 468000,
-    "Info": "Chúng tôi chế biến lẩu chay từ các loại rau củ tươi ngon, nấm và đậu hủ, kết hợp với nước lẩu đậm đà và thơm ngon. Món này là lựa chọn hoàn hảo để thưởng thức hương vị chay trọn vẹn.",
-    "Image": "monlau10",
-    "Category": "Hotpot",
-    "Sold": 62
-  },
-  {
-    "ProductID": "ML13",
-    "Name": "LẨU CUA GẠCH",
-    "Price": 468000,
-    "Info": "Cua gạch tươi ngon được chế biến trong nồi lẩu nóng hổi, kết hợp với các loại rau củ và gia vị tạo nên một hương vị đậm đà và ngon miệng.",
-    "Image": "monlau11",
-    "Category": "Hotpot",
-    "Sold": 36
-  },
-  {
-    "ProductID": "ML14",
-    "Name": "LẨU GIẤY CÁ HỒI TƯƠI",
-    "Price": 480000,
-    "Info": "Cá hồi tươi ngon được gói trong giấy bạc và nướng trên bếp than, tạo nên một món ăn thơm ngon và đặc biệt.",
-    "Image": "monlau12",
-    "Category": "Hotpot",
-    "Sold": 45
-  },
-  {
-    "ProductID": "MN01",
-    "Name": "THỊT LỢN NHẬT CUỘN KIMCHI XIÊN NƯỚNG",
-    "Price": 76000,
-    "Info": "Một món ăn độc đáo và thú vị, kết hợp giữa thịt lợn Nhật và kimchi cuộn thành xiên, được nướng giòn và thơm ngon.",
-    "Image": "monnuong01",
-    "Category": "Grilled",
-    "Sold": 112
-  },
-  {
-    "ProductID": "MN02",
-    "Name": "HÀU TƯƠI NƯỚNG THỊU HUN KHÓI, HÀNH TÂY, PHOMAT",
-    "Price": 46000,
-    "Info": "Một món hấp dẫn với hàu tươi ngon được nướng thịu và hòa quyện với hành tây và phomat, tạo nên một hương vị độc đáo.",
-    "Image": "monnuong02",
-    "Category": "Grilled",
-    "Sold": 96
-  },
-  {
-    "ProductID": "MN03",
-    "Name": "CƠM CUỐN TÔM TEMPURA NƯỚNG",
-    "Price": 108000,
-    "Info": "Một món cơm cuốn ngon miệng với tôm tempura nướng, tạo nên một hương vị giòn ngon và đậm đà.",
-    "Image": "monnuong03",
-    "Category": "Grilled",
-    "Sold": 86
-  },
-  {
-    "ProductID": "MN04",
-    "Name": "CÁNH GÀ NƯỚNG GIÒN VỚI SỐT TERI",
-    "Price": 78000,
-    "Info": "Sữa caramel macchiato",
-    "Image": "monnuong04",
-    "Category": "Grilled",
-    "Sold": 105
-  },
-  {
-    "ProductID": "MN05",
-    "Name": "CÁ THU ĐAO VÀ TỔI TÂY NƯỚNG MUỐN HOẶC SỐT TERI",
-    "Price": 58000,
-    "Info": "Sữa matcha macchiato",
-    "Image": "monnuong05",
-    "Category": "Grilled",
-    "Sold": 63
-  },
-  {
-    "ProductID": "MN06",
-    "Name": "XÚC XÍCH LỢN NHẬT",
-    "Price": 46000,
-    "Info": "Sinh tố dưa hấu",
-    "Image": "monnuong06",
-    "Category": "Grilled",
-    "Sold": 10
-  },
-  {
-    "ProductID": "MN07",
-    "Name": "XIÊN NƯỚNG TỔNG HỢP",
-    "Price": 42000,
-    "Info": "Nước chanh sả mật ong",
-    "Image": "monnuong07",
-    "Category": "Grilled",
-    "Sold": 96
-  },
-  {
-    "ProductID": "MN08",
-    "Name": "TRỨNG CÁ TUYẾT NƯỚNG",
-    "Price": 69000,
-    "Info": "Trứng cá tuyết tươi ngon được nướng vừa đủ, tạo nên một món ăn độc đáo và thơm ngon.",
-    "Image": "monnuong08",
-    "Category": "Grilled",
-    "Sold": 21
-  },
-  {
-    "ProductID": "MN09",
-    "Name": "THỊT HUN KHÓ CUỘN TÔM NƯỚNG",
-    "Price": 59000,
-    "Info": "Thịt hun khói cuộn cùng tôm nướng, tạo nên một món cuốn hấp dẫn và đậm đà.",
-    "Image": "monnuong09",
-    "Category": "Grilled",
-    "Sold": 45
-  },
-  {
-    "ProductID": "MN10",
-    "Name": "THỊ HUN KHÓI CUỘN MĂNG TÂY NƯỚNG MUỐI",
-    "Price": 57000,
-    "Info": "Thịt hun khói cuộn với măng tây, được nướng giòn và ướp muối, mang đến một hương vị độc đáo và thú vị.",
-    "Image": "monnuong10",
-    "Category": "Grilled",
-    "Sold": 96
-  },
-  {
-    "ProductID": "MN11",
-    "Name": "THỊT HUN KHÓI CUỘN KHOAI TÂY NƯỚNG MUỐI",
-    "Price": 64000,
-    "Info": "Thịt hun khói cuộn với khoai tây, được nướng giòn và ướp muối, tạo nên một món ăn ngon miệng và đậm đà.",
-    "Image": "monnuong11",
-    "Category": "Grilled",
-    "Sold": 27
-  },
-  {
-    "ProductID": "MN12",
-    "Name": "THỊT GÀ XIÊN NƯỚNG MUỐI HOẶC SỐT TERI",
-    "Price": 57000,
-    "Info": "Thịt gà được xiên và nướng giòn với vị muối hoặc sốt teri thơm ngon, mang đến một hương vị tuyệt vời và đậm đà.",
-    "Image": "monnuong12",
-    "Category": "Grilled",
-    "Sold": 29
-  },
-  {
-    "ProductID": "MN13",
-    "Name": "THỊT GÀ TỎI TÂY XIÊN NƯỚNG MUỐI HOẶC SỐT TERI",
-    "Price": 46000,
-    "Info": "Thịt gà được xiên và nướng với tỏi tây, tạo nên một hương vị đặc biệt và thú vị với sự kết hợp của muối hoặc sốt teri.",
-    "Image": "monnuong13",
-    "Category": "Grilled",
-    "Sold": 108
-  },
-  {
-    "ProductID": "MN14",
-    "Name": "THỊT BÒ ÚC NƯỚNG VỚI SỐT TERI",
-    "Price": 299000,
-    "Info": "Vừa Bò viên kiểu Ý, vừa thịt bò thượng hạng. Cắn một miếng thôi là cảm nhận được vị mềm ngọt!",
-    "Image": "monnuong14",
-    "Category": "Grilled",
-    "Sold": 12
-  },
-  {
-    "ProductID": "MN15",
-    "Name": "THỊT BA CHỈ NƯỚNG SỐT MISO",
-    "Price": 145000,
-    "Info": "Hải sản phải cay thì mới ngon. Chính là bữa tiệc kiểu Singapore đậm vị!!!",
-    "Image": "monnuong15",
-    "Category": "Grilled",
-    "Sold": 41
-  },
-  {
-    "ProductID": "MN16",
-    "Name": "TỎI NƯỚNG MUỐI",
-    "Price": 250000,
-    "Info": "Tỏi được nướng giòn với vị muối, tạo nên một món ăn thơm ngon và đậm đà.",
-    "Image": "monnuong16",
-    "Category": "Grilled",
-    "Sold": 83
-  },
-  {
-    "ProductID": "MN17",
-    "Name": "SƯỜNG BÒ MỸ NƯỚNG SỐT TIÊU ĐEN",
-    "Price": 169000,
-    "Info": "Sườn bò Mỹ được nướng chín mềm, kèm theo sốt tiêu đen thơm ngon, mang đến một hương vị tuyệt vời và đặc biệt.",
-    "Image": "monnuong17",
-    "Category": "Grilled",
-    "Sold": 96
-  },
-  {
-    "ProductID": "MN18",
-    "Name": "SỤN GÀ NƯỚNG MUỐI",
-    "Price": 230000,
-    "Info": "Sụn gà được nướng giòn với vị muối, tạo nên một món ăn ngon miệng và đậm đà.",
-    "Image": "monnuong18",
-    "Category": "Grilled",
-    "Sold": 15
-  },
-  {
-    "ProductID": "MN19",
-    "Name": "SÒ ĐIỆP NƯỚNG MUỐI HOẶC SỐT TERI",
-    "Price": 129000,
-    "Info": "Sò điệp được nướng giòn với vị muối hoặc sốt teri thơm ngon, mang đến một hương vị độc đáo và thú vị.",
-    "Image": "monnuong19",
-    "Category": "Grilled",
-    "Sold": 56
-  },
-  {
-    "ProductID": "MN20",
-    "Name": "NẤM HƯƠNG TƯƠI NHỒI THỊT NƯỚNG",
-    "Price": 155000,
-    "Info": "Nấm hương tươi ngon được nhồi với thịt và nướng giòn, tạo nên một món ăn hấp dẫn và đặc biệt.",
-    "Image": "monnuong20",
-    "Category": "Grilled",
-    "Sold": 85
-  },
-  {
-    "ProductID": "MN21",
-    "Name": "MỰC ỐNG NƯỚNG MUỐI HOẶC SỐT TERI",
-    "Price": 129000,
-    "Info": "Mực ống được nướng giòn với vị muối hoặc sốt teri, mang đến một hương vị tuyệt vời và thú vị.",
-    "Image": "monnuong21",
-    "Category": "Grilled",
-    "Sold": 23
-  },
-  {
-    "ProductID": "MN22",
-    "Name": "MỀ GÀ XIÊN NƯỚNG MUỐI HOẶC SỐT TERI",
-    "Price": 99000,
-    "Info": "Mề gà được xiên và nướng với vị muối hoặc sốt teri thơm ngon, tạo nên một món ăn ngon miệng và đậm đà.",
-    "Image": "monnuong22",
-    "Category": "Grilled",
-    "Sold": 96
-  },
-  {
-    "ProductID": "MN23",
-    "Name": "LƯƠN NHẬT XIÊN NƯỚNG SỐT TERI",
-    "Price": 169000,
-    "Info": "Lươn nhật tươi ngon được xiên và nướng với sốt teri thơm ngon, mang đến một hương vị đặc biệt và thú vị.",
-    "Image": "monnuong23",
-    "Category": "Grilled",
-    "Sold": 78
-  },
-  {
-    "ProductID": "MN28",
-    "Name": "DA GÀ XIÊN NƯỚNG MUỐI",
-    "Price": 98000,
-    "Info": "Da gà được xiên và nướng giòn với vị muối, tạo nên một món ăn thơm ngon và đặc biệt.",
-    "Image": "monnuong28",
-    "Category": "Grilled",
-    "Sold": 56
-  }
+    {
+        "ProductID": "AS00",
+        "Name": "JAPANESE ABALONE SASHIMI",
+        "Price": 738000,
+        "Info": "Made from fresh ingredients and the quintessence of Japanese cuisine, each piece of abalone sashimi will melt on the tip of the tongue with a rich, sweet and soft flavor.",
+        "Image": "shashimisushi0",
+        "Category": "Shashimisushi",
+        "Sold": 103
+    },
+    {
+        "ProductID": "AS01",
+        "Name": "SSMALL OCTOPUS",
+        "Price": 680000,
+        "Info": "With fresh quality and natural sweetness, this dish will captivate your taste buds and bring a sense of luxury and elegance.",
+        "Image": "shashimisushi1",
+        "Category": "Shashimisushi",
+        "Sold": 120
+    },
+    {
+        "ProductID": "AS02",
+        "Name": "MIXED VINEGAR OCTOPUS",
+        "Price": 268000,
+        "Info": "The great combination of sour, sweet and the aroma of vinegar creates a special culinary experience.Enjoying this dish will bring you a feeling of refreshment and satisfaction.",
+        "Image": "shashimisushi2",
+        "Category": "Shashimisushi",
+        "Sold": 23
+    },
+    {
+        "ProductID": "AS03",
+        "Name": "WASABI MARINATED OCTOPUS",
+        "Price": 890000,
+        "Info": "With Wasabi marinated octopus, you will experience a spicy, rich and refreshing flavor.When combined with the typical taste of Wasabi, this dish will make your taste bud more excited and unique.",
+        "Image": "shashimisushi3",
+        "Category": "Shashimisushi",
+        "Sold": 23
+    },
+    {
+        "ProductID": "AS04",
+        "Name": "RAW SALMON",
+        "Price": 990000,
+        "Info": "With fresh flavor, soft meat and attractive colors, this fish will make you enjoy special and classy culinary experiences.",
+        "Image": "shashimisushi4",
+        "Category": "Shashimisushi",
+        "Sold": 58
+    },
+    {
+        "ProductID": "AS05",
+        "Name": "TUNA, SALMON, RAW SEA CLAMS AND ASSORTED SUSHI RICE",
+        "Price": 238000,
+        "Info": "Immersed in the diversity and abundance of tuna, salmon, raw beach clams and ASSORTED sushi rice at high -class restaurants.",
+        "Image": "shashimisushi5",
+        "Category": "Shashimisushi",
+        "Sold": 56
+    },
+    {
+        "ProductID": "AS06",
+        "Name": "10 TYPES OF RAW FISH",
+        "Price": 238000,
+        "Info": "From tuna, salmon, herring to other types of fish, each piece of fish will bring you a fresh, delicious and unique flavor, stimulating the taste and captivating your heart.",
+        "Image": "shashimisushi6",
+        "Category": "Shashimisushi",
+        "Sold": 23
+    },
+    {
+        "ProductID": "AS07",
+        "Name": "12 ASSORTED FISH",
+        "Price": 238000,
+        "Info": "With fresh quality and bright colors, each piece of fish will bring you a high -class and unique culinary experience.",
+        "Image": "shashimisushi7",
+        "Category": "Shashimisushi",
+        "Sold": 48
+    },
+    {
+        "ProductID": "AS08",
+        "Name": "6 TYPES OF RAW FISH",
+        "Price": 188000,
+        "Info": "From herring, salmon to other types of fish, each piece of fresh fish will bring sophisticated, diverse and interesting flavor.",
+        "Image": "shashimisushi8",
+        "Category": "Shashimisushi",
+        "Sold": 22
+    },
+    {
+        "ProductID": "AS09",
+        "Name": "8 TYPES OF RAW FISH",
+        "Price": 118000,
+        "Info": "From herring, salmon to other types of fish, each piece of fish will bring a fresh, delicious and special flavor, stimulate the taste and captivate your heart.",
+        "Image": "shashimisushi9",
+        "Category": "Shashimisushi",
+        "Sold": 15
+    },
+    {
+        "ProductID": "AS10",
+        "Name": "HERRING, SALMON, RAW OCTOPUS AND SUSHI RICE",
+        "Price": 420000,
+        "Info": "Each piece of sushi is delicately processed and combines fresh ingredients, bringing sophisticated and unique flavor.",
+        "Image": "shashimisushi10",
+        "Category": "Shashimisushi",
+        "Sold": 23
+    },
+    {
+        "ProductID": "AS11",
+        "Name": "HERRING, SALMON, JAPANESE SHRIMP, OCTOPUS, RAW SALMON EGGS AND ASSORTED SUSHI RICE",
+        "Price": 420000,
+        "Info": "Enjoy the unique combination and rich taste of herring, salmon, Japanese shrimp, octopus, raw salmon eggs and ASSORTED sushi rice.",
+        "Image": "shashimisushi11",
+        "Category": "Shashimisushi",
+        "Sold": 23
+    },
+    {
+        "ProductID": "CC00",
+        "Name": "CRAB PORRIDGE",
+        "Price": 80000,
+        "Info": "You will be immersed in the typical taste of crab, along with the warmth and sweetness of porridge.This dish is often decorated with other fresh ingredients such as onions, coriander, pepper, creating a great culinary experience.",
+        "Image": "comchao0",
+        "Category": "Noodlerice",
+        "Sold": 65
+    },
+    {
+        "ProductID": "CC01",
+        "Name": "SALMON PORRIDGE",
+        "Price": 60000,
+        "Info": "The perfect combination of fresh salmon and soft porridge.Delicious salmon is processed into small pieces, combined with the typical flavor of porridge, creating an attractive and delicious dish.",
+        "Image": "comchao1",
+        "Category": "Noodlerice",
+        "Sold": 66
+    },
+    {
+        "ProductID": "CC02",
+        "Name": "PORRIDGE PORRIDGE",
+        "Price": 48000,
+        "Info": "Fresh trenches are processed into small pieces, combined with the unique flavor of porridge, creating a light and rich bar dish.",
+        "Image": "comchao2",
+        "Category": "Noodlerice",
+        "Sold": 63
+    },
+    {
+        "ProductID": "CC03",
+        "Name": "CLAM PORRIDGE",
+        "Price": 45000,
+        "Info": "Bringing the special flavor of clam and the warmth and sweetness of porridge, is a great choice for those who love the flavor of the sea.",
+        "Image": "comchao3",
+        "Category": "Noodlerice",
+        "Sold": 96
+    },
+    {
+        "ProductID": "CC04",
+        "Name": "SALMON AND SALMON EGGS PUT ON A BOWL OF SUSHI RICE SERVING WITH MISO SOUP",
+        "Price": 318000,
+        "Info": "Fresh fresh salmon and delicious salmon eggs create a perfect combination on sushi rice, bringing the great flavor of salmon and the sweetness of salmon eggs.Besides, delicious miso soup adds the flavor and food experience of this dish.",
+        "Image": "comchao4",
+        "Category": "Noodlerice",
+        "Sold": 45
+    },
+    {
+        "ProductID": "CC05",
+        "Name": "RAW TUNA PLACED ON A BOWL OF SUSHI RICE SERVED WITH MISO SOUP",
+        "Price": 218000,
+        "Info": "Freshly fresh tuna creates a fresh and richness on sushi rice, combined with the delicious and nutritious taste of miso soup.",
+        "Image": "comchao5",
+        "Category": "Noodlerice",
+        "Sold": 55
+    },
+    {
+        "ProductID": "CC06",
+        "Name": "GRILLED MACKEREL OR TERI SAUCE",
+        "Price": 228000,
+        "Info": "Salted mackerel brings a rich and sweet flavor, while grilled mackerel with Teriyaki sauce creates a delicious and sweet flavor.",
+        "Image": "comchao6",
+        "Category": "Noodlerice",
+        "Sold": 63
+    },
+    {
+        "ProductID": "CC07",
+        "Name": "CARI RICE WITH TEMPURA SHRIMP",
+        "Price": 126000,
+        "Info": "Rice is decorated with pieces of raw shrimp processed into a crispy tempura, accompanied by some delicious vegetables and spices.",
+        "Image": "comchao7",
+        "Category": "Noodlerice",
+        "Sold": 89
+    },
+    {
+        "ProductID": "CC08",
+        "Name": "RICE GRILLED SALMON SALT",
+        "Price": 150000,
+        "Info": "Rice is combined with fresh pieces of salmon, grilled enough to keep the smooth and richness of the fish.The gentle salt flavor and the natural aroma from salmon create a simple but extremely attractive dish.",
+        "Image": "comchao8",
+        "Category": "Noodlerice",
+        "Sold": 56
+    },
+    {
+        "ProductID": "CC09",
+        "Name": "DOUGH RICE FRIED OYSTERS",
+        "Price": 208000,
+        "Info": "The rice is processed with fresh oysters, breaded with crispy fried.The typical taste of oysters blends with a crispy powder crust, creating an interesting and memorable culinary experience.",
+        "Image": "comchao9",
+        "Category": "Noodlerice",
+        "Sold": 22
+    },
+    {
+        "ProductID": "CC10",
+        "Name": "RICE BOX TYPE A",
+        "Price": 288000,
+        "Info": "Rice boxes include soft white rice and some accompanying dishes such as grilled chicken, grilled salmon, lettuce, eggs, and many other raw vegetables.",
+        "Image": "comchao10",
+        "Category": "Noodlerice",
+        "Sold": 22
+    },
+    {
+        "ProductID": "CC11",
+        "Name": "RICE BOX TYPE B",
+        "Price": 288000,
+        "Info": "Rice box includes soft white rice and some accompanying dishes such as stir -fried pork, grilled salmon, lettuce, eggs, and some other raw vegetables.",
+        "Image": "comchao11",
+        "Category": "Noodlerice",
+        "Sold": 99
+    },
+    {
+        "ProductID": "DR01",
+        "Name": "MAGIC PURPLE COCKTAIL",
+        "Price": 78000,
+        "Info": "With a fascinating purple color and a unique flavor, this cocktail will bring you an interesting and attractive experience, like purple apricots that hide miracles.",
+        "Image": "ruou1",
+        "Category": "Drink",
+        "Sold": 45
+    },
+    {
+        "ProductID": "DR02",
+        "Name": "LEMON SODA KIWI",
+        "Price": 48000,
+        "Info": "Mixed between the fresh taste of lemon and the aroma of kiwi, Kiwi lemon soda water will soothe the summer heat and bring a refreshing and energetic feeling.",
+        "Image": "ruou2",
+        "Category": "Drink",
+        "Sold": 85
+    },
+    {
+        "ProductID": "DR03",
+        "Name": "BLUEBERRY COCKTAIL",
+        "Price": 58000,
+        "Info": "With sparkling blue and unique flavor, Blue Cocktail will be a special highlight at our restaurant.Enjoying this cocktail is the experience of interesting and style.",
+        "Image": "ruou3",
+        "Category": "Drink",
+        "Sold": 89
+    },
+    {
+        "ProductID": "DR04",
+        "Name": "GENTLE FLOWER TEA",
+        "Price": 50000,
+        "Info": "Gentle bean tea is a premium drink at a high -class restaurant.With the delicate color and flavor of the bean flower, this tea will bring you a sense of relaxation and interesting.",
+        "Image": "ruou4",
+        "Category": "Drink",
+        "Sold": 45
+    },
+    {
+        "ProductID": "DR05",
+        "Name": "MATCHA LATTE",
+        "Price": 48000,
+        "Info": "With the typical flavor of matcha tea, combined with milk and sugar, this is a premium drink that brings peace and sweetness.",
+        "Image": "ruou5",
+        "Category": "Drink",
+        "Sold": 52
+    },
+    {
+        "ProductID": "DR06",
+        "Name": "DISTILLED APRICOT WINE",
+        "Price": 96000,
+        "Info": "Distilled apricot wine is a special wine distilled from premium apricots.With delicate and fascinating flavor, this dish will bring you a high -class and unique culinary experience.",
+        "Image": "ruou6",
+        "Category": "Drink",
+        "Sold": 75
+    },
+    {
+        "ProductID": "DR07",
+        "Name": "PREMIUM OSAKE",
+        "Price": 118000,
+        "Info": "With sophisticated taste and elegance, this Osake is the perfect choice for those who want to experience the traditional Japanese flavor.",
+        "Image": "ruou7",
+        "Category": "Drink",
+        "Sold": 112
+    },
+    {
+        "ProductID": "DR08",
+        "Name": "FRESH PASSION FRUIT SMOOTHIE",
+        "Price": 58000,
+        "Info": "With the natural and cool flavor of passion fruit, this smoothie will bring refreshing and fresh feeling to you.",
+        "Image": "ruou8",
+        "Category": "Drink",
+        "Sold": 36
+    },
+    {
+        "ProductID": "DR09",
+        "Name": "HIBISCUS WATERMELON LEMON PEACH",
+        "Price": 48000,
+        "Info": "Mixed between the aroma of vinegar, the sweet taste of watermelon and the fresh taste of peach lemon, this is a unique and attractive lemon melon hibiscus.",
+        "Image": "ruou9",
+        "Category": "Drink",
+        "Sold": 75
+    },
+    {
+        "ProductID": "DR10",
+        "Name": "SWEET STRAWBERRY COCKTAIL",
+        "Price": 78000,
+        "Info": "Sweet strawberry cocktail will captivate your heart with the fresh and sweet taste of strawberries.With bright colors and cool feeling on the tip of the tongue, this is a great drink to enjoy.",
+        "Image": "ruou10",
+        "Category": "Drink",
+        "Sold": 32
+    },
+    {
+        "ProductID": "MK00",
+        "Name": "SEAFOOD STEAMED EGGS",
+        "Price": 80000,
+        "Info": "Eggs are cooked and combined with seafood such as shrimp, squid, fish ... creating a delicious and unique dish.",
+        "Image": "monankhac0",
+        "Category": "Tempura",
+        "Sold": 45
+    },
+    {
+        "ProductID": "MK01",
+        "Name": "EEL ROLLS",
+        "Price": 18000,
+        "Info": "Eel roll eggs are a unique and delicious dish.The egg layer is rolled around the eel and is fried, creating a delicious and attractive flavor.",
+        "Image": "monankhac1",
+        "Category": "Tempura",
+        "Sold": 65
+    },
+    {
+        "ProductID": "MK02",
+        "Name": "PAN -FRIED TEMPURA SHRIMP AND EGGS",
+        "Price": 128000,
+        "Info": "Tempura shrimp is fried with eggs, creating a unique and delicious flavor.This dish is often accompanied by a sauce to add flavor.",
+        "Image": "monankhac2",
+        "Category": "Tempura",
+        "Sold": 36
+    },
+    {
+        "ProductID": "MK03",
+        "Name": "STIR -FRIED BEEF MUSHROOM",
+        "Price": 128000,
+        "Info": "The beef is fried with soft cooked, combined with delicious fresh mushrooms, creating a unique and interesting flavor.",
+        "Image": "monankhac3",
+        "Category": "Tempura",
+        "Sold": 76
+    },
+    {
+        "ProductID": "MK04",
+        "Name": "PAN -FRIED BEEF WITH GARLIC SAUCE",
+        "Price": 158000,
+        "Info": "The beef is fried and crispy and combined with delicious garlic sauce, creating a unique and attractive flavor.",
+        "Image": "monankhac4",
+        "Category": "Tempura",
+        "Sold": 95
+    },
+    {
+        "ProductID": "MK05",
+        "Name": "STIR -FRIED BACON WITH CHILI CABBAGE",
+        "Price": 108000,
+        "Info": "The bacon is only stir -fried with soft cooked, combined with cabbage and chili to create a unique and delicious flavor.",
+        "Image": "monankhac5",
+        "Category": "Tempura",
+        "Sold": 45
+    },
+    {
+        "ProductID": "MK06",
+        "Name": "KONBU SOUP COOKED JAPANESE TOFU",
+        "Price": 96000,
+        "Info": "The soup is cooked from Konbu broth and accompanied by Japanese tofu has been crispy, creating a unique and delicious flavor.",
+        "Image": "monankhac6",
+        "Category": "Tempura",
+        "Sold": 59
+    },
+    {
+        "ProductID": "MK07",
+        "Name": "STIR -FRIED CORN, SMOKED MEAT",
+        "Price": 56000,
+        "Info": "The American corn is cooked and combined with smoked meat, creating a unique and delicious flavor.",
+        "Image": "monankhac7",
+        "Category": "Tempura",
+        "Sold": 56
+    },
+    {
+        "ProductID": "MK08",
+        "Name": "ASSORTED STIR -FRIED MUSHROOMS",
+        "Price": 86000,
+        "Info": "The delicious fresh mushrooms are stir -fried, combined with vegetables and spices, creating a nutritious dish.",
+        "Image": "monankhac8",
+        "Category": "Tempura",
+        "Sold": 75
+    },
+    {
+        "ProductID": "MK09",
+        "Name": "SEAFOOD UDON NOODLES",
+        "Price": 128000,
+        "Info": "Soft Udon noodles are combined with seafood such as shrimp, squid, fish ... creating a delicious and unique dish.",
+        "Image": "monankhac9",
+        "Category": "Tempura",
+        "Sold": 52
+    },
+    {
+        "ProductID": "MK10",
+        "Name": "PAN -FRIED SALMON WITH RADISH EGGS",
+        "Price": 128000,
+        "Info": "Fresh pieces of fresh salmon are fried and crispy on the outside and soft inside, combined with the eggs and reel to make a special and interesting flavor.",
+        "Image": "monchien0",
+        "Category": "Tempura",
+        "Sold": 96
+    },
+    {
+        "ProductID": "MK11",
+        "Name": "KISU TEMPURA FISH",
+        "Price": 168000,
+        "Info": "Kisu Tempura fish is a traditional Japanese dish.Fresh Kisu fish is processed into a crispy tempura, combined with fresh vegetables and delicious fish sauce.",
+        "Image": "monchien1",
+        "Category": "Tempura",
+        "Sold": 45
+    },
+    {
+        "ProductID": "MK12",
+        "Name": "FLOURING MACKEREL FRIED NOODLES",
+        "Price": 168000,
+        "Info": "The pieces of fish are breaded with noodles and fried, creating a characteristic and interesting flavor.",
+        "Image": "monchien2",
+        "Category": "Tempura",
+        "Sold": 52
+    },
+    {
+        "ProductID": "MK13",
+        "Name": "CHICKEN WINGS SOAKED IN FRIED NOODLES",
+        "Price": 138000,
+        "Info": "Chicken wings are floured with noodles and fried, creating a unique and interesting flavor.This dish is often enjoyed with sauce and raw vegetables.",
+        "Image": "monchien3",
+        "Category": "Tempura",
+        "Sold": 22
+    },
+    {
+        "ProductID": "MK14",
+        "Name": "JAPANESE FRIED RICE WITH BAKED FRUIT",
+        "Price": 118000,
+        "Info": "The rice is fried and blended with fresh vegetables, meat and seafood, accompanied by a delicious grilled pieces.",
+        "Image": "monchien4",
+        "Category": "Tempura",
+        "Sold": 88
+    },
+    {
+        "ProductID": "MK15",
+        "Name": "SWEET POTATO BREADED FRIED",
+        "Price": 85000,
+        "Info": "Sweet potatoes are flour and crispy, creating a characteristic and interesting flavor.",
+        "Image": "monchien5",
+        "Category": "Tempura",
+        "Sold": 63
+    },
+    {
+        "ProductID": "MK16",
+        "Name": "FRENCH FRIES",
+        "Price": 85000,
+        "Info": "French fries are a popular and delicious dish.Potatoes are cut into small pieces, fried and spices according to personal taste.",
+        "Image": "monchien6",
+        "Category": "Tempura",
+        "Sold": 45
+    },
+    {
+        "ProductID": "MK17",
+        "Name": "POTATO MASHED WITH FRIED NOODLES",
+        "Price": 138000,
+        "Info": "Potatoes are mashed into pureed and browned with noodles, then fried crispy and spices according to the taste.",
+        "Image": "monchien7",
+        "Category": "Tempura",
+        "Sold": 52
+    },
+    {
+        "ProductID": "MK18",
+        "Name": "SQUID BREADED WITH NOODLES",
+        "Price": 190000,
+        "Info": "Squid is browned with crispy and fried, creating a characteristic and interesting flavor.",
+        "Image": "monchien9",
+        "Category": "Tempura",
+        "Sold": 96
+    },
+    {
+        "ProductID": "MK19",
+        "Name": "FLOURING CHEESE OF FRIED NOODLES",
+        "Price": 108000,
+        "Info": "The cheese is flour and crispy, creating a characteristic and interesting flavor.This dish is often enjoyed with sauce and raw vegetables.",
+        "Image": "monchien10",
+        "Category": "Tempura",
+        "Sold": 12
+    },
+    {
+        "ProductID": "ML01",
+        "Name": "STEAMED VEGETARIAN FISH BALL",
+        "Price": 98000,
+        "Info": "Fish ball is made from vegetarian, steamed in water and spices, creating a special flavor.",
+        "Image": "monlau1",
+        "Category": "Hotpot",
+        "Sold": 45
+    },
+    {
+        "ProductID": "ML02",
+        "Name": "RED FISH BALL",
+        "Price": 98000,
+        "Info": "The traditional dish is made from delicious red red fish meat, fried and has a rich flavor.",
+        "Image": "monlau2",
+        "Category": "Hotpot",
+        "Sold": 63
+    },
+    {
+        "ProductID": "ML03",
+        "Name": "BEACH",
+        "Price": 180000,
+        "Info": "The sea is processed according to your requirements, creating a special culinary experience.",
+        "Image": "monlau3",
+        "Category": "Hotpot",
+        "Sold": 63
+    },
+    {
+        "ProductID": "ML04",
+        "Name": "LAMPREY",
+        "Price": 300000,
+        "Info": "Eel meat is sweet and fragrant, processed according to the long -standing formula of our restaurant, promising to surprise you by its special taste.",
+        "Image": "monlau4",
+        "Category": "Hotpot",
+        "Sold": 63
+    },
+    {
+        "ProductID": "ML05",
+        "Name": "FRESH SALMON",
+        "Price": 208000,
+        "Info": "Fresh, soft salmon meat and characteristic flavor.We make fresh salmon into many dishes such as sashimi, grilled, steamed or sushi.",
+        "Image": "monlau5",
+        "Category": "Hotpot",
+        "Sold": 33
+    },
+    {
+        "ProductID": "ML08",
+        "Name": "JAPANESE OYSTERS",
+        "Price": 188000,
+        "Info": "We serve Japanese oysters in many different ways of processing such as steaming, grilling or frying.Oysters have a natural sweetness and a characteristic flavor.",
+        "Image": "monlau6",
+        "Category": "Hotpot",
+        "Sold": 56
+    },
+    {
+        "ProductID": "ML09",
+        "Name": "TARO",
+        "Price": 58000,
+        "Info": "Taro has a natural sweetness and a little flexible rice.",
+        "Image": "monlau7",
+        "Category": "Hotpot",
+        "Sold": 25
+    },
+    {
+        "ProductID": "ML10",
+        "Name": "AMERICAN BEEF HOTPOT",
+        "Price": 780000,
+        "Info": "Fresh American beef is dipped in hot hotpot, combined with fresh vegetables.This is a suitable dish to share with family and friends.",
+        "Image": "monlau8",
+        "Category": "Hotpot",
+        "Sold": 23
+    },
+    {
+        "ProductID": "ML11",
+        "Name": "WAGYU BEEF HOTPOT",
+        "Price": 990000,
+        "Info": "Wagyu beef is special and delicious dipped in a hot pot, creating a rich and wonderful flavor.This is a memorable culinary experience.",
+        "Image": "monlau9",
+        "Category": "Hotpot",
+        "Sold": 63
+    },
+    {
+        "ProductID": "ML12",
+        "Name": "VEGETARIAN HOT POT",
+        "Price": 468000,
+        "Info": "We make vegetarian hot pot from delicious fresh vegetables, mushrooms and tofu, combined with delicious and delicious hotpot.This dish is the perfect choice to enjoy the full vegetarian flavor.",
+        "Image": "monlau10",
+        "Category": "Hotpot",
+        "Sold": 62
+    },
+    {
+        "ProductID": "ML13",
+        "Name": "CRAB HOTPOT BRICK",
+        "Price": 468000,
+        "Info": "Fresh brick crab is processed in a hot pot, combined with vegetables and spices to create a rich and delicious flavor.",
+        "Image": "monlau11",
+        "Category": "Hotpot",
+        "Sold": 36
+    },
+    {
+        "ProductID": "ML14",
+        "Name": "FRESH SALMON PAPER HOTPOT",
+        "Price": 480000,
+        "Info": "Fresh salmon is wrapped in foil and grilled on charcoal stove, creating a delicious and special dish.",
+        "Image": "monlau12",
+        "Category": "Hotpot",
+        "Sold": 45
+    },
+    {
+        "ProductID": "MN01",
+        "Name": "JAPANESE PORK ROLLED WITH GRILLED SKEWERS",
+        "Price": 76000,
+        "Info": "A unique and interesting dish, a combination of Japanese pork and Kimchi rolls into skewers, crispy and delicious.",
+        "Image": "monnuong01",
+        "Category": "Grilled",
+        "Sold": 112
+    },
+    {
+        "ProductID": "MN02",
+        "Name": "FRESH OYSTERS GRILLED SMOKED, ONIONS, PHOMATS",
+        "Price": 46000,
+        "Info": "A fascinating dish with fresh oysters is grilled and blended with onions and phomats, creating a unique flavor.",
+        "Image": "monnuong02",
+        "Category": "Grilled",
+        "Sold": 96
+    },
+    {
+        "ProductID": "MN03",
+        "Name": "BAKED SHRIMP ROLL RICE",
+        "Price": 108000,
+        "Info": "A delicious rice roll with grilled tempura shrimp, creating a delicious and rich crispy flavor.",
+        "Image": "monnuong03",
+        "Category": "Grilled",
+        "Sold": 86
+    },
+    {
+        "ProductID": "MN04",
+        "Name": "CRISPY GRILLED CHICKEN WINGS WITH TERI SAUCE",
+        "Price": 78000,
+        "Info": "Macchiato caramel milk",
+        "Image": "monnuong04",
+        "Category": "Grilled",
+        "Sold": 105
+    },
+    {
+        "ProductID": "MN05",
+        "Name": "THE MACKEREL AND GRILLED WEST OR TERI SAUCE",
+        "Price": 58000,
+        "Info": "Maccha Macchiato Milk",
+        "Image": "monnuong05",
+        "Category": "Grilled",
+        "Sold": 63
+    },
+    {
+        "ProductID": "MN06",
+        "Name": "JAPANESE PIG SAUSAGE",
+        "Price": 46000,
+        "Info": "Watermelon juice",
+        "Image": "monnuong06",
+        "Category": "Grilled",
+        "Sold": 10
+    },
+    {
+        "ProductID": "MN07",
+        "Name": "SENTABLE SKEWERS",
+        "Price": 42000,
+        "Info": "Lemongrass lemon juice honey",
+        "Image": "monnuong07",
+        "Category": "Grilled",
+        "Sold": 96
+    },
+    {
+        "ProductID": "MN08",
+        "Name": "GRILLED COD EGG",
+        "Price": 69000,
+        "Info": "Fresh snowgray eggs are sufficiently grilled, creating a unique and delicious dish.",
+        "Image": "monnuong08",
+        "Category": "Grilled",
+        "Sold": 21
+    },
+    {
+        "ProductID": "MN09",
+        "Name": "HUN MEAT IS HARD TO ROLL GRILLED SHRIMP",
+        "Price": 59000,
+        "Info": "Smoked meat rolled with grilled shrimp, creating an attractive and rich roll.",
+        "Image": "monnuong09",
+        "Category": "Grilled",
+        "Sold": 45
+    },
+    {
+        "ProductID": "MN10",
+        "Name": "SMOKED GRILLED BAMBOO SHOOTS",
+        "Price": 57000,
+        "Info": "Smoked meat rolled with asparagus, crispy and salted, bringing a unique and interesting flavor.",
+        "Image": "monnuong10",
+        "Category": "Grilled",
+        "Sold": 96
+    },
+    {
+        "ProductID": "MN11",
+        "Name": "SMOKED MEAT ROLLED WITH SALTED POTATOES",
+        "Price": 64000,
+        "Info": "Smoked meat rolled with potatoes, crispy and salted, creating a delicious and rich dish.",
+        "Image": "monnuong11",
+        "Category": "Grilled",
+        "Sold": 27
+    },
+    {
+        "ProductID": "MN12",
+        "Name": "GRILLED CHICKEN SKEWERS OR TERI SAUCE",
+        "Price": 57000,
+        "Info": "The chicken is skewered and grilled crispy with a delicious taste of salt or teri sauce, bringing a wonderful and rich flavor.",
+        "Image": "monnuong12",
+        "Category": "Grilled",
+        "Sold": 29
+    },
+    {
+        "ProductID": "MN13",
+        "Name": "CHICKEN LATIN GARLIC SENTORAL SALTED SALTED OR TERI TIME",
+        "Price": 46000,
+        "Info": "The chicken is skewered and grilled with leeks, creating a special and interesting flavor with a combination of salt or teri sauce.",
+        "Image": "monnuong13",
+        "Category": "Grilled",
+        "Sold": 108
+    },
+    {
+        "ProductID": "MN14",
+        "Name": "GRILLED AUSTRALIAN BEEF WITH TERI SAUCE",
+        "Price": 299000,
+        "Info": "Just cow -style cow, and premium beef.Just bite a piece is to feel the soft taste!",
+        "Image": "monnuong14",
+        "Category": "Grilled",
+        "Sold": 12
+    },
+    {
+        "ProductID": "MN15",
+        "Name": "MISO SAUCE BACON",
+        "Price": 145000,
+        "Info": "Seafood must be spicy to be delicious.It is the bold Singapore -style party !!!",
+        "Image": "monnuong15",
+        "Category": "Grilled",
+        "Sold": 41
+    },
+    {
+        "ProductID": "MN16",
+        "Name": "SALTED GARLIC",
+        "Price": 250000,
+        "Info": "Garlic is crispy with salt, creating a delicious and rich dish.",
+        "Image": "monnuong16",
+        "Category": "Grilled",
+        "Sold": 83
+    },
+    {
+        "ProductID": "MN17",
+        "Name": "AMERICAN BEEF RIBS GRILLED BLACK PEPPER SAUCE",
+        "Price": 169000,
+        "Info": "American beef ribs are soft, accompanied by delicious black pepper sauce, bringing a great and special flavor.",
+        "Image": "monnuong17",
+        "Category": "Grilled",
+        "Sold": 96
+    },
+    {
+        "ProductID": "MN18",
+        "Name": "SALTED CHICKEN CARTILAGE",
+        "Price": 230000,
+        "Info": "Chicken cartilage is crispy with salt, creating a delicious and rich dish.",
+        "Image": "monnuong18",
+        "Category": "Grilled",
+        "Sold": 15
+    },
+    {
+        "ProductID": "MN19",
+        "Name": "SALT GRILLED SCALLOPS OR TERI SAUCE",
+        "Price": 129000,
+        "Info": "Scallops are crispy with delicious salt or teri sauce, bringing a unique and interesting flavor.",
+        "Image": "monnuong19",
+        "Category": "Grilled",
+        "Sold": 56
+    },
+    {
+        "ProductID": "MN20",
+        "Name": "FRESH SHIITAKE STUFFED WITH GRILLED MEAT",
+        "Price": 155000,
+        "Info": "Fresh shiitake mushrooms are stuffed with meat and grilled, creating an attractive and special dish.",
+        "Image": "monnuong20",
+        "Category": "Grilled",
+        "Sold": 85
+    },
+    {
+        "ProductID": "MN21",
+        "Name": "SALTED SQUID OR TERI SAUCE",
+        "Price": 129000,
+        "Info": "The squid is crispy with salt or teri sauce, bringing a wonderful and interesting flavor.",
+        "Image": "monnuong21",
+        "Category": "Grilled",
+        "Sold": 23
+    },
+    {
+        "ProductID": "MN22",
+        "Name": "GRILLED CHICKEN SKEWERS OR TERI SAUCE",
+        "Price": 99000,
+        "Info": "Chicken gizzard is skewered and grilled with delicious salt or teri sauce, creating a delicious and rich dish.",
+        "Image": "monnuong22",
+        "Category": "Grilled",
+        "Sold": 96
+    },
+    {
+        "ProductID": "MN23",
+        "Name": "JAPANESE EEL SKEWERS GRILLED TERI SAUCE",
+        "Price": 169000,
+        "Info": "Fresh Japanese eel is skewered and grilled with delicious teri sauce, bringing a special and interesting flavor.",
+        "Image": "monnuong23",
+        "Category": "Grilled",
+        "Sold": 78
+    },
+    {
+        "ProductID": "MN28",
+        "Name": "CHICKEN SKIN SKEWERS GRILLED SALT",
+        "Price": 98000,
+        "Info": "Chicken skin is skewered and grilled crispy with salt, creating a delicious and special dish.",
+        "Image": "monnuong28",
+        "Category": "Grilled",
+        "Sold": 56
+    }
 ]
