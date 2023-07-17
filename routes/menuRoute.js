@@ -28,8 +28,8 @@ router.get("/searchProductName", async (req,res)=>{
     res.sendFile(path.join(publicDir,'/searchProductName.html'));
 })
 
-router.post('/api/searchProductName=:productname', async (req,res)=>{
-    const productname = req.params.productname;
+router.post('/api/searchProductName', async (req,res)=>{
+    const {productname} = req.body;
     const productlist = await Product.findAll({
         where:
                 {Name:{[Op.like]:'%'+productname+'%'}}, 
