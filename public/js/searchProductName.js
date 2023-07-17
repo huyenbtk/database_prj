@@ -2,17 +2,17 @@ document.getElementById("searchForm").addEventListener("submit", function (event
     event.preventDefault(); // Ngăn chặn hành vi mặc định của form
 
     // Đọc dữ liệu từ người dùng nhập vào
-    var productName = document.getElementById("searchInput").value;
+    var productname = document.getElementById("searchInput").value;
     // Kiểm tra nếu giá trị tìm kiếm trống, không làm gì cả
-    if (!productName.trim()) {
+    if (!productname.trim()) {
         return;
     }
     else {
         // Gửi productName đến server và xử lý phản hồi
         // async function sendDataToServer() {
         //     try {
-        console.log(productName)
-        axios.post('/menu/api/searchProductName=', productName)
+        console.log(productname)
+        axios.post('/menu/api/searchProductName=', productname)
             .then(function (response) {
             // Do something with the JSON data
             console.log(response.data);
@@ -30,7 +30,7 @@ document.getElementById("searchForm").addEventListener("submit", function (event
 
                     var img = document.createElement("img");
                     img.className = "flex-shrink-0 img-fluid rounded";
-                    img.src = "../image/" + data[i].Category + "/" + data[i].Image + ".jpg";
+                    img.src = "/image/" + data[i].Category + "/" + data[i].Image + ".jpg";
                     img.alt = "";
                     img.style.width = "80px";
 
