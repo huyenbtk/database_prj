@@ -12,7 +12,7 @@ document.getElementById("searchForm").addEventListener("submit", function (event
         // async function sendDataToServer() {
         //     try {
         console.log(productname)
-        axios.post('/menu/api/searchProductName=', productname)
+        axios.post('/menu/api/searchProductName', productname)
             .then(function (response) {
             // Do something with the JSON data
             console.log(response.data);
