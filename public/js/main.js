@@ -79,7 +79,7 @@
             password: password
         };
 
-        axios.post('/users/signin', data)
+        axios.post('http://localhost:8080/users/signin', data)
             .then(function (response) {
                 console.log(response.data);
                 window.location.href = "";
@@ -119,7 +119,7 @@
             password: password
         };
 
-        axios.post('/signup', data)
+        axios.post('http://localhost:8080/users/signup', data)
             .then(function (response) {
                 console.log(response.data);
             })
@@ -143,11 +143,11 @@
         // Gửi productName đến server và xử lý phản hồi
         async function sendDataToServer(productName) {
             try {
-                const response = await axios.post('./menu', { productName });
+                const response = await axios.post('http://localhost:8080/menu', { productName });
                 const jsonData = response.data;
                 // Do something with the JSON data
                 console.log(jsonData);
-                window.location.href = "./menu/searchProductName=" + productName;
+                window.location.href = "http://localhost:8080/menu/searchProductName=" + productName;
                 // Chuyển đổi dữ liệu JSON thành một mảng đối tượng
                 // const menuData = JSON.parse(response.data);
             }
