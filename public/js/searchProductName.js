@@ -9,7 +9,6 @@ document.getElementById("searchForm").addEventListener("submit", function (event
     if (!productName.trim()) {
         return;
     }
-
     // Gửi productName đến server và xử lý phản hồi
     async function sendDataToServer(productName) {
         try {

@@ -16,9 +16,9 @@ document.getElementById('signup-form').addEventListener('submit', function (even
     }
 
     var data = {
-        userName: userName,
+        username: userName,
         email: email,
-        username: fullName,
+        name: fullName,
         phone: phone,
         password: password
     };
