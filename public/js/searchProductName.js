@@ -11,13 +11,13 @@ document.getElementById("searchForm").addEventListener("submit", function (event
         // Gửi productName đến server và xử lý phản hồi
         // async function sendDataToServer() {
         //     try {
-        console.log(productname)
+        // console.log(productname)
         axios.post('/menu/api/searchProductName', productname)
             .then(function (response) {
             // Do something with the JSON data
             console.log(response.data);
             var productdata = response.data;
-            window.location.href = "http://localhost:8080/menu/searchProductName";
+            // window.location.href = "http://localhost:8080/menu/searchProductName";
             appendData(productdata);
             function appendData(data) {
                 var mainContainer = document.getElementById("myData");
