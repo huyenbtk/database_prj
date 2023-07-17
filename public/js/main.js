@@ -68,7 +68,7 @@
     });
 
     // Sign in //
-    document.getElementById('signin-button').addEventListener('submit', function (event) {
+    document.getElementById('signin-form').addEventListener('submit', function (event) {
         event.preventDefault();
 
         var email = document.getElementById('email').value;
@@ -79,10 +79,10 @@
             password: password
         };
 
-        axios.post('http://localhost:8080/users/signin', data)
+        axios.post('/users/signin', data)
             .then(function (response) {
                 console.log(response.data);
-                window.location.href = "";
+                window.location.href = "http://localhost:8080/";
             })
             .catch(function (error) {
                 // Xử lý lỗi từ máy chủ hoặc yêu cầu
@@ -119,7 +119,7 @@
             password: password
         };
 
-        axios.post('http://localhost:8080/users/signup', data)
+        axios.post('/users/signup', data)
             .then(function (response) {
                 console.log(response.data);
             })
@@ -143,7 +143,7 @@
         // Gửi productName đến server và xử lý phản hồi
         async function sendDataToServer(productName) {
             try {
-                const response = await axios.post('http://localhost:8080/menu', { productName });
+                const response = await axios.post('/menu', { productName });
                 const jsonData = response.data;
                 // Do something with the JSON data
                 console.log(jsonData);
