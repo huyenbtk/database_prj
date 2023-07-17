@@ -13,7 +13,7 @@ usersOption.addEventListener('click', getUsersData);
 
 function getUsersData() {
     // Gọi yêu cầu Axios để lấy dữ liệu từ nguồn dữ liệu
-    axios.get('http://localhost:8080/admin/userlist')
+    axios.get('/admin/userlist')
         .then(function (response) {
             // Xử lý dữ liệu khi nhận được phản hồi thành công từ API
             const users = response.data;
