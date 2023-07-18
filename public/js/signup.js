@@ -26,6 +26,7 @@ document.getElementById('signup-form').addEventListener('submit', function (even
     axios.post('/users/signup', data)
         .then(function (response) {
             console.log(response.data);
+            window.location.href = "http://localhost:8080/users/signin";
         })
         .catch(function (error) {
             console.error(error);

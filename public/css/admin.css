@@ -317,6 +317,19 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 }
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+tr {
+  text-align: left;
+}
 .t-op {
 font-size: 18px;
 letter-spacing: 0px;
