@@ -7,57 +7,48 @@ let total = document.querySelector('.total');
 let quantity = document.querySelector('.quantity');
 
 openShopping.addEventListener('click', ()=>{
-    var userID = sessionStorage.getItem('id') // Lấy userid từ sessionStorage
-    console.log(userID)
-    axios.post('/cart/userid', { userID })
-        .then(response => {
-            console.log(response.data)
-        })
-        .catch(error => {
-            console.error(error);
-        });
-});
-//     body.classList.add('active');
-// })
-// closeShopping.addEventListener('click', ()=>{
-//     body.classList.remove('active');
+    body.classList.add('active');
+})
+closeShopping.addEventListener('click', ()=>{
+    body.classList.remove('active');
+})
 
 let products = [
     {
         id: 1,
         name: 'JAPANESE ABALONE SASHIMI',
-        image: '1.png',
-        price: 120000
+        image: '../image/Shashimisushi/shashimisushi0.jpg',
+        price: 738000
     },
     {
         id: 2,
-        name: 'PRODUCT NAME 2',
-        image: '2.PNG',
-        price: 120000
+        name: 'SSMALL OCTOPUS',
+        image: '../image/Shashimisushi/shashimisushi1.jpg',
+        price: 680000
     },
     {
         id: 3,
-        name: 'PRODUCT NAME 3',
-        image: '3.PNG',
-        price: 220000
+        name: 'MIXED VINEGAR OCTOPUS',
+        image: '../image/Shashimisushi/shashimisushi2.jpg',
+        price: 268000
     },
     {
         id: 4,
-        name: 'PRODUCT NAME 4',
-        image: '4.PNG',
-        price: 123000
+        name: 'WASABI MARINATED OCTOPUS',
+        image: '../image/Shashimisushi/shashimisushi3.jpg',
+        price: 890000
     },
     {
         id: 5,
-        name: 'PRODUCT NAME 5',
-        image: '5.PNG',
-        price: 320000
+        name: 'RAW SALMON',
+        image: '../image/Shashimisushi/shashimisushi4.jpg',
+        price: 990000
     },
     {
         id: 6,
-        name: 'PRODUCT NAME 6',
-        image: '6.PNG',
-        price: 120000
+        name: 'TUNA, SALMON, RAW SEA CLAMS AND ASSORTED SUSHI RICE',
+        image: '../image/Shashimisushi/shashimisushi5.jpg',
+        price: 238000
     },
 ];
 
