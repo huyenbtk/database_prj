@@ -18,13 +18,19 @@ document.getElementById('signin-form').addEventListener('submit', function (even
             var id = response.data.id.id;
             var name = response.data.id.name;
             var accessToken = response.data.accessToken;
+            var permission = response.data.id.permission;
             // admin token
 
             // Lưu trữ name trong localStorage
             sessionStorage.setItem('id', id);
             sessionStorage.setItem('name', name);
             sessionStorage.setItem('accessToken', accessToken);
-            window.location.href = "http://localhost:8080/booking/bookingpage";
+            sessionStorage.setItem('permission', permission);
+            if (permission == 1) {
+                window.location.href = "http://localhost:8080/admin/adminpage";
+            } else {
+                window.location.href = "http://localhost:8080/booking/bookingpage";
+            }
         })
         .catch(function (error) {
             // Xử lý lỗi từ máy chủ hoặc yêu cầu
