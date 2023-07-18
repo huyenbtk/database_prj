@@ -1,11 +1,11 @@
 const {verify} = require("jsonwebtoken");
 
-
 const Authenticated = (req, res, next) => {
     const accessToken = req.header("accessToken");
     if (!accessToken) return res.json({ error: "User not logged in!"})
     try{
-        const validToken = verify(accessToken,"secret");
+        const validToken = verify(accessToken,"secret");        //payload being unhashed       
+        req.user=validToken;                                    //turn req.user into an object
         if (validToken) {
             return next();
         }

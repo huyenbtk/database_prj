@@ -3,19 +3,19 @@ const router = express.Router();
 const {Cart} = require('../models');
 const {Product}= require('../models');
 const sequelize = require('sequelize');
-const {Authenticated, Authorized} = require('../middlewares/auth.js');
+
 
 
 //Display user's current cart information by userid
-router.post("/userID", async (req, res) => {
-    const userID=req.body;
+router.post("/allitem", async (req, res) => {
+    const {userID}=req.body;
     const userCart= await Cart.findAll({ where: { userID: userID}});
     res.json(userCart);
 })
 
 //Delete from cart
-router.delete("/userID=:id", async (req, res) => {
-    const userId = req.params.id;
+router.delete("/deleteItem", async (req, res) => {
+    const {userId} = req.body;
     const {ProductID} = req.body;
     await Cart.destroy({where:{userId,ProductID}})
     res.json('Success')
@@ -23,34 +23,33 @@ router.delete("/userID=:id", async (req, res) => {
 
 
 //Order (Caculate total)
-router.get("/cartOrderedUserID=:id", async(req, res)=> {
+router.get("/cartOrdered", async(req, res)=> {
     try{
-        const userId= req.params.id;    
-        const {totalperItem} = await Cart.findAll({
-            include:[{
-                model: Product,
-                required: true
-            }],
-            attributes:[
-                sequelize.literal('Product.Price*quantity','totalperItem'),
-            ]
-        },
-        {
-            where: {userId}    
-        })
-
-        const sum = totalperItem.map(totalperItem => totalperItem.sum).reduce((acc,amount)=>acc + amount)
-        // const {totalCart} = await Cart.findAll({
-        //     attributes: [
-        //         [sequelize.fn('sum', sequelize.col('amount'),'totalCart')]
+        const {userId}= req.body;    
+        // const {totalperItem} = await Cart.findAll({
+        //     include:[{
+        //         model: Product,
+        //         required: true
+        //     }],
+        //     attributes:[
+        //         sequelize.literal('Product.Price*quantity','totalperItem'),
         //     ]
+        // },
+        // {
+        //     where: {userId}    
         // })
-        req.json(sum)
+
+        // const sum = totalperItem.map(totalperItem => totalperItem.sum).reduce((acc,amount)=>acc + amount)
+        const {totalCart} = await Cart.findAll({
+             attributes: [
+                 [sequelize.fn('sum', sequelize.col('amount'),'totalCart')]
+             ]
+        })
+        req.json(totalCart)
     } catch (err) {console.error(err)}
 })
 
 
-//Delete from cart
 
 
 module.exports = router;
