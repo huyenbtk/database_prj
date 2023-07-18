@@ -573,6 +573,9 @@
 }
 
 /*** Cart ***/
+.margin-left-icon {
+    margin-left: 20px;
+}
 
 header{
     display: grid;
