@@ -20,15 +20,16 @@ router.get("/bookingpage", function (req, res) {
 router.post("/userID=:id", async (req, res) => {
     const userId = req.params.id;
     const {ProductID,quantity} = req.body;
-    const existingCart= await Cart.findAll({ where: { userId}});
-    if(existingCart){
-        let existingItem = await Cart.findOne({
-            where: {userId, ProductID}
-        })
-        if(existingItem) await Cart.increment({ quantity: + quantity}, {where:{userId, ProductID}})
-        else await Cart.create({userId, ProductID, quantity})
-    }
-    else await Cart.create({userId, ProductID, quantity})
+    // const existingCart= await Cart.findAll({ where: { userId}});
+    // if(existingCart){
+    //     let existingItem = await Cart.findOne({
+    //         where: {userId, ProductID}
+    //     })
+    //     if(existingItem) await Cart.increment({ quantity: + quantity}, {where:{userId, ProductID}})
+    //     else await Cart.create({userId, ProductID, quantity})
+    // }
+    // else 
+    await Cart.create({userId, ProductID, quantity})
     res.json("Success");
 })
 
