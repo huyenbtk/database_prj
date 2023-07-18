@@ -7,9 +7,9 @@ const {Authenticated, Authorized} = require('../middlewares/auth.js');
 
 
 //Display user's current cart information by userid
-router.get("/userID=:id", Authenticated, async (req, res) => {
-    const id = req.params.id;
-    const userCart= await Cart.findAll({ where: { userID: id}});
+router.post("/userID", async (req, res) => {
+    const userID=req.body;
+    const userCart= await Cart.findAll({ where: { userID: userID}});
     res.json(userCart);
 })
 

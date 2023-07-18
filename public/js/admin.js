@@ -7,12 +7,6 @@ document.addEventListener('DOMContentLoaded', function() {
     const revenueOption = document.querySelector('.option2');
     revenueOption.addEventListener('click', function() {
         alert("Tính năng này đang được phát triển. Sẽ sớm có sẵn!");
-        // Swal.fire({
-        //     title: 'Tính năng đang được phát triển',
-        //     text: 'Sẽ sớm có sẵn!',
-        //     icon: 'info',
-        //     confirmButtonText: 'OK'
-        //   });
     });
 });
 
@@ -22,10 +16,7 @@ usersOption.addEventListener('click', function() {
     // Gọi yêu cầu Axios để lấy dữ liệu từ nguồn dữ liệu
     axios.get('/admin/userlist')
         .then(function (response) {
-            // Xử lý dữ liệu khi nhận được phản hồi thành công từ API
-            const users = response.data;
-            displayUsers(users);
-            console.log(users); // Hoặc thực hiện các thao tác khác với dữ liệu users
+            c
         })
         .catch(function (error) {
             // Xử lý lỗi khi yêu cầu gặp sự cố

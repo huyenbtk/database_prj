@@ -7,11 +7,20 @@ let total = document.querySelector('.total');
 let quantity = document.querySelector('.quantity');
 
 openShopping.addEventListener('click', ()=>{
-    body.classList.add('active');
-})
-closeShopping.addEventListener('click', ()=>{
-    body.classList.remove('active');
-})
+    var userID = sessionStorage.getItem('id') // Lấy userid từ sessionStorage
+    console.log(userID)
+    axios.post('/cart/userid', { userID })
+        .then(response => {
+            console.log(response.data)
+        })
+        .catch(error => {
+            console.error(error);
+        });
+});
+//     body.classList.add('active');
+// })
+// closeShopping.addEventListener('click', ()=>{
+//     body.classList.remove('active');
 
 let products = [
     {
